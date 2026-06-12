@@ -204,23 +204,36 @@ ARlab is a creative technology studio in MENA (HQ Beirut, working across the GCC
 # What Wissam (the CEO) needs every Tuesday
 A 5-minute read that surfaces what genuinely moved in the past 7 days in: AR/VR/XR, smart glasses, generative AI (image, video, audio, world models), AI agents and MCP, real-time / live AI, immersive web (WebGPU, gaussian splats), AI ad platforms, and any of this with a GCC angle. He already knows the basics — give him the sharp edge: what shifts the strategy, what wins a pitch, what to start building.
 
-# Hard rules
-1. Web search is mandatory. Open multiple sources. Cross-check before stating a fact.
-2. Every Signal, Coming Next, Undisclosed, Lab, Tool, Partner, and Pattern must be grounded in something that actually happened or shipped in roughly the last 7 days — or, for Patterns, a current undeniable shift.
-3. For First of Its Kind: every entry MUST have a real, working https URL pointing at the project, lab page, or paper. No invented links.
-4. For Tools: only sharp-edge stuff, no household names like ChatGPT, Midjourney, Runway-only-because-it-exists. Pick what gives ARlab a real edge this month.
-5. Action Plan: NEVER name a person. Refer to teams, functions, or roles only ("the web team", "R&D", "whoever owns the pipeline", "the partnerships function"). Hard rule, no exceptions.
-6. Tone is the existing voice: short, assertive, slightly literary, lowercase headlines feel premium, no marketing fluff, no "exciting times ahead". Sentence case. Use <b>...</b> sparingly to bold brand names, products, and hard numbers.
-7. Date stamp: use today's date in DD · MM · YYYY format with a middle dot and spaces.
-8. Output everything via the submit_newsletter tool. Call it exactly once when you are done researching and writing.
+# Freshness rules (hard)
+Today's date will be given in the user message. Treat that as authoritative — anchor every search and every claim against it.
 
-# Style examples to match
-Signal headline:  "Platforms now build the whole ad themselves."
-Signal arlab_use: "stop selling volume production — sell the strategy, craft and platform mastery AI can't."
-Coming Next category: "Smart Glasses"
-Pattern headline:  "Selling files is over. Selling a running system is the business now."
+- **Signals (6):** Every signal MUST cite an event, launch, leak, or announcement from the **last 7 days**. Before including anything, verify the publish date of the source. If the news is older than 7 days, REJECT it. Search with queries like "announced this week", "launched today", "<month> <year>", "<this week's date> news".
+- **Coming Next (4):** Things expected to land in the next 30 days — releases, conferences, deadlines that are real.
+- **Undisclosed (4):** Quiet projects, leaks, or pivots reported in the last 14 days.
+- **First of Its Kind (4):** Lab releases, papers, research previews from the last 30 days. Every entry must have a real, working https URL.
+- **Tools (6):** Sharpest-edge tools right now. Prefer tools updated, launched, or repriced in the last 30 days. No household names.
+- **Partners (6):** Small companies / hidden gems — emphasis on those that gained relevance in the last 30 days.
+- **Patterns (4):** Deeper currents that surface in the last 7-14 days of news. Three Global + one GCC.
+- **Action Plan (4):** Concrete moves derived from the above. NEVER name a person — use roles only.
 
-Begin research now. Search broadly across the past 7-10 days. Then call submit_newsletter."""
+# Anti-repetition rule (hard)
+The user message will list topics, companies, products, and headlines that have already been covered in recent newsletters. **Do not repeat them**, even with a different framing. If the same company is genuinely back in the news with a *new* development, you may cover the new development — but never recycle the previous talking point. Find different stories.
+
+# Other hard rules
+1. Web search is mandatory. Open multiple sources. Cross-check the publish date AND the facts before using anything.
+2. For First of Its Kind: every entry MUST have a real, working https URL pointing at the project, lab page, or paper. No invented links — verify each URL.
+3. For Tools: only sharp-edge stuff, no household names (no plain ChatGPT, no plain Midjourney). Pick what gives ARlab a real edge.
+4. Action Plan: NEVER name a person. Refer to teams, functions, or roles only ("the web team", "R&D", "whoever owns the pipeline", "the partnerships function"). Hard rule, no exceptions.
+5. Tone: short, assertive, slightly literary. Sentence case for headlines. Use <b>...</b> sparingly to bold brand names, products, and hard numbers.
+6. Date stamp: use today's date in DD · MM · YYYY format with a middle dot and spaces.
+7. Output everything via the submit_newsletter tool. Call it exactly once when you are done.
+
+# Style examples (voice only — do NOT reuse these talking points)
+Signal headline shape:  "Platforms now build the whole ad themselves." → assertive, full sentence, ends with period.
+arlab_use shape: "stop selling volume production — sell the strategy AI can't." → lowercase, imperative, one move.
+Pattern headline shape:  "Selling files is over. Selling a running system is the business now." → two sentences, thesis-first.
+
+Begin research now. Today's date and the anti-repetition list are in the user message. Search hard for fresh stories from the past 7 days. Then call submit_newsletter."""
 
 
 # -- Build the request -------------------------------------------------------
@@ -240,13 +253,73 @@ def today_beirut() -> dt.date:
     return dt.datetime.now(zoneinfo.ZoneInfo("Asia/Beirut")).date()
 
 
+def load_history() -> str:
+    """Read every history/*.json and build a compact 'already covered' summary."""
+    history_dir = HERE / "history"
+    if not history_dir.exists():
+        return "(No prior newsletters on record.)"
+
+    files = sorted(history_dir.glob("*.json"), reverse=True)
+    if not files:
+        return "(No prior newsletters on record.)"
+
+    parts: list[str] = []
+    for f in files[:6]:  # cap at last 6 newsletters to keep the message tight
+        try:
+            doc = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        date = doc.get("date_display", f.stem)
+        lines = [f"\n## Newsletter {date}  (already in Wissam's inbox — do NOT repeat)"]
+
+        def names(key: str, label: str) -> None:
+            items = doc.get(key, [])
+            if not items:
+                return
+            entries = []
+            for it in items:
+                bits = []
+                for k in ("headline", "name", "category", "title"):
+                    if k in it and it[k]:
+                        bits.append(str(it[k]))
+                        break
+                kt = it.get("key_terms") or []
+                if kt:
+                    bits.append("(" + ", ".join(kt) + ")")
+                if bits:
+                    entries.append(" ".join(bits))
+            if entries:
+                lines.append(f"- {label}: " + " | ".join(entries))
+
+        names("signals", "Signals")
+        names("coming_next", "Coming Next")
+        names("undisclosed", "Undisclosed")
+        names("first_of_kind", "First of Kind")
+        names("tools", "Tools")
+        names("partners", "Partners")
+        names("patterns", "Patterns")
+        names("action_plan", "Action Plan")
+        parts.append("\n".join(lines))
+
+    return "\n".join(parts)
+
+
 def call_claude(client: anthropic.Anthropic) -> dict:
     today = today_beirut()
+    week_ago = today - dt.timedelta(days=7)
+    history_summary = load_history()
+
     user_msg = (
-        f"Generate this week's ARlab newsletter for Wissam. "
-        f"Today is {today.isoformat()} (Beirut). "
-        f"Search the past 7-10 days. Then call submit_newsletter with the full payload."
+        f"Generate this week's ARlab newsletter for Wissam.\n\n"
+        f"Today's date (authoritative): **{today.isoformat()}** (Asia/Beirut).\n"
+        f"Strict freshness window for Signals: **{week_ago.isoformat()} to {today.isoformat()}** "
+        f"(the last 7 calendar days). Verify publish dates with web search before using any source.\n\n"
+        f"# Already covered — DO NOT REPEAT these topics, companies, products, talking points, or arlab_use phrasing. "
+        f"Find different stories.\n{history_summary}\n\n"
+        f"When research is complete, call submit_newsletter with the full payload. "
+        f"date_display must be today in DD · MM · YYYY format."
     )
+    print(f"[generate] history summary: {len(history_summary)} chars", flush=True)
 
     print(f"[generate] calling {MODEL}…", flush=True)
     with client.messages.stream(
@@ -335,6 +408,12 @@ def main() -> int:
     html = render(payload)
     (out_dir / f"newsletter-{stamp}.html").write_text(html)
     print(f"[render] wrote out/newsletter-{stamp}.html ({len(html)} bytes)", flush=True)
+
+    # Save to history so future runs avoid repeating these topics.
+    history_dir = HERE / "history"
+    history_dir.mkdir(exist_ok=True)
+    (history_dir / f"{stamp}.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False))
+    print(f"[history] wrote history/{stamp}.json", flush=True)
 
     if os.environ.get("SKIP_SEND") == "1":
         print("[send] SKIP_SEND=1 — not emailing", flush=True)

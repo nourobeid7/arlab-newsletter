@@ -1,0 +1,58 @@
+{
+  "date_display": "02 · 06 · 2026",
+  "_note": "Seed: original newsletter that Wissam has already read. Do not repeat these topics, talking points, or arlab_use lines.",
+  "signals": [
+    {"headline": "Platforms now build the whole ad themselves.", "key_terms": ["Meta Advantage+", "Google Performance Max", "Asset Studio", "auto-generate ad per viewer", "URL + budget"], "arlab_use": "stop selling volume production — sell the strategy, craft and platform mastery AI can't."},
+    {"headline": "MCP is becoming the universal plug for AI.", "key_terms": ["Model Context Protocol", "Anthropic", "OpenAI Google Microsoft adoption", "Meta TikTok MCP servers", "USB-C for AI"], "arlab_use": "build an ARlab MCP server."},
+    {"headline": "WebGPU killed WebGL.", "key_terms": ["WebGPU baseline Jan 2026", "2-10x faster", "console-grade 3D in browser", "on-device AI"], "arlab_use": "flip immersive web to WebGPU."},
+    {"headline": "You can generate a 3D world from one sentence.", "key_terms": ["Google Genie 3", "prompt to playable 3D", "no modelling no engine"], "arlab_use": "prompt-to-world demos for pitches."},
+    {"headline": "AI video is live now, not rendered.", "key_terms": ["Decart live restyle", "mid-stream transformation", "content as steerable surface"], "arlab_use": "live AI campaigns."},
+    {"headline": "Fake AI influencers are a $1B grey market.", "key_terms": ["EU synthetic post labelling 2 Aug 2026", "premium disclosed personas", "AI persona disclosure"], "arlab_use": "first disclosed GCC AI persona."}
+  ],
+  "coming_next": [
+    {"category": "Smart Glasses", "key_terms": ["Apple WWDC", "Snap June 16", "Samsung July 22", "Meta Sept", "Google fall"]},
+    {"category": "Generative Worlds", "key_terms": ["Genie 3", "Odyssey", "prompt environments"]},
+    {"category": "Live Campaigns", "key_terms": ["one AI stream swaps product per market", "monthly bill"]},
+    {"category": "Glasses-Free 3D", "key_terms": ["AI solves wide-angle", "true 3D displays no glasses"]}
+  ],
+  "undisclosed": [
+    {"name": "OpenAI x Jony Ive screenless device", "key_terms": ["Sam Altman Jony Ive", "pocketable screenless AI companion"]},
+    {"name": "Apple pivot to glasses", "key_terms": ["Vision Pro scaled back", "4 smart-glasses designs", "Vision Air"]},
+    {"name": "Meta Artemis + neural wristband", "key_terms": ["Orion AR glasses 2027", "EMG wristband"]},
+    {"name": "Hollywood goes generative", "key_terms": ["Luma production company", "Ben Kingsley Prime Video", "Runway 50 AI films cost of one"]}
+  ],
+  "first_of_kind": [
+    {"name": "Neural holographic AR displays (Princeton/Meta/KAUST)", "link": "nature.com"},
+    {"name": "Adobe Firefly Custom Models", "link": "firefly.adobe.com"},
+    {"name": "Luma Ray3 HDR + Modify", "link": "lumalabs.ai"},
+    {"name": "Odyssey Starchild-1", "link": "odyssey.world"}
+  ],
+  "tools": [
+    {"name": "Project Genie", "key_terms": ["Google playable 3D world"]},
+    {"name": "Decart Lucy 2.1", "key_terms": ["reskin live video by prompt"]},
+    {"name": "Luma Ray3 + Agents", "key_terms": ["HDR video modify", "agent runs brief"]},
+    {"name": "Higgsfield", "key_terms": ["cinematic camera-move templates", "dolly crane hero-spin"]},
+    {"name": "SuperSplat + SOGS", "key_terms": ["10M-splat scenes in browser"]},
+    {"name": "Hedra Character-3", "key_terms": ["photo to talking presenter via API"]}
+  ],
+  "partners": [
+    {"name": "DeepScent", "key_terms": ["Samsung-backed", "image to scent in 3s"]},
+    {"name": "Decart / fal.ai", "key_terms": ["real-time transformation"]},
+    {"name": "Artificial Societies", "key_terms": ["AI audience simulation"]},
+    {"name": "Azoma", "key_terms": ["AI-search visibility", "chatbot SEO"]},
+    {"name": "Nexad", "key_terms": ["ads in AI chat apps"]},
+    {"name": "InstaAgent", "key_terms": ["scaled creative", "audience-specific cuts"]}
+  ],
+  "patterns": [
+    {"headline": "Selling files is over. Selling a running system is the business now.", "key_terms": ["3-min AI film $175", "monthly subscription", "engine not export"]},
+    {"headline": "Cheap is infinite, so handmade becomes the luxury.", "key_terms": ["premium pay more for made by people", "cheap middle disappears"]},
+    {"headline": "Your next customer might be an AI, not a person.", "key_terms": ["AI agents shop", "understood and recommended by AI"]},
+    {"headline": "The Gulf is buying experiences, not screens.", "key_terms": ["NEOM Qiddiya Diriyah Qatar", "intelligent environment not screen", "KAUST frontier"]}
+  ],
+  "action_plan": [
+    {"title": "Start building on Meta Ray-Ban SDK"},
+    {"title": "Build an ARlab MCP server"},
+    {"title": "Flip web team to WebGPU"},
+    {"title": "Spin up a world-model R&D cell"}
+  ]
+}

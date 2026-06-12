@@ -1,0 +1,58 @@
+{
+  "date_display": "12 · 06 · 2026",
+  "_note": "Seed: newsletter sent this week. Already in CEO's inbox — do not repeat.",
+  "signals": [
+    {"headline": "Apple finally pulls vision pro into the agent era.", "key_terms": ["visionOS 27", "WWDC26", "Foundation Models hooks", "Gemini-powered Siri", "spatial panoramas"]},
+    {"headline": "Snap bought its way to a real specs platform.", "key_terms": ["Snap Illumix acquisition", "Specs 2026 launch", "Lens Studio 5.21", "Blocks framework"]},
+    {"headline": "Anthropic's frontier tier is now sellable.", "key_terms": ["Claude Fable 5", "Mythos-class", "Apple Foundation Models", "iOS 27 visionOS 27"]},
+    {"headline": "Smart glasses just got a regulatory leash.", "key_terms": ["US visible recording light bill", "Meta Ray-Ban face-recognition Wired", "consent UX"]},
+    {"headline": "Saudi Arabia is buying the entire AI stack at once.", "key_terms": ["NVIDIA HUMAIN AI factories", "Qualcomm Aramco RDIA DISAI 2026", "vertical ownership"]},
+    {"headline": "Creative AI agents are eating the agency middle.", "key_terms": ["Higgsfield Supercomputer", "URL to cinematic ad", "Microsoft Scout Build", "brief-to-asset collapsing"]}
+  ],
+  "coming_next": [
+    {"category": "Smart Glasses", "key_terms": ["Android XR Samsung fall 2026"]},
+    {"category": "World Models", "key_terms": ["Luma Open Physical AI Lab", "Tencent HY-World 2.0", "Three.js plugins 90 days"]},
+    {"category": "AI Ads", "key_terms": ["Meta Advantage+ full ad Q4 2026"]},
+    {"category": "GCC", "key_terms": ["HUMAIN-hosted inference procurement requirement", "PIF RFPs"]}
+  ],
+  "undisclosed": [
+    {"name": "Niantic Spatial → military drones", "key_terms": ["Pokémon Go 30B location scans", "Vantor defense contractor"]},
+    {"name": "Disguise + Tanmiya in Riyadh", "key_terms": ["Disguise Middle East partnership", "PIF entertainment venues"]},
+    {"name": "Apple Vision Pro 2 slip", "key_terms": ["Vision Pro 2 slipped to 2028"]},
+    {"name": "Sora API sunset", "key_terms": ["OpenAI Sora API ends September 24", "Veo 3.1 Seedance 2 Kling 3 fallback"]}
+  ],
+  "first_of_kind": [
+    {"name": "Luma Open Physical AI Lab", "link": "lumalabs.ai"},
+    {"name": "Tencent HunyuanWorld-Mirror", "link": "github.com (Hunyuan)"},
+    {"name": "Visionary on WebGPU (Three.js plugin)", "link": "arxiv.org"},
+    {"name": "Apple visionOS 27 + Foundation Models", "link": "apple.com"}
+  ],
+  "tools": [
+    {"name": "Decart Lucy 2.0", "key_terms": ["real-time world transformation"]},
+    {"name": "Hedra Real-Time Live Avatars", "key_terms": ["sub-100ms avatars $0.05/min API"]},
+    {"name": "Higgsfield Supercomputer", "key_terms": ["URL to cinematic ad brief"]},
+    {"name": "Runway Aleph 2.0", "key_terms": ["one-frame edit propagates across 30s clip"]},
+    {"name": "Krea 2", "key_terms": ["multi-model creative suite", "video LoRA finetuning"]},
+    {"name": "TwelveLabs Marengo 3.0", "key_terms": ["deep semantic video search", "contextual scene tagging API"]}
+  ],
+  "partners": [
+    {"name": "Decart"},
+    {"name": "Higgsfield"},
+    {"name": "Hedra"},
+    {"name": "Illumix (via Snap)"},
+    {"name": "Tanmiya"},
+    {"name": "TwelveLabs"}
+  ],
+  "patterns": [
+    {"headline": "Selling files is over. Selling a running system is the business now.", "key_terms": ["live always-on creative system"]},
+    {"headline": "World models are migrating out of video and into everything else.", "key_terms": ["WebGPU + gaussian splats + world models stack"]},
+    {"headline": "Glasses regulation arrives before the second-gen device.", "key_terms": ["recording-light bills", "consent design"]},
+    {"headline": "Saudi infrastructure is becoming a sovereign default.", "key_terms": ["HUMAIN procurement reality", "PIF RFPs Saudi-hosted compute"]}
+  ],
+  "action_plan": [
+    {"title": "Ship one visionos 27 spatial demo this week."},
+    {"title": "Wire a humain-hosted inference fallback into every live pipeline."},
+    {"title": "Stand up an internal real-time world model sandbox."},
+    {"title": "Open partnership talks with the small creative-ai vendors."}
+  ]
+}
