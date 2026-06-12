@@ -1,58 +1,223 @@
 {
   "date_display": "12 · 06 · 2026",
-  "_note": "Seed: newsletter sent this week. Already in CEO's inbox — do not repeat.",
   "signals": [
-    {"headline": "Apple finally pulls vision pro into the agent era.", "key_terms": ["visionOS 27", "WWDC26", "Foundation Models hooks", "Gemini-powered Siri", "spatial panoramas"]},
-    {"headline": "Snap bought its way to a real specs platform.", "key_terms": ["Snap Illumix acquisition", "Specs 2026 launch", "Lens Studio 5.21", "Blocks framework"]},
-    {"headline": "Anthropic's frontier tier is now sellable.", "key_terms": ["Claude Fable 5", "Mythos-class", "Apple Foundation Models", "iOS 27 visionOS 27"]},
-    {"headline": "Smart glasses just got a regulatory leash.", "key_terms": ["US visible recording light bill", "Meta Ray-Ban face-recognition Wired", "consent UX"]},
-    {"headline": "Saudi Arabia is buying the entire AI stack at once.", "key_terms": ["NVIDIA HUMAIN AI factories", "Qualcomm Aramco RDIA DISAI 2026", "vertical ownership"]},
-    {"headline": "Creative AI agents are eating the agency middle.", "key_terms": ["Higgsfield Supercomputer", "URL to cinematic ad", "Microsoft Scout Build", "brief-to-asset collapsing"]}
+    {
+      "headline": "Gaussian splats just became consumer-map infrastructure.",
+      "body": "At WWDC on Monday, <b>Apple</b> quietly rebuilt Flyover in <b>Apple Maps</b> on top of 3D Gaussian Splatting — over <b>350 cities</b> getting radiance-field 3D this fall. Apple wouldn't say the words out loud, but Radiance Fields and every splat researcher in the room confirmed it. This pulls splats out of the lab and into a default consumer surface, and the entire web3D stack we already build on just got a billion-device tailwind.",
+      "arlab_use": "lead every gcc pitch this month with a real splat of a real landmark."
+    },
+    {
+      "headline": "Vision Pro opens to third-party tracked props and controllers.",
+      "body": "<b>visionOS 27</b>, in dev hands since Monday, introduces a formal <b>Spatial Accessories</b> framework — Apple now actively tracks third-party motion controllers, branded props, and LED-marked physical objects. Until now, only passive object recognition was supported. This turns Vision Pro from a pure hand-tracking device into a hardware ecosystem — and the bundle we sell can now include a custom-tracked object, not just software.",
+      "arlab_use": "design a branded tracked prop spec sheet for the next experiential pitch."
+    },
+    {
+      "headline": "NEOM's flagship Line just got shelved until 2030.",
+      "body": "<b>NEOM</b> issued a temporary work stoppage on <b>The Line</b> until at least 2030 and is reportedly paying a <b>$16B exit bill</b> to contractors being released this month. Capital is not vanishing — it is rerouting toward Qiddiya, Diriyah, AlUla, and the Riyadh entertainment ring, which now have an even louder share of the giga-project budget. The Gulf is pivoting from concrete to content.",
+      "arlab_use": "rebrief the gcc pipeline around qiddiya, diriyah, alula this week."
+    },
+    {
+      "headline": "Dubai is putting 295,000 companies on agentic AI.",
+      "body": "Sheikh Hamdan approved a plan on Wednesday to roll agentic AI through <b>295,000 private firms</b> in Dubai under a <b>90-day</b> mobilisation sprint, with the DIFC AI-native financial centre as the showpiece. This is the largest single B2B agentic deployment announced anywhere — and every one of those companies will need a face, a voice, a brand layer on top of the agent. That layer is exactly what we sell.",
+      "arlab_use": "position arlab as the creative skin for dubai's agentic stack."
+    },
+    {
+      "headline": "Microsoft built its way off OpenAI in one drop.",
+      "body": "On Wednesday, <b>Microsoft AI</b> released <b>seven new MAI models</b> — image, voice, and reasoning — and routed them into Copilot and the <b>11,000-model Foundry catalog</b> alongside Claude Opus 4.8. The framing was deliberately about cost and dependency: cheaper-to-serve, in-house, and not OpenAI. Every hyperscaler now has a sovereign model story, which is the same logic HUMAIN is running locally — buy the stack, don't rent it.",
+      "arlab_use": "add a microsoft mai fallback to every live creative pipeline."
+    },
+    {
+      "headline": "Higgsfield turned video generation into an agent call.",
+      "body": "<b>Higgsfield</b> shipped a public <b>MCP server</b> on Thursday that lets Claude, Cursor, or any agent generate cinematic video on <b>Sora, Veo, Kling, and Seedance</b> from a single tool call. Brief-to-asset just collapsed from a workflow into a function. The studios that script this layer first will deliver a campaign while everyone else is still opening a tab.",
+      "arlab_use": "wire higgsfield mcp into the studio's agent layer before friday."
+    }
   ],
   "coming_next": [
-    {"category": "Smart Glasses", "key_terms": ["Android XR Samsung fall 2026"]},
-    {"category": "World Models", "key_terms": ["Luma Open Physical AI Lab", "Tencent HY-World 2.0", "Three.js plugins 90 days"]},
-    {"category": "AI Ads", "key_terms": ["Meta Advantage+ full ad Q4 2026"]},
-    {"category": "GCC", "key_terms": ["HUMAIN-hosted inference procurement requirement", "PIF RFPs"]}
+    {
+      "category": "XR Industry",
+      "headline": "AWE USA opens Monday with Snap's CEO setting the AR roadmap.",
+      "body": "<b>Augmented World Expo</b> runs <b>June 15–19 in Long Beach</b>, with <b>Evan Spiegel</b> headlining June 16 to detail Specs' fall consumer launch and the human-centric AI pitch — expect concrete SDK and price news the same week."
+    },
+    {
+      "category": "Smart Glasses",
+      "headline": "Samsung's Galaxy Glasses are tracking for a July reveal.",
+      "body": "<b>Samsung</b> is lined up to unveil its first <b>Galaxy AI Glasses</b> around <b>$400</b> in July, ahead of Galaxy Unpacked, slotting in below Meta Ray-Ban Display and forcing a sharper Gemini-vs-Meta-AI choice for any glasses experience we build."
+    },
+    {
+      "category": "Compute Pricing",
+      "headline": "AMD's Advancing AI lands July 22–23 with edge-AI economics.",
+      "body": "<b>AMD Advancing AI</b> in San Francisco is the next pricing reset on inference and on-device compute — directly relevant to whether real-time creative pipelines run cheap enough to ship as always-on installations."
+    },
+    {
+      "category": "GCC Sprint",
+      "headline": "Dubai's 90-day agentic AI deadline starts the clock now.",
+      "body": "Hamdan's <b>295,000-firm</b> rollout has a <b>90-day timeline</b> on federal entities — RFPs and pilots will be issued through July and August, so the procurement window for creative-tech partners opens this month."
+    }
   ],
   "undisclosed": [
-    {"name": "Niantic Spatial → military drones", "key_terms": ["Pokémon Go 30B location scans", "Vantor defense contractor"]},
-    {"name": "Disguise + Tanmiya in Riyadh", "key_terms": ["Disguise Middle East partnership", "PIF entertainment venues"]},
-    {"name": "Apple Vision Pro 2 slip", "key_terms": ["Vision Pro 2 slipped to 2028"]},
-    {"name": "Sora API sunset", "key_terms": ["OpenAI Sora API ends September 24", "Veo 3.1 Seedance 2 Kling 3 fallback"]}
+    {
+      "name": "Tencent's quiet AI delivery problem",
+      "classification": "Confidential",
+      "body": "PANews reported Sunday that <b>Tencent's Hunyuan and WeChat AI</b> have hit a delivery hurdle — the giant is shipping models but not landing them in products. With Hunyuan World 2.0 and HY-World already in our radar, this slows down the Chinese world-model option and pushes the action back toward Luma, DeepMind, and World Labs."
+    },
+    {
+      "name": "NEOM's $16B exit bill is moving cash, not killing it",
+      "classification": "Eyes only",
+      "body": "Houseofsaud and Semafor put NEOM's contractor settlement at <b>~$16B</b>, paid out across the next two quarters. That cash exits The Line and lands inside Saudi entities adjacent to entertainment, hospitality, and experiential — the same buyers we are already pitching."
+    },
+    {
+      "name": "Pentagon shopping for Claude's replacement",
+      "classification": "Restricted",
+      "body": "On June 7, the <b>Pentagon</b> confirmed it is testing <b>OpenAI and Google</b> models to potentially replace <b>Anthropic's Claude</b> in classified workflows. Defence is becoming a four-vendor market again, which loosens enterprise lock-in and gives sovereign buyers (HUMAIN, G42) more leverage on terms — useful when we negotiate inference for live installations."
+    },
+    {
+      "name": "Apple–EU Siri standoff escalating",
+      "classification": "Emerging",
+      "body": "The June 10 update on the <b>Apple–EU</b> fight over the Gemini-powered Siri rollout suggests the <b>$1B/year</b> Gemini deal may not ship to European devices on day one. Any glasses or visionOS experience we build for European brands needs a graceful fallback that does not assume Apple Intelligence is on."
+    }
   ],
   "first_of_kind": [
-    {"name": "Luma Open Physical AI Lab", "link": "lumalabs.ai"},
-    {"name": "Tencent HunyuanWorld-Mirror", "link": "github.com (Hunyuan)"},
-    {"name": "Visionary on WebGPU (Three.js plugin)", "link": "arxiv.org"},
-    {"name": "Apple visionOS 27 + Foundation Models", "link": "apple.com"}
+    {
+      "name": "Microsoft MAI — seven in-house models, one drop",
+      "tag": "Shipped",
+      "body": "Microsoft AI's hill-climbing post details <b>seven new MAI models</b> spanning image, voice, and reasoning, all designed to undercut OpenAI economics inside Copilot. The signal is not the benchmarks — it is that a hyperscaler can now self-supply the entire creative-AI stack and price it like a commodity.",
+      "link_url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "link_text": "microsoft.ai"
+    },
+    {
+      "name": "Trillion Labs Industrial World Models",
+      "tag": "Research preview",
+      "body": "Korean foundation-model lab <b>Trillion Labs</b> announced on June 8 it is building <b>Industrial World Models</b> on top of NVIDIA Omniverse and Nemotron — world models that don't just render reality, they decide how a plant should run. Same primitive ARlab uses for visualisation, pointed at operations — a new B2B wedge.",
+      "link_url": "https://www.prnewswire.com/news-releases/trillion-labs-is-developing-industrial-world-models-for-ai-factories-built-with-nvidia-omniverse-and-nvidia-nemotron-302476693.html",
+      "link_text": "prnewswire.com"
+    },
+    {
+      "name": "The Invisible Hand of Physics — video diffusion knows more than it shows",
+      "tag": "Research",
+      "body": "Fresh arxiv paper (June 6) shows current <b>video diffusion models</b> already encode rigid-body physics, fluid dynamics, and lighting consistency far better than their outputs suggest — they are deliberately suppressing it. The implication: with the right probe, today's models are world models in waiting.",
+      "link_url": "https://arxiv.org/abs/2606.05328",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Apple Maps Flyover on Gaussian Splats",
+      "tag": "Shipped",
+      "body": "Radiance Fields' breakdown confirms <b>Apple Maps Flyover</b> in iOS 27 is rendered via 3D Gaussian Splatting from oblique aerial imagery — the largest deployment of radiance fields ever announced. Splat tooling we already touch (SuperSplat, SPZ, Three.js plugins) is now production-grade by definition.",
+      "link_url": "https://radiancefields.com/apple-maps-flyover-is-getting-a-gaussian-splatting-upgrade",
+      "link_text": "radiancefields.com"
+    }
   ],
   "tools": [
-    {"name": "Decart Lucy 2.0", "key_terms": ["real-time world transformation"]},
-    {"name": "Hedra Real-Time Live Avatars", "key_terms": ["sub-100ms avatars $0.05/min API"]},
-    {"name": "Higgsfield Supercomputer", "key_terms": ["URL to cinematic ad brief"]},
-    {"name": "Runway Aleph 2.0", "key_terms": ["one-frame edit propagates across 30s clip"]},
-    {"name": "Krea 2", "key_terms": ["multi-model creative suite", "video LoRA finetuning"]},
-    {"name": "TwelveLabs Marengo 3.0", "key_terms": ["deep semantic video search", "contextual scene tagging API"]}
+    {
+      "numeral": "i",
+      "name": "Higgsfield MCP",
+      "body": "Public MCP server (June 11) that lets any agent — Claude Code, Cursor, custom — generate <b>Sora, Veo, Kling, Seedance</b> shots through a single tool call. The cleanest way to put a brief-to-video pipeline inside a chat surface this week.",
+      "link_url": "https://higgsfield.ai/mcp"
+    },
+    {
+      "numeral": "ii",
+      "name": "Niantic SPZ 4",
+      "body": "Open-source <b>Gaussian splat format</b> from Niantic Spatial, ~35% smaller files and dramatically faster web loading — the format every browser-based splat viewer is about to adopt, including the Three.js side.",
+      "link_url": "https://www.nianticspatial.com/blog/spz4"
+    },
+    {
+      "numeral": "iii",
+      "name": "faster-gaussian-splatting (NeRFCG)",
+      "body": "Two-week-old research repo from the NeRFCG group, an efficient and research-friendly Gaussian splat trainer — useful for the R&D side to train custom-scene splats overnight without a render farm.",
+      "link_url": "https://github.com/nerficg-project/faster-gaussian-splatting"
+    },
+    {
+      "numeral": "iv",
+      "name": "visionOS 27 — Spatial Accessories SDK",
+      "body": "Apple's new framework (in dev SDK since Monday) for actively-tracked third-party controllers, props, and LED-marked physical objects on Vision Pro — the only path to a tactile, branded object inside an Apple spatial experience.",
+      "link_url": "https://developer.apple.com/wwdc26/"
+    },
+    {
+      "numeral": "v",
+      "name": "CrePal",
+      "body": "Self-described <b>first AI video creation agent</b> — handles concept, script, storyboard, and render end-to-end. Useful as a benchmark against our own agentic pipelines before we wire Higgsfield MCP in.",
+      "link_url": "https://crepal.ai/"
+    },
+    {
+      "numeral": "vi",
+      "name": "fal.ai model catalog",
+      "body": "Inference hub now hosting <b>FLUX.2, LTX, Mochi, Veo, Seedance</b> and the long tail of video/image models behind one API — the right place to A/B model choice per campaign without committing to a single vendor.",
+      "link_url": "https://fal.ai/"
+    }
   ],
   "partners": [
-    {"name": "Decart"},
-    {"name": "Higgsfield"},
-    {"name": "Hedra"},
-    {"name": "Illumix (via Snap)"},
-    {"name": "Tanmiya"},
-    {"name": "TwelveLabs"}
+    {
+      "category": "Industrial World Models",
+      "name": "Trillion Labs",
+      "body": "Korean foundation lab building world models for AI factories — first call when an Aramco or HUMAIN-adjacent client wants a live operational twin, not just a render."
+    },
+    {
+      "category": "AI 3D Generation",
+      "name": "Tripo AI",
+      "body": "Just launched an enterprise platform (image-to-3D, model segmentation, AI texturing) — a real path to bespoke 3D assets at campaign speed for Unity / Three.js scenes."
+    },
+    {
+      "category": "Agentic Video",
+      "name": "CrePal",
+      "body": "Early agentic video studio; potential white-label partner for clients who want a branded ad-generation agent without us building it from scratch."
+    },
+    {
+      "category": "Web 3D AI",
+      "name": "Spline AI",
+      "body": "Browser-native 3D with AI generation — fastest way for the web team to prototype interactive 3D landing pages without a Unity build."
+    },
+    {
+      "category": "Open Video",
+      "name": "Genmo (Mochi)",
+      "body": "Best-in-class open-source video generation — when a brand wants self-hosted or sovereign inference, Mochi is the model to fine-tune."
+    },
+    {
+      "category": "Three.js AI",
+      "name": "Bezi",
+      "body": "Text-to-3D in seconds, designed for Three.js workflows — slots straight into the web3D pipeline as a sketch-stage tool for shipping faster."
+    }
   ],
   "patterns": [
-    {"headline": "Selling files is over. Selling a running system is the business now.", "key_terms": ["live always-on creative system"]},
-    {"headline": "World models are migrating out of video and into everything else.", "key_terms": ["WebGPU + gaussian splats + world models stack"]},
-    {"headline": "Glasses regulation arrives before the second-gen device.", "key_terms": ["recording-light bills", "consent design"]},
-    {"headline": "Saudi infrastructure is becoming a sovereign default.", "key_terms": ["HUMAIN procurement reality", "PIF RFPs Saudi-hosted compute"]}
+    {
+      "tag": "Global",
+      "headline": "Gaussian splats are leaving the lab and becoming the default 3D format.",
+      "body": "Inside thirty days: Niantic open-sourced <b>SPZ 4</b>, Apple deployed splats inside <b>Apple Maps Flyover</b>, Three.js shipped baseline WebGPU splat rendering, and faster-gaussian-splatting hit GitHub. Photogrammetry is over. Every \"3D scene\" we deliver from this quarter onward should be a splat by default, not a mesh."
+    },
+    {
+      "tag": "Global",
+      "headline": "Every serious player is now building its own model stack — neutrality is dead.",
+      "body": "<b>Microsoft</b> just shipped seven MAI models, <b>Apple</b> doubled down on Foundation Models, <b>Anthropic and OpenAI</b> filed S-1s ten days apart, <b>Tencent</b> is stalling, and HUMAIN is buying sovereign. The era of \"we just call an API\" is closing; clients now ask <b>whose</b> model is running their experience and where the inference sits."
+    },
+    {
+      "tag": "Global",
+      "headline": "AR hardware is becoming an ecosystem game, not a device race.",
+      "body": "<b>Apple</b> opened visionOS to third-party tracked accessories, <b>Acer</b> joined the field at <b>$300–$500</b>, <b>Meta</b> is prepping four SKUs, <b>Snap Specs</b> launches this fall. The platform play is no longer one killer device but the bundle of glasses + props + branded inputs around it — and creative tech studios get to design the bundle."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The Gulf is rotating capital from glass towers to intelligent layers.",
+      "body": "<b>NEOM</b> paused The Line and is paying out a <b>$16B exit bill</b>. <b>Dubai</b> approved an agentic-AI plan for <b>295,000 firms</b>. <b>Qiddiya, Diriyah, AlUla</b> are absorbing the budget that was supposed to go into Saudi megastructure. The story of 2026 in the GCC is not how big you can build — it is how intelligent you can make what's already standing."
+    }
   ],
   "action_plan": [
-    {"title": "Ship one visionos 27 spatial demo this week."},
-    {"title": "Wire a humain-hosted inference fallback into every live pipeline."},
-    {"title": "Stand up an internal real-time world model sandbox."},
-    {"title": "Open partnership talks with the small creative-ai vendors."}
+    {
+      "numeral": "i",
+      "title": "Splat a Gulf landmark this week and put it in the pitch deck.",
+      "body": "Have the web team capture or source aerial imagery of one signature GCC site, train a Gaussian splat on it, and ship it as an interactive WebGPU scene by Friday. Every pitch from next week should open with that demo, given Apple Maps just made splats the consumer default."
+    },
+    {
+      "numeral": "ii",
+      "title": "Prototype a branded spatial accessory for visionOS 27.",
+      "body": "R&D should build a tracked physical prop (LED markers + 3D reference model) integrated through Apple's new Spatial Accessories framework — this becomes the proof-of-concept that lets the studio sell a hardware-plus-experience bundle to Vision Pro clients instead of pure software."
+    },
+    {
+      "numeral": "iii",
+      "title": "Wire the studio's agent layer onto Higgsfield MCP.",
+      "body": "Whoever owns the pipeline should plug Higgsfield's new MCP server into our internal agent so a creative brief can produce a Sora/Veo/Kling cut from a single prompt. Same day, benchmark it against fal.ai routing — pick a default per campaign type."
+    },
+    {
+      "numeral": "iv",
+      "title": "Open the door with Dubai's agentic-AI rollout office.",
+      "body": "The partnerships function should reach into the Hamdan-backed 295,000-firm programme this week — positioning ARlab as the creative skin (face, voice, branded experience) on top of the agentic engine SMBs will be told to adopt over the next 90 days."
+    }
   ]
 }
