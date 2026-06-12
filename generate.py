@@ -37,7 +37,8 @@ SENDER = os.environ.get("SENDER_EMAIL", "nour@thearlab.com")
 SUBJECT_PREFIX = "Wissam's Newsletter"
 
 HERE = pathlib.Path(__file__).parent
-TEMPLATE_FILE = "template.html"
+TEMPLATE_FILE = "template.html"  # browser-preview version with glass effect
+EMAIL_TEMPLATE_FILE = "template_email.html"  # gmail-safe inline-styled version
 
 
 # -- Schema for the structured newsletter payload ----------------------------
@@ -365,12 +366,12 @@ def call_claude(client: anthropic.Anthropic) -> dict:
 
 # -- Render and send ---------------------------------------------------------
 
-def render(payload: dict) -> str:
+def render(payload: dict, template_file: str = TEMPLATE_FILE) -> str:
     env = Environment(
         loader=FileSystemLoader(str(HERE)),
         autoescape=select_autoescape(disabled_extensions=("html",), default=False),
     )
-    template = env.get_template(TEMPLATE_FILE)
+    template = env.get_template(template_file)
     return template.render(
         date=payload["date_display"],
         signals=payload["signals"],
@@ -384,9 +385,26 @@ def render(payload: dict) -> str:
     )
 
 
+def inject_preamble(html: str, preamble_html: str) -> str:
+    """Insert a one-off preamble block immediately after <body ...>."""
+    if not preamble_html:
+        return html
+    body_open = html.find("<body")
+    if body_open == -1:
+        return preamble_html + html
+    body_open_close = html.find(">", body_open) + 1
+    return html[:body_open_close] + preamble_html + html[body_open_close:]
+
+
 def send_email(html: str, payload: dict) -> None:
-    subject = f"{SUBJECT_PREFIX} — {payload['date_display']}"
-    print(f"[send] {SENDER} -> {RECIPIENT}  «{subject}»", flush=True)
+    # Constant subject so Gmail threads all weekly editions together.
+    subject = SUBJECT_PREFIX
+    recipients = [r.strip() for r in RECIPIENT.split(",") if r.strip()]
+
+    preamble = os.environ.get("PREAMBLE_HTML", "")
+    if preamble:
+        html = inject_preamble(html, preamble)
+        print(f"[send] injected preamble ({len(preamble)} bytes)", flush=True)
 
     creds = Credentials(
         token=None,
@@ -398,16 +416,17 @@ def send_email(html: str, payload: dict) -> None:
     )
     service = build("gmail", "v1", credentials=creds, cache_discovery=False)
 
-    msg = EmailMessage()
-    msg["To"] = RECIPIENT
-    msg["From"] = SENDER
-    msg["Subject"] = subject
-    msg.set_content("This email is best viewed as HTML. " + payload["date_display"])
-    msg.add_alternative(html, subtype="html")
-
-    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-    sent = service.users().messages().send(userId="me", body={"raw": raw}).execute()
-    print(f"[send] gmail id: {sent.get('id', '?')}", flush=True)
+    for recipient in recipients:
+        print(f"[send] {SENDER} -> {recipient}  «{subject}» (date in body: {payload['date_display']})", flush=True)
+        msg = EmailMessage()
+        msg["To"] = recipient
+        msg["From"] = SENDER
+        msg["Subject"] = subject
+        msg.set_content("This email is best viewed as HTML. " + payload["date_display"])
+        msg.add_alternative(html, subtype="html")
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        sent = service.users().messages().send(userId="me", body={"raw": raw}).execute()
+        print(f"[send] gmail id: {sent.get('id', '?')}", flush=True)
 
 
 # -- Entry point -------------------------------------------------------------
@@ -433,15 +452,19 @@ def main() -> int:
         (history_dir / f"{stamp}.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False))
         print(f"[history] wrote history/{stamp}.json", flush=True)
 
-    html = render(payload)
-    (out_dir / f"newsletter-{stamp}.html").write_text(html)
-    print(f"[render] wrote out/newsletter-{stamp}.html ({len(html)} bytes)", flush=True)
+    html_preview = render(payload, TEMPLATE_FILE)
+    (out_dir / f"newsletter-{stamp}.html").write_text(html_preview)
+    print(f"[render] wrote out/newsletter-{stamp}.html ({len(html_preview)} bytes, preview)", flush=True)
+
+    html_email = render(payload, EMAIL_TEMPLATE_FILE)
+    (out_dir / f"newsletter-{stamp}-email.html").write_text(html_email)
+    print(f"[render] wrote out/newsletter-{stamp}-email.html ({len(html_email)} bytes, gmail-safe)", flush=True)
 
     if os.environ.get("SKIP_SEND") == "1":
         print("[send] SKIP_SEND=1 — not emailing", flush=True)
         return 0
 
-    send_email(html, payload)
+    send_email(html_email, payload)
     return 0
 
 

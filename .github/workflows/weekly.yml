@@ -4,6 +4,19 @@ on:
   schedule:
     - cron: "0 6 * * 2"
   workflow_dispatch:
+    inputs:
+      skip_generate:
+        description: "Skip generation, send existing history payload for today"
+        required: false
+        default: "false"
+      recipients:
+        description: "Comma-separated recipient list (override default wissam@thearlab.com)"
+        required: false
+        default: ""
+      preamble_html:
+        description: "One-off HTML preamble injected at top of email body"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -29,8 +42,10 @@ jobs:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
-          RECIPIENT_EMAIL: wissam@thearlab.com
+          RECIPIENT_EMAIL: ${{ github.event.inputs.recipients != '' && github.event.inputs.recipients || 'wissam@thearlab.com' }}
           SENDER_EMAIL: nour@thearlab.com
+          SKIP_GENERATE: ${{ github.event.inputs.skip_generate == 'true' && '1' || '' }}
+          PREAMBLE_HTML: ${{ github.event.inputs.preamble_html }}
         run: python generate.py
 
       - name: Commit history

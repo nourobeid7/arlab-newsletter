@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wissam's Newsletter</title>
+</head>
+<body style="margin:0;padding:0;background:#08080b;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#08080b;">
+  <tr>
+    <td align="center" style="padding:0;">
+      <table role="presentation" width="680" cellpadding="0" cellspacing="0" border="0" style="max-width:680px;width:100%;background:#08080b;color:#f7f7fa;font-family:Helvetica,Arial,sans-serif;">
+
+        <!-- HERO -->
+        <tr><td align="center" style="padding:64px 32px 48px 32px;">
+          <div style="font-size:10px;letter-spacing:0.28em;text-transform:uppercase;color:#f7f7fa;border:1px solid #2a2a30;border-radius:30px;padding:7px 16px;display:inline-block;margin-bottom:22px;">Beta</div>
+          <div style="font-size:10px;letter-spacing:0.46em;text-transform:uppercase;color:#b2b2bb;margin-bottom:22px;">ARlab Intelligence</div>
+          <div style="font-family:Georgia,'Times New Roman',serif;font-weight:300;font-size:54px;line-height:1.0;color:#ffffff;">Wissam's<br><em style="font-style:italic;">Newsletter</em></div>
+          <div style="margin-top:28px;font-size:10px;letter-spacing:0.3em;color:#b2b2bb;text-transform:uppercase;">— &nbsp; {{ date }} &nbsp; —</div>
+        </td></tr>
+
+        <!-- SECTION I — SIGNALS -->
+        <tr><td style="padding:24px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">I</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">The <em>Signals</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">the fast read — one move each</div>
+        </td></tr>
+
+        {% for s in signals %}
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:20px 22px;">
+              <div style="font-family:Georgia,serif;font-weight:400;font-size:20px;color:#f7f7fa;line-height:1.25;margin-bottom:8px;">{{ s.headline }}</div>
+              <div style="font-size:13px;color:#b2b2bb;line-height:1.6;">{{ s.body|safe }}</div>
+              <div style="font-size:10px;line-height:1.5;color:#f7f7fa;margin-top:14px;letter-spacing:0.1em;text-transform:uppercase;"><span style="color:#76767f;">arlab use · </span>{{ s.arlab_use }}</div>
+            </td></tr>
+          </table>
+        </td></tr>
+        {% endfor %}
+
+        <!-- SECTION II — COMING NEXT -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">II</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">Coming <em>Next</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">where to place bets</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:18px 22px;">
+              {% for n in coming_next %}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:{% if loop.last %}0{% else %}16{% endif %}px;">
+                <tr>
+                  <td valign="top" width="130" style="font-family:Georgia,serif;font-weight:300;font-size:17px;color:#f7f7fa;padding-right:14px;line-height:1.1;">{{ n.category }}</td>
+                  <td valign="top">
+                    <div style="font-size:14px;font-weight:600;color:#f7f7fa;line-height:1.35;margin-bottom:4px;">{{ n.headline }}</div>
+                    <div style="font-size:12px;color:#b2b2bb;line-height:1.55;">{{ n.body|safe }}</div>
+                  </td>
+                </tr>
+              </table>
+              {% endfor %}
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- SECTION III — UNDISCLOSED -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">III</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;"><em>Undisclosed</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">top-secret projects in motion</div>
+        </td></tr>
+
+        {% for u in undisclosed %}
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:18px 22px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:8px;">
+                <tr>
+                  <td valign="middle" style="font-family:Georgia,serif;font-size:18px;font-weight:400;color:#f7f7fa;">{{ u.name }}</td>
+                  <td valign="middle" align="right" style="font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#76767f;border:1px solid #2a2a30;border-radius:30px;padding:4px 9px;white-space:nowrap;">{{ u.classification }}</td>
+                </tr>
+              </table>
+              <div style="font-size:12px;line-height:1.6;color:#b2b2bb;">{{ u.body|safe }}</div>
+            </td></tr>
+          </table>
+        </td></tr>
+        {% endfor %}
+
+        <!-- SECTION IV — FIRST OF ITS KIND -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">IV</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">First of Its <em>Kind</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">unreleased &amp; from the labs</div>
+        </td></tr>
+
+        {% for l in first_of_kind %}
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:18px 22px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:8px;">
+                <tr>
+                  <td valign="middle" style="font-family:Georgia,serif;font-size:18px;font-weight:400;color:#f7f7fa;">{{ l.name }}</td>
+                  <td valign="middle" align="right" style="font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#76767f;border:1px solid #2a2a30;border-radius:30px;padding:4px 9px;white-space:nowrap;">{{ l.tag }}</td>
+                </tr>
+              </table>
+              <div style="font-size:12px;line-height:1.6;color:#b2b2bb;">{{ l.body|safe }} <a href="{{ l.link_url }}" style="color:#f7f7fa;text-decoration:underline;" target="_blank">{{ l.link_text }}</a></div>
+            </td></tr>
+          </table>
+        </td></tr>
+        {% endfor %}
+
+        <!-- SECTION V — TOOLS -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">V</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">Tools to <em>Check</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">the sharp edge, not the basics</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:12px 22px;">
+              {% for t in tools %}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:10px 0;">
+                <tr>
+                  <td valign="top" width="22" style="font-family:Georgia,serif;font-style:italic;font-size:14px;color:#76767f;padding-right:10px;">{{ t.numeral }}</td>
+                  <td valign="top" width="150" style="font-size:13px;font-weight:600;color:#f7f7fa;padding-right:12px;">{{ t.name }}</td>
+                  <td valign="top" style="font-size:12px;color:#b2b2bb;line-height:1.5;padding-right:12px;">{{ t.body|safe }}</td>
+                  <td valign="top" align="right"><a href="{{ t.link_url }}" target="_blank" style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:#f7f7fa;text-decoration:none;border:1px solid #2a2a30;border-radius:30px;padding:5px 11px;white-space:nowrap;">View</a></td>
+                </tr>
+              </table>
+              {% endfor %}
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- SECTION VI — PARTNERS -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">VI</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">Partners &amp; <em>Hidden Gems</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">small companies, big leverage</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:18px 20px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                {% for row in partners|batch(2) %}
+                <tr>
+                  {% for p in row %}
+                  <td valign="top" width="50%" style="padding:8px 8px;">
+                    <div style="font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:#76767f;margin-bottom:6px;">{{ p.category }}</div>
+                    <div style="font-family:Georgia,serif;font-size:17px;font-weight:400;color:#f7f7fa;margin-bottom:4px;">{{ p.name }}</div>
+                    <div style="font-size:11px;color:#b2b2bb;line-height:1.5;">{{ p.body }}</div>
+                  </td>
+                  {% endfor %}
+                </tr>
+                {% endfor %}
+              </table>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- SECTION VII — PATTERNS -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">VII</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;"><em>Patterns</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">where the whole field is heading</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:6px 22px;">
+              {% for p in patterns %}
+              <div style="padding:14px 0;{% if not loop.first %}border-top:1px solid #2a2a30;{% endif %}">
+                <div style="font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:#76767f;margin-bottom:7px;">{{ p.tag }}</div>
+                <div style="font-family:Georgia,serif;font-weight:400;font-size:18px;color:#f7f7fa;margin-bottom:6px;line-height:1.25;">{{ p.headline }}</div>
+                <div style="font-size:12px;line-height:1.65;color:#b2b2bb;">{{ p.body|safe }}</div>
+              </div>
+              {% endfor %}
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- SECTION VIII — ACTION PLAN -->
+        <tr><td style="padding:36px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">VIII</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">Action <em>Plan</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">what the team starts now</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:14px 22px;">
+              {% for a in action_plan %}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:10px 0;">
+                <tr>
+                  <td valign="top" width="24" style="font-family:Georgia,serif;font-style:italic;font-size:20px;color:#76767f;padding-right:14px;line-height:1;">{{ a.numeral }}</td>
+                  <td valign="top">
+                    <div style="font-size:14px;font-weight:600;color:#f7f7fa;margin-bottom:4px;">{{ a.title }}</div>
+                    <div style="font-size:12px;color:#b2b2bb;line-height:1.55;">{{ a.body }}</div>
+                  </td>
+                </tr>
+              </table>
+              {% endfor %}
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- FOOTER -->
+        <tr><td style="padding:36px 28px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td valign="middle" style="font-family:Georgia,serif;font-weight:300;font-size:18px;color:#f7f7fa;letter-spacing:0.08em;">AR<em>LAB</em></td>
+              <td valign="middle" align="right" style="font-size:9px;color:#76767f;line-height:1.8;letter-spacing:0.14em;text-transform:uppercase;">Wissam's Newsletter<br>{{ date }} — Content Ops</td>
+            </tr>
+          </table>
+        </td></tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
