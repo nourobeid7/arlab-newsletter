@@ -5,7 +5,7 @@ Runs once a week (GitHub Actions cron):
   1. Asks Claude Opus 4.7 to research the past week in AR / AI / immersive / adtech
      using server-side web search, then to fill an 8-section structured payload.
   2. Renders that payload into the glass HTML template.
-  3. Emails the rendered HTML to the recipient via Resend.
+  3. Emails the rendered HTML to the recipient via Gmail API (OAuth2).
 
 All keys come from env vars (set as GitHub Actions secrets).
 """
@@ -19,8 +19,12 @@ import pathlib
 import datetime as dt
 import zoneinfo
 
+import base64
+from email.message import EmailMessage
+
 import anthropic
-import resend
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
@@ -28,8 +32,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 MODEL = "claude-opus-4-7"
 MAX_TOKENS = 20_000  # > 16k → streaming required on Opus 4.7
-RECIPIENT = os.environ.get("RECIPIENT_EMAIL", "nour@thearlab.com")
-SENDER = os.environ.get("SENDER_EMAIL", "onboarding@resend.dev")  # default works without a verified domain
+RECIPIENT = os.environ.get("RECIPIENT_EMAIL", "wissam@thearlab.com")
+SENDER = os.environ.get("SENDER_EMAIL", "nour@thearlab.com")
 SUBJECT_PREFIX = "Wissam's Newsletter"
 
 HERE = pathlib.Path(__file__).parent
@@ -381,39 +385,57 @@ def render(payload: dict) -> str:
 
 
 def send_email(html: str, payload: dict) -> None:
-    resend.api_key = os.environ["RESEND_API_KEY"]
     subject = f"{SUBJECT_PREFIX} — {payload['date_display']}"
     print(f"[send] {SENDER} -> {RECIPIENT}  «{subject}»", flush=True)
-    result = resend.Emails.send({
-        "from": SENDER,
-        "to": [RECIPIENT],
-        "subject": subject,
-        "html": html,
-    })
-    print(f"[send] resend id: {result.get('id', '?')}", flush=True)
+
+    creds = Credentials(
+        token=None,
+        refresh_token=os.environ["GMAIL_REFRESH_TOKEN"],
+        client_id=os.environ["GMAIL_CLIENT_ID"],
+        client_secret=os.environ["GMAIL_CLIENT_SECRET"],
+        token_uri="https://oauth2.googleapis.com/token",
+        scopes=["https://www.googleapis.com/auth/gmail.send"],
+    )
+    service = build("gmail", "v1", credentials=creds, cache_discovery=False)
+
+    msg = EmailMessage()
+    msg["To"] = RECIPIENT
+    msg["From"] = SENDER
+    msg["Subject"] = subject
+    msg.set_content("This email is best viewed as HTML. " + payload["date_display"])
+    msg.add_alternative(html, subtype="html")
+
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    sent = service.users().messages().send(userId="me", body={"raw": raw}).execute()
+    print(f"[send] gmail id: {sent.get('id', '?')}", flush=True)
 
 
 # -- Entry point -------------------------------------------------------------
 
 def main() -> int:
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
-
-    payload = call_claude(client)
-
+    stamp = today_beirut().isoformat()
+    history_dir = HERE / "history"
     out_dir = HERE / "out"
     out_dir.mkdir(exist_ok=True)
-    stamp = today_beirut().isoformat()
-    (out_dir / f"payload-{stamp}.json").write_text(json.dumps(payload, indent=2))
+    history_dir.mkdir(exist_ok=True)
+
+    if os.environ.get("SKIP_GENERATE") == "1":
+        existing = history_dir / f"{stamp}.json"
+        if not existing.exists():
+            print(f"[generate] SKIP_GENERATE=1 but {existing} not found", file=sys.stderr)
+            return 1
+        payload = json.loads(existing.read_text())
+        print(f"[generate] SKIP_GENERATE=1 — using existing {existing.name}", flush=True)
+    else:
+        client = anthropic.Anthropic()
+        payload = call_claude(client)
+        (out_dir / f"payload-{stamp}.json").write_text(json.dumps(payload, indent=2))
+        (history_dir / f"{stamp}.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False))
+        print(f"[history] wrote history/{stamp}.json", flush=True)
 
     html = render(payload)
     (out_dir / f"newsletter-{stamp}.html").write_text(html)
     print(f"[render] wrote out/newsletter-{stamp}.html ({len(html)} bytes)", flush=True)
-
-    # Save to history so future runs avoid repeating these topics.
-    history_dir = HERE / "history"
-    history_dir.mkdir(exist_ok=True)
-    (history_dir / f"{stamp}.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-    print(f"[history] wrote history/{stamp}.json", flush=True)
 
     if os.environ.get("SKIP_SEND") == "1":
         print("[send] SKIP_SEND=1 — not emailing", flush=True)
