@@ -1,0 +1,223 @@
+{
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Wire a Decart-class world model into a GCC pitch this week",
+      "body": "The world-model layer just became a per-second API at $0.02/sec. R&D should stand up a live Riyadh or Doha drive-through demo on Oasis-class infrastructure and drop it into the next deck before competitors do."
+    },
+    {
+      "numeral": "ii",
+      "title": "Open the UAE Federal AI Authority door",
+      "body": "A new federal AI body just consolidated everything from data to digital government under one umbrella. The partnerships function should send a positioning letter and a single-page capability brief to the Authority's secretariat within the next 7 days."
+    },
+    {
+      "numeral": "iii",
+      "title": "Build a privacy-first smart-glasses pitch line",
+      "body": "Meta's facial recognition retreat just opened a positioning gap on consent-by-design AR. The creative leads should package a no-FRT, on-device, opt-in spec sheet and offer it as an option in every glasses-related conversation."
+    },
+    {
+      "numeral": "iv",
+      "title": "Treat splat capture as dual-use data from now on",
+      "body": "Pokémon GO scans now feed military drone navigation. Whoever owns the capture pipeline should add a data-use clause to client splat contracts and a kill-switch for sensitive sites — before a Gulf client asks the question first."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Festival",
+      "headline": "Cannes Lions opens June 22 with an AI-only Creative Brand Lion category.",
+      "body": "<b>Cannes Lions 2026</b> runs <b>22–26 June</b> and has explicitly tilted the festival toward AI, creators and sports — the moment to plant ARlab's flag in the European creative conversation."
+    },
+    {
+      "category": "GCC Stage",
+      "headline": "Riyadh stages its first Global AI Show June 29–30.",
+      "body": "<b>GAIS Riyadh</b> is the Year-of-AI flagship gathering and the natural follow-up to the new <b>UAE Federal AI Authority</b> announcement — a single trip can hit both buyer pools."
+    },
+    {
+      "category": "Builder Summit",
+      "headline": "AI Engineer World's Fair lands in San Francisco June 29–July 2.",
+      "body": "Co-located with <b>ACM CAIS 2026</b>, this is where MCP, agents and tooling are being argued out in public — sharp signal for the studio's own agent layer."
+    },
+    {
+      "category": "Spatial OS",
+      "headline": "visionOS 27 public release ships this fall with Gemini-powered Siri.",
+      "body": "Beta is already in developer hands; Apple's confirmed <b>visionOS 27</b> ships in fall with Visual Intelligence, spatial panoramas and Maps upgrades — the window to launch a flagship Vision Pro experience is now."
+    }
+  ],
+  "date_display": "16 · 06 · 2026",
+  "first_of_kind": [
+    {
+      "name": "Decart Oasis 3",
+      "tag": "Shipped · API",
+      "body": "A real-time world model that simulates <b>hours of photorealistic driving</b> on demand, priced at <b>$0.02/sec</b> via API. Decart closed a <b>$300M round at $4B</b> the same week — world models are now a metered cloud service, not a research demo.",
+      "link_url": "https://decart.ai/",
+      "link_text": "decart.ai"
+    },
+    {
+      "name": "NVIDIA Cosmos 3",
+      "tag": "Open frontier model",
+      "body": "NVIDIA's new open foundation model for physical AI and robotics, positioned as the base layer for simulation, embodied agents and next-gen robots. Open weights make it a credible substrate for any studio building location-grounded experiences.",
+      "link_url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+      "link_text": "nvidianews.nvidia.com"
+    },
+    {
+      "name": "Tencent HY-World 2.0",
+      "tag": "Research · Open source",
+      "body": "A <b>multi-modal world model</b> for reconstructing, generating and simulating 3D worlds, released openly on GitHub three weeks ago. It quietly puts Tencent in the same conversation as Genie 3 and Marble — and the code is in our hands.",
+      "link_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "link_text": "github.com/Tencent-Hunyuan"
+    },
+    {
+      "name": "GenRecon",
+      "tag": "Paper · arXiv",
+      "body": "A May 2026 method that fuses <b>generative 3D priors</b> with multi-view reconstruction, closing the gap between scanned reality and synthesised geometry. The architecture is a roadmap for next-gen splat-plus-AI hybrid pipelines.",
+      "link_url": "https://arxiv.org/abs/2605.23888",
+      "link_text": "arxiv.org"
+    }
+  ],
+  "partners": [
+    {
+      "category": "World Models",
+      "name": "Decart",
+      "body": "Just raised <b>$300M at $4B</b> and shipped Oasis 3 as an API — the cleanest way to drop a live, photorealistic environment behind a brand experience without an engine."
+    },
+    {
+      "category": "Realtime Video",
+      "name": "Krea AI",
+      "body": "Open-sourced <b>Realtime 14B</b> for long-form real-time video — a self-hostable engine for live, generative installations and OOH."
+    },
+    {
+      "category": "3D Generation",
+      "name": "Hyper3D (Rodin Gen 2)",
+      "body": "AI <b>3D model editing</b>, not just generation — the missing tool for branded assets that need to be revised on the fly in a pitch room."
+    },
+    {
+      "category": "Spatial Worlds",
+      "name": "World Labs",
+      "body": "Fei-Fei Li's lab shipped <b>Marble 1.1 Plus</b> and is the cleanest API for prompt-to-explorable-3D — the right substrate for landmark recreations."
+    },
+    {
+      "category": "Spatial Capture",
+      "name": "Sony XYN",
+      "body": "Sony's pro <b>Spatial Capture Solution</b> turns real-world environments into high-quality 3DCG — the studio-grade upgrade path beyond phone splats."
+    },
+    {
+      "category": "Agentic Coding",
+      "name": "Moonshot · Kimi K2.7",
+      "body": "Open <b>1-trillion-parameter</b> coding model released this week — a credible self-hosted alternative for the studio's internal agent layer and MCP tooling."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Frontier AI is now a state-controlled asset, not a product.",
+      "body": "When Washington can flip a model off worldwide in a day — as it just did to <b>Claude Fable 5</b> — every studio building on top of an LLM is one export-control directive away from a dead client deliverable. Multi-model resilience just stopped being a nice-to-have."
+    },
+    {
+      "tag": "Global",
+      "headline": "World models left the lab and became metered APIs.",
+      "body": "<b>Decart Oasis 3</b> at $0.02/sec, <b>NVIDIA Cosmos 3</b> open-weighted, <b>Tencent HY-World 2.0</b> on GitHub, World Labs' Marble shipping — in a single quarter, the world-model layer became something you bill, not something you read papers about."
+    },
+    {
+      "tag": "Global",
+      "headline": "User-captured 3D is the next dual-use battleground.",
+      "body": "Pokémon GO scans now feed <b>military drone navigation</b>; <b>Meta</b> tried to embed face recognition into its smart-glasses companion app. Every splat you capture and every camera you ship is now both an asset and a liability — the privacy floor on AR has shifted upward."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The Gulf is collapsing AI governance into single federal desks.",
+      "body": "The UAE just stood up a <b>Federal Authority for AI and Data</b> under Sheikh Mohammed, unifying AI, data and digital government in one body. Combined with Saudi's <b>Year of AI</b> and the DISAI cohort, the region's AI spend is now routed through fewer, more powerful gatekeepers — the partnerships game is winnable, but only by those at the right table."
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Washington just switched off the world's most powerful Anthropic model.",
+      "body": "On <b>June 12</b>, a US export-control directive forced <b>Anthropic</b> to disable <b>Claude Fable 5</b> and <b>Mythos 5</b> worldwide over a reported jailbreak — even foreign-national Anthropic employees lost access. Anthropic confirmed it cannot filter foreign users from US users in real time, so the only available action was a full shutdown. Frontier AI is now a regulated dual-use export, not a SaaS product.",
+      "arlab_use": "build every client deliverable against at least two model vendors — never single-vendor."
+    },
+    {
+      "headline": "World models just became a metered cloud service.",
+      "body": "<b>Decart</b> launched <b>Oasis 3</b> on June 10 — an interactive world model that simulates hours of photorealistic driving, served via API at <b>$0.02 per second</b>. The company simultaneously closed a <b>$300M round at a $4B valuation</b>. The category shifted from research preview to credit-card pricing in one week.",
+      "arlab_use": "price a world-model rental into the next gcc pitch, not a custom build."
+    },
+    {
+      "headline": "Pokémon GO scans are now training military drone navigation.",
+      "body": "<b>Niantic Spatial</b>'s partnership with <b>Vantor</b> (formerly Maxar Intelligence) means hundreds of millions of voluntary player scans are now feeding GPS-denied drone navigation. Vantor recently won a <b>$217M US Army contract</b> for 3D terrain. Every gaussian splat capture is now dual-use data — and clients will start asking where the points go.",
+      "arlab_use": "add a data-use and kill-switch clause to every splat-capture contract."
+    },
+    {
+      "headline": "Meta stripped facial recognition from its smart-glasses app within 24 hours of being caught.",
+      "body": "<b>Wired</b> found hidden face-recognition code in Meta's AI companion app for its smart glasses; the <b>EFF</b> escalated, and Meta pulled the code in under a day. The episode draws the privacy ceiling for any AR wearable that ships with a forward-facing camera — and re-opens the positioning space for consent-by-design experiences.",
+      "arlab_use": "sell consent-by-design as a feature on every glasses brief from now on."
+    },
+    {
+      "headline": "The UAE just consolidated all AI authority under one federal desk.",
+      "body": "On <b>June 14</b>, Sheikh Mohammed bin Rashid announced the <b>Federal Authority for Artificial Intelligence and Data</b> — a single national body unifying AI oversight, data governance and digital government. It will operate under <b>Omar Sultan Al Olama</b>'s portfolio, making it the new single procurement door for AI-touching work across the Emirates.",
+      "arlab_use": "map every uae prospect to the new authority's remit before the next outreach round."
+    },
+    {
+      "headline": "visionOS 27 turned out to be a much bigger upgrade than Apple let on at WWDC.",
+      "body": "Post-keynote analysis from <b>UploadVR</b> and developers in the beta reveals <b>Gemini-powered Visual Siri</b>, spatial panoramas, screen recording, expanded Apple Intelligence APIs and a long list of refinements Apple barely mentioned on stage. The Vision Pro story for fall just became materially more compelling — and the SDK is in developers' hands now.",
+      "arlab_use": "prototype a flagship visionos 27 piece before the public release window closes."
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Decart Oasis 3",
+      "body": "Real-time interactive world model served via API at $0.02/sec — drop a photorealistic environment into any pitch without rendering or modelling.",
+      "link_url": "https://decart.ai/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Kimi K2.7 Code",
+      "body": "Open-source <b>1-trillion-parameter</b> agentic coding model from Moonshot, released this week on Hugging Face — a self-hostable alternative to Claude Code for the studio's pipeline.",
+      "link_url": "https://www.kimi.com/resources/kimi-k2-7-code"
+    },
+    {
+      "numeral": "iii",
+      "name": "Midjourney V8.1",
+      "body": "Became default on <b>June 10</b> — about <b>5x faster</b> than V8, native HD 2K, and stronger small-detail retention; the new baseline for board-ready stills.",
+      "link_url": "https://www.midjourney.com/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Rodin Gen 2",
+      "body": "AI <b>3D model editing</b>, not just generation — adjust topology, materials and proportions of generated assets on the fly. The missing piece for fast branded 3D revisions.",
+      "link_url": "https://hyper3d.ai/"
+    },
+    {
+      "numeral": "v",
+      "name": "Tencent HY-World 2.0",
+      "body": "Open-source multi-modal world model on GitHub — reconstruct, generate and simulate 3D worlds locally without sending client geometry to an API.",
+      "link_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+    },
+    {
+      "numeral": "vi",
+      "name": "visionOS 27 Developer Beta",
+      "body": "Apple's spatial OS with Visual Intelligence, spatial panoramas and expanded Apple Intelligence APIs — SDK is live, public release is fall. Build now, ship at launch.",
+      "link_url": "https://developer.apple.com/visionos/whats-new/"
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Pokémon GO's quiet pivot into defence",
+      "classification": "Eyes only",
+      "body": "<b>Niantic Spatial</b> has fused player-generated 3D scans with <b>Vantor</b>'s aerial navigation for GPS-denied military drones, confirmed June 9. Vantor has a <b>$217M US Army contract</b> on the books. Every consumer-grade splat platform is now a potential defence supplier — and clients will ask."
+    },
+    {
+      "name": "Meta's hidden face-recognition code",
+      "classification": "Restricted",
+      "body": "<b>Wired</b> uncovered unreleased facial-recognition code embedded in Meta's smart-glasses companion app; the <b>EFF</b> went public and Meta stripped it within 24 hours. The episode confirms Meta intended ambient identification in the wearable — and was only stopped by exposure."
+    },
+    {
+      "name": "Anthropic's safety warning backfire",
+      "classification": "Confidential",
+      "body": "Days after Anthropic publicly warned that AI was becoming too dangerous, the US government cited those same arguments to force the shutdown of <b>Fable 5</b> and <b>Mythos 5</b>. The lesson: public safety posturing is now a regulatory attack vector against the company posturing."
+    },
+    {
+      "name": "DISAI 2026 — Saudi's stealth cohort",
+      "classification": "Emerging",
+      "body": "<b>Qualcomm</b>, <b>Aramco</b>, <b>RDIA</b> and <b>HUMAIN</b> quietly named <b>10 startups</b> selected for the Design in Saudi Arabia with AI 2026 programme. This is the Kingdom's most strategic AI-startup landing pad of the Year of AI — and partner slots are easier to win now than in twelve months."
+    }
+  ]
+}
