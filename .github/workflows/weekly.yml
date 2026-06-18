@@ -44,6 +44,7 @@ jobs:
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
           RECIPIENT_EMAIL: ${{ github.event.inputs.recipients != '' && github.event.inputs.recipients || 'wissam@thearlab.com' }}
           SENDER_EMAIL: nour@thearlab.com
+          CC_EMAIL: nour@thearlab.com
           SKIP_GENERATE: ${{ github.event.inputs.skip_generate == 'true' && '1' || '' }}
           PREAMBLE_HTML: ${{ github.event.inputs.preamble_html }}
         run: python generate.py

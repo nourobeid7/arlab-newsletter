@@ -400,6 +400,7 @@ def send_email(html: str, payload: dict) -> None:
     # Constant subject so Gmail threads all weekly editions together.
     subject = SUBJECT_PREFIX
     recipients = [r.strip() for r in RECIPIENT.split(",") if r.strip()]
+    cc_list = [c.strip() for c in os.environ.get("CC_EMAIL", "").split(",") if c.strip()]
 
     preamble = os.environ.get("PREAMBLE_HTML", "")
     if preamble:
@@ -417,9 +418,13 @@ def send_email(html: str, payload: dict) -> None:
     service = build("gmail", "v1", credentials=creds, cache_discovery=False)
 
     for recipient in recipients:
-        print(f"[send] {SENDER} -> {recipient}  «{subject}» (date in body: {payload['date_display']})", flush=True)
+        cc_str = ", ".join(cc_list)
+        cc_log = f" cc={cc_str}" if cc_str else ""
+        print(f"[send] {SENDER} -> {recipient}{cc_log}  «{subject}» (date in body: {payload['date_display']})", flush=True)
         msg = EmailMessage()
         msg["To"] = recipient
+        if cc_str:
+            msg["Cc"] = cc_str
         msg["From"] = SENDER
         msg["Subject"] = subject
         msg.set_content("This email is best viewed as HTML. " + payload["date_display"])
@@ -441,10 +446,15 @@ def main() -> int:
     if os.environ.get("SKIP_GENERATE") == "1":
         existing = history_dir / f"{stamp}.json"
         if not existing.exists():
-            print(f"[generate] SKIP_GENERATE=1 but {existing} not found", file=sys.stderr)
-            return 1
+            candidates = sorted(history_dir.glob("*.json"), reverse=True)
+            if not candidates:
+                print(f"[generate] SKIP_GENERATE=1 but no history payloads exist", file=sys.stderr)
+                return 1
+            existing = candidates[0]
+            print(f"[generate] SKIP_GENERATE=1 — no payload for {stamp}, falling back to {existing.name}", flush=True)
+        else:
+            print(f"[generate] SKIP_GENERATE=1 — using existing {existing.name}", flush=True)
         payload = json.loads(existing.read_text())
-        print(f"[generate] SKIP_GENERATE=1 — using existing {existing.name}", flush=True)
     else:
         client = anthropic.Anthropic()
         payload = call_claude(client)
