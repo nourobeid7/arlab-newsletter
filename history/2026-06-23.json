@@ -1,0 +1,223 @@
+{
+  "date_display": "23 · 06 · 2026",
+  "signals": [
+    {
+      "headline": "Snap put a $2,195 price tag on consumer AR.",
+      "body": "<b>Snap</b> unveiled Specs at AWE on June 16 — a true-AR consumer headset at <b>$2,195</b> with a $200 refundable deposit, shipping this fall. That's more than 15× the $130 Spectacles of 2016, and Wall Street voted with its feet: <b>SNAP</b> closed down roughly 19% in the days that followed. The pricing reality of consumer AR has been published — Specs is the ceiling, XREAL's $99 Project Aura is the floor.",
+      "arlab_use": "lock a Snap Specs prototype into the next AR pitch while the dev pool is still empty."
+    },
+    {
+      "headline": "Qualcomm shipped the chip every next-gen smart glass will run on.",
+      "body": "<b>Snapdragon Reality Elite</b> debuted at AWE on June 17 as Qualcomm's new flagship XR silicon, and it's already sitting inside <b>XREAL's Project Aura</b> — the Android XR glasses now taking $99 reservations for a fall launch. Reviewers have effectively been testing the chip in the wild without realising it. This is the platform Samsung, XREAL and the rest will be built on for the next 18 months.",
+      "arlab_use": "size every smart-glass R&D bet against reality elite, not last-gen ar1."
+    },
+    {
+      "headline": "Kling pushed 4K video with native audio through the API.",
+      "body": "Kuaishou shipped <b>Kling 3.0 Turbo</b> and a multimodal <b>Kling 3.0 Omni</b> upgrade on June 17 — native 4K output, multilingual audio baked in, 3–15-second clips, with Turbo pricing from <b>¥0.8/sec</b>. ComfyUI added a partner node the same day. Sora 2 is gone, Veo 3 is expensive — Kling is now the fastest, cheapest path to client comps.",
+      "arlab_use": "swap kling turbo into the campaign comp pipeline this week."
+    },
+    {
+      "headline": "Adobe slipped a multi-step agent inside Photoshop and Premiere.",
+      "body": "On June 18, <b>Adobe</b> expanded its Creative Agent out of Firefly and into <b>Photoshop</b>, <b>Premiere</b>, and other Creative Cloud apps — orchestrating multi-step workflows so creatives stay on taste, not on clicks. Junior production work just collapsed inside the suite our clients already pay for, and Adobe took the headline-partner slot at Cannes Creators to drive the message home.",
+      "arlab_use": "stop pricing for production hours adobe just automated; price for the brief."
+    },
+    {
+      "headline": "The first AI art museum opened — and it reads you back.",
+      "body": "<b>DATALAND</b> opened in Los Angeles on June 18: a 25,000-sq-ft Refik Anadol museum across five sensory galleries, walls reacting in real time to rainforest weather data, scent, and a wristband reading the visitor's heartbeat and skin conductance. <b>Google</b> is the technology partner. This is now the gold-standard reference for permanent, biometric, generative installations — exactly the brief Diriyah, Qiddiya and Saadiyat want to write.",
+      "arlab_use": "build a dataland-class bio-responsive demo before the next gulf rfp lands."
+    },
+    {
+      "headline": "Meta and TikTok arrived at Cannes selling AI ad agents, not slots.",
+      "body": "At Cannes Lions 2026, <b>Meta</b> rolled out a wave of AI commerce, creative and creator-marketing tools to justify its <b>$145B</b> 2026 capex, while <b>TikTok</b> launched <b>Symphony Agent</b> — an in-Symphony chat agent that turns brand goals plus platform signals into high-performing ads end-to-end. The platforms now sell the agent that makes the ad — inventory is the by-product.",
+      "arlab_use": "position arlab as the brief and strategy layer that survives an ai ad agent."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Samsung will reveal Galaxy Glasses on stage on July 22.",
+      "body": "Samsung Galaxy Unpacked is locked for <b>22 July</b> in London, and the line-up now tips to include the rumoured Android XR <b>Galaxy Glasses</b> alongside Z Fold 8 — display-less, phone-tethered, Gemini-powered."
+    },
+    {
+      "category": "Frontier Models",
+      "headline": "GPT-5.6 Pro's launch window opens this week.",
+      "body": "OpenAI's <b>GPT-5.6 / 5.6 Pro</b> is tracking for a <b>June 25</b> release with a reported 1.5M-token context and major reasoning lifts — the first big model after the Anthropic export ban left a 22-point capability gap."
+    },
+    {
+      "category": "Graphics Research",
+      "headline": "SIGGRAPH 2026 lands July 19–23 with the year's splat papers.",
+      "body": "<b>SIGGRAPH 2026</b> in Vancouver (19–23 July) is where the next wave of <b>Gaussian splatting</b>, neural rendering and real-time graphics work gets unveiled — including the paper drop that will define our 2027 web3D stack."
+    },
+    {
+      "category": "Paid AI",
+      "headline": "ByteDance switches Doubao to paid this month.",
+      "body": "<b>ByteDance's Doubao</b> rolls out paid subscriptions in <b>late June</b> and links into Douyin commerce — the symbolic end of free frontier AI in China and the first big consumer-AI revenue test post-ChatGPT majority loss."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "The Transformer architect just defected to OpenAI",
+      "classification": "Eyes only",
+      "body": "<b>Noam Shazeer</b> — co-author of \"Attention Is All You Need\" and co-lead of Gemini — quietly left Google DeepMind for <b>OpenAI</b> on June 18, less than 22 months after Google paid roughly <b>$2.7B</b> to bring him back from Character.AI. The talent rotation is a strategic asset move, not a hire — read it as Google's frontier-research mass shifting toward Altman's stack."
+    },
+    {
+      "name": "SpaceX swallowed Cursor for $60B in stock",
+      "classification": "Restricted",
+      "body": "On June 16 <b>SpaceX</b> closed a <b>$60B</b> all-stock acquisition of <b>Cursor</b> — the dominant AI coding tool — days after its blockbuster IPO. Musk now owns the AI coding rail every startup builds on, and the deal pulls the rug from any agency banking on neutral developer tooling."
+    },
+    {
+      "name": "Washington signed a frontier-AI EO over the weekend",
+      "classification": "Confidential",
+      "body": "The White House quietly issued <b>Promoting Advanced Artificial Intelligence Innovation and Security</b> on June 22 — a voluntary regime granting federal cyber-defense access to covered frontier models and hardening US government info systems against AI threats. Frontier AI is now a national-security asset class with an executive order to match."
+    },
+    {
+      "name": "Snap's hardware math doesn't close",
+      "classification": "Emerging",
+      "body": "Analysts now estimate <b>Snap</b> spent an \"insane\" amount developing Specs while still posting an <b>$89M</b> net loss in Q1 2026 and a <b>$460M</b> loss last year. The company has lost money every year since IPO and just shipped a $2,195 device into an unproven market — meaning the Specs ecosystem will move fast and need agency partners, not patience."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Reactor — developer platform for real-time AI worlds",
+      "tag": "Beta · stealth exit",
+      "body": "Co-founded by two former Apple Vision Pro technical leads (one ex-Luma CTO), <b>Reactor</b> emerged from stealth with <b>$59M</b> from WndrCo and others to build infrastructure for real-time generative video and interactive AI worlds. This is the missing layer between Decart-class world models and a live, controllable installation.",
+      "link_url": "https://www.reactor.inc/",
+      "link_text": "reactor.inc"
+    },
+    {
+      "name": "SuperSplat — WebGPU renderer + streaming",
+      "tag": "Shipped",
+      "body": "PlayCanvas dropped the biggest <b>SuperSplat</b> upgrade yet: a brand-new WebGPU renderer with automatic LOD streaming for huge scenes, with seamless WebGL2 fallback for the other 15% of users. Console-grade splat scenes in the browser are now table stakes for any 2026 web3D pitch.",
+      "link_url": "https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins/",
+      "link_text": "blog.playcanvas.com"
+    },
+    {
+      "name": "DeepMind AI Control Roadmap — defense-in-depth for agents",
+      "tag": "Research",
+      "body": "On June 18, Google DeepMind published a formal <b>AI Control Roadmap</b> and a Three Layers of Agent Security guide that treats its own agents as potential insider threats — a system-level containment stack that goes beyond alignment. This becomes the compliance template every enterprise client will start citing.",
+      "link_url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "link_text": "deepmind.google"
+    },
+    {
+      "name": "The Daydream Machine — sensor-driven AI installation at Vivid",
+      "tag": "Live installation",
+      "body": "<b>TDC's</b> Daydream Machine at Vivid Sydney 2026 used live AI rendering and proximity sensors so the projected visuals never repeated themselves — the audience literally co-rendered the work. Closest existing reference for an always-on, audience-responsive Gulf flagship installation.",
+      "link_url": "https://www.vividsydney.com/event/light/the-daydream-machine",
+      "link_text": "vividsydney.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Kling 3.0 Turbo + Omni",
+      "body": "Native 4K AI video with multilingual audio, 3–15s clips, multi-shot sequencing, launched June 17 — the new fastest/cheapest tier for client comps and pre-vis.",
+      "link_url": "https://app.klingai.com/global/release-notes/whbvu8hsip"
+    },
+    {
+      "numeral": "ii",
+      "name": "Adobe Creative Agent (Firefly + Photoshop + Premiere)",
+      "body": "Multi-step AI agent rolled out across Creative Cloud on June 18 — it now orchestrates whole production sequences inside the apps the team already lives in.",
+      "link_url": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion"
+    },
+    {
+      "numeral": "iii",
+      "name": "Snap Lens Studio for Specs (ARES dev tools)",
+      "body": "New build of Lens Studio + the Snap OS 2.0 dev kit for the $2,195 Specs — get prototypes shipping before the fall consumer launch and the dev pool fills.",
+      "link_url": "https://newsroom.snap.com/snap-launches-new-tools-for-specs-developers"
+    },
+    {
+      "numeral": "iv",
+      "name": "ComfyUI v0.25.1",
+      "body": "Shipped June 16 with first-class Kling V3-Turbo nodes and Depth Anything 3 — the production orchestration layer for the new generative video stack.",
+      "link_url": "https://docs.comfy.org/changelog"
+    },
+    {
+      "numeral": "v",
+      "name": "Sonilo on fal.ai — licensed AI music for video",
+      "body": "Launched June 22 on fal.ai: rights-cleared, automated scoring for AI video, callable from the same API as your image and video models. Solves the audio clearance hole in synthetic content.",
+      "link_url": "https://fal.ai/"
+    },
+    {
+      "numeral": "vi",
+      "name": "Lucy 2.1 on fal.ai — real-time video transformation",
+      "body": "Decart's latest live video-to-video model, callable as an API on fal — targeted outfit/character/attribute swaps while preserving motion. The runtime engine for branded live AI installations.",
+      "link_url": "https://fal.ai/lucy-2.1"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Real-time AI worlds",
+      "name": "Reactor",
+      "body": "Ex-Vision Pro and ex-Luma technical leads building the developer platform for real-time generative video — direct path to live, controllable AI installations for the Gulf."
+    },
+    {
+      "category": "Licensed AI Audio",
+      "name": "Sonilo",
+      "body": "Rights-cleared AI music generation, just deployed on fal.ai — solves the licensing problem in synthetic ads and AI video pipelines for brand-safe markets."
+    },
+    {
+      "category": "Immersive Production",
+      "name": "TDC",
+      "body": "Powered 11 Vivid Sydney installations including The Daydream Machine — projection, LED and AI rendering at festival scale, the rare studio that can co-deliver a flagship Gulf installation."
+    },
+    {
+      "category": "Splat Cloud",
+      "name": "ROCK Robotic Splat Labs",
+      "body": "Professional Gaussian-splat capture and cloud hosting for AEC and real-estate — the back-end ARlab can resell when splatting Diriyah, AlUla or Qiddiya assets."
+    },
+    {
+      "category": "AR Glass Silicon",
+      "name": "XREAL",
+      "body": "Project Aura is the first commercial product on Snapdragon Reality Elite at a $99 deposit — the realistic Android XR pair for a mid-budget GCC retail or events brief."
+    },
+    {
+      "category": "AI Studio Practice",
+      "name": "Refik Anadol Studio",
+      "body": "Now operates DATALAND as a permanent venue — the canonical reference and potential collaborator for the bio-responsive, data-fed installations Gulf clients will start asking for by name."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The platforms now sell the agent, not the ad.",
+      "body": "Meta, TikTok and Adobe all arrived at Cannes 2026 with creative <b>agents</b> — TikTok's Symphony Agent, Meta's commerce/creator AI stack, Adobe's Creative Agent inside Photoshop and Premiere. The product that gets demoed is the system that decides, makes, books and ships; the inventory is just the by-product. Volume production work is being absorbed into the platform stack, and the relationship moves to whoever owns the brief and the taste."
+    },
+    {
+      "tag": "Global",
+      "headline": "Smart-glass hardware just split into a $2,195 tier and a $99 tier.",
+      "body": "<b>Snap Specs</b> at $2,195 and <b>XREAL Aura</b> at a $99 deposit, both unveiled the same week at AWE on the same new <b>Snapdragon Reality Elite</b> chip, define the new two-tier market: experimental flagship for evangelists, accessible Android XR for everyone else. Apple is missing from this cycle entirely and reportedly slow-walking Vision Pro after the M5 refresh flopped. The window to be early in either tier is now."
+    },
+    {
+      "tag": "Global",
+      "headline": "Frontier AI is being re-coded as national security, not as a product.",
+      "body": "The White House EO on Promoting Advanced AI Innovation and Security (June 22), the still-active Anthropic export controls, DeepMind's defense-in-depth roadmap, and Noam Shazeer's defection from Google to OpenAI all point the same way: <b>frontier AI is a strategic asset</b> with talent, models and compute treated as resources of state. Enterprise buyers will increasingly want a story about where your stack is hosted and who is allowed to see it."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The Gulf is no longer just buying AI — it is convening it.",
+      "body": "<b>Diriyah Company</b> opened Diriyah House in London on June 18, the World Cup 2026 Fan Zone went live at <b>JAX</b> on June 11, the <b>Global AI Show Riyadh</b> opens June 29–30, and <b>HUMAIN</b> is publishing its agentic OS roadmap from inside PIF. The center of gravity for AI conversations is shifting onto Saudi and Emirati platforms — meaning ARlab now has to show up at <i>their</i> stages, not just pitch to attendees flying out of them."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Stand up a Snap Specs prototype on the new ARES SDK.",
+      "body": "The dev pool is empty and Specs ship in the fall — whoever owns AR R&D should have one Lens Studio + Snap OS 2.0 demo running this week, ready to drop into any pitch for a brand wanting first-mover AR retail."
+    },
+    {
+      "numeral": "ii",
+      "title": "Swap Kling 3.0 Turbo into the comp pipeline.",
+      "body": "Native 4K with audio at ¥0.8/sec collapses client comps from days to hours. Whoever owns the video pipeline wires Kling Turbo into ComfyUI v0.25 today and standardises a hand-off back to Adobe Creative Agent for finishing."
+    },
+    {
+      "numeral": "iii",
+      "title": "Build a bio-responsive installation reference.",
+      "body": "R&D should ship a 1:10 scale DATALAND-style wall in four weeks — wristband or camera input driving a real-time generative wall via Reactor or Lucy 2.1 on fal — and bake it into the next Diriyah, Qiddiya and Saadiyat conversations as a proof, not a render."
+    },
+    {
+      "numeral": "iv",
+      "title": "Open doors at HUMAIN and Diriyah House.",
+      "body": "Saudi is now convening AI on its own platforms — Diriyah House just landed in London, Global AI Show Riyadh opens June 29, HUMAIN is building the agentic OS. Whoever owns partnerships should book meetings with both this week, with a one-pager framing ARlab as the creative layer on top of their stack."
+    }
+  ]
+}
