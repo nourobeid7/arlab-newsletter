@@ -1,223 +1,223 @@
 {
-  "action_plan": [
+  "date_display": "30 · 06 · 2026",
+  "signals": [
     {
-      "numeral": "i",
-      "title": "File a Dubai AI Park entry before August 15.",
-      "body": "Dubai Municipality opened a global AI-driven park-design competition for Al Safa 2 with cash prizes and community voting. This is a free pitch into the exact MENA buyer we want — whoever owns government partnerships should assemble a small AI + urban-design strike team this week."
+      "headline": "OpenAI just shipped a frontier model nobody can touch without a White House clearance.",
+      "body": "<b>GPT-5.6</b> launched June 26 as a three-tier family — <b>Sol</b>, <b>Terra</b>, and <b>Luna</b> — but only ~20 government-vetted partners get API access, following Trump's June 2 executive order on benchmarking frontier AI. <b>Terra</b> ships at half the price of GPT-5.5 with comparable performance; <b>Luna</b> is the cheapest tier. The new game isn't model access. It's being on the list.",
+      "arlab_use": "open a us-cleared partner channel before the ga window closes"
     },
     {
-      "numeral": "ii",
-      "title": "Stand up a Seedance 2.5 enterprise pipeline.",
-      "body": "Native 30-second 4K clips with 50 reference inputs ends our segment-stitching workflow for branded video. R&D should request Volcano Engine beta access now so the studio can pitch a single-shot brand spot before competitors get their seats."
+      "headline": "Apple's Vision Pro and smart-glasses chief is walking to OpenAI.",
+      "body": "<b>Paul Meade</b>, the executive running Apple's Vision Pro and unreleased smart-glasses programs, reportedly resigned to join <b>OpenAI</b> — the second senior wearables departure to Altman's side this year after <b>Mike Rockwell</b>. Apple's first glasses release has now slipped to <b>late 2027</b>. OpenAI is quietly building the wearables team Apple was supposed to be.",
+      "arlab_use": "stop betting the smart-glass roadmap on apple alone"
     },
     {
-      "numeral": "iii",
-      "title": "Ship a one-image to 3DGS demo on the studio site.",
-      "body": "TripoSplat is MIT-licensed and runs with near-zero dependencies — a junior dev can put a working image-to-splat experience on the homepage. Whoever runs the web team should make this the next showcase tile to convert GCC inbound."
+      "headline": "Alibaba's open-weight video model just overtook Sora and Seedance globally.",
+      "body": "Per Artificial Analysis rankings published June 30, Alibaba's <b>Wan</b> hit <b>#2 in both text-to-video and image-to-video</b>, scoring <b>1,444</b> and beating Google's Veo-3.1 by 69 points and xAI's Grok-Imagine-Video by 23. Sora and Seedance dropped down the board. The frontier in video is now open-source and Chinese.",
+      "arlab_use": "wire wan into the production stack as the default open backbone"
     },
     {
-      "numeral": "iv",
-      "title": "Open a channel to the Gulf's new AI infra layer.",
-      "body": "1001 AI just closed a Lux-led $30M round to wire AI into Gulf heavy industry — they need experience layers on top of their stack. The partnerships function should book an intro call this week before the round noise fades."
+      "headline": "Anthropic accused Alibaba of running 25,000 fake accounts to steal Claude.",
+      "body": "In a June 24 letter to the White House, Anthropic alleged that operators tied to Alibaba's <b>Qwen</b> lab ran <b>28.8 million Claude exchanges across ~25,000 fraudulent accounts</b> between April and June to distill capabilities. Frontier-model IP is now a federal national-security issue. The line between competitor and adversary just disappeared.",
+      "arlab_use": "audit which closed apis a gulf pitch quietly depends on"
+    },
+    {
+      "headline": "AI agents now ship inside the game engines, with unlimited usage.",
+      "body": "Ramen released <b>Aura 15.0</b> on June 26 — a multi-agent AI assistant for <b>both Unreal Engine and Unity</b> — with Sandbox Mode, custom Skills, and <b>flat-rate unlimited usage</b>. Ramen claims one VR studio cut development time in half. Installation budgets that priced in four-week build cycles just got compressed to two.",
+      "arlab_use": "move the unity installation pipeline onto aura this week"
+    },
+    {
+      "headline": "Coding agents left the desk and moved to the phone.",
+      "body": "<b>Cursor for iOS</b> hit public beta June 29 on all paid plans — launch always-on cloud agents from an iPhone, monitor parallel branches from a café, ship from the back of a rideshare. The agent isn't a tool on the laptop anymore. It's a worker you check in on.",
+      "arlab_use": "give every creative-tech lead a mobile agent panel by friday"
     }
   ],
   "coming_next": [
     {
-      "category": "Video AI",
-      "headline": "Seedance 2.5 opens to the public in early July.",
-      "body": "ByteDance is moving the model out of enterprise beta to <b>CapCut</b>, Dreamina, and Doubao consumer surfaces — putting native 30-second 4K in front of <b>400M+</b> monthly editors."
+      "category": "Frontier Models",
+      "headline": "GPT-5.6 will leave the federal waiting list within weeks.",
+      "body": "OpenAI says general availability of <b>Sol</b>, <b>Terra</b>, and <b>Luna</b> is days away — Axios cites a couple of weeks — pulling pricing pressure across every model on the stack."
     },
     {
-      "category": "Open Models",
-      "headline": "DeepSeek V4 ships mid-July with peak-valley pricing.",
-      "body": "The official V4 launch will <b>double</b> API rates during peak hours — a quiet pivot from flat pricing that every downstream agent stack will need to re-cost."
+      "category": "Vertical AI",
+      "headline": "Anthropic's Life Sciences and Healthcare verticals start scaling now.",
+      "body": "Following the June 30 AI for Science briefing and the <b>$400M Coefficient Bio</b> acquisition, <b>Claude for Life Sciences</b> and <b>Claude for Healthcare</b> are opening to pharma channels — a template Gulf health authorities will copy."
     },
     {
-      "category": "AI Engineering",
-      "headline": "AI Engineer World's Fair runs through July 2.",
-      "body": "San Francisco's main agentic-AI floor is live now — every credible MCP, eval, and agent vendor will drop news this week. Worth a remote scrape for shippable patterns."
+      "category": "GCC Event",
+      "headline": "LEAP 2026 lands in Riyadh at the end of August.",
+      "body": "The fifth edition runs <b>Aug 31 – Sept 3</b> and is where Saudi Arabia signs its next round of AI infrastructure deals; missing it is a missed pipeline quarter."
     },
     {
-      "category": "Humanoids",
-      "headline": "Tesla Optimus V3 starts mass production this quarter.",
-      "body": "Q3 ramp is now public with a stated <b>10M-unit</b> annual goal — humanoid props enter the realm of possible installation kit for Gulf retail and entertainment activations."
+      "category": "Smart Glasses",
+      "headline": "Apple is reportedly unveiling its smart-glass concept at the iPhone 18 event in September.",
+      "body": "Latest Gurman reporting points to a <b>September 2026</b> unveiling with public release pushed to <b>late 2027</b> — so the next 12 months are Meta's, Snap's, and Samsung's to own."
     }
   ],
-  "date_display": "30 · 06 · 2026",
+  "undisclosed": [
+    {
+      "name": "Apple's wearables brain drain is now a pattern, not an incident",
+      "classification": "Eyes only",
+      "body": "With <b>Paul Meade</b> following <b>Mike Rockwell</b> to OpenAI, the team that defined Apple's spatial roadmap is rebuilding itself inside a competitor. The screenless device Altman and Ive teased a year ago is suddenly staffed."
+    },
+    {
+      "name": "Tencent quietly buys Baidu's AI chips",
+      "classification": "Restricted",
+      "body": "Tencent has begun ordering <b>Kunlunxin</b> AI chips from Baidu — a previously unthinkable cross-camp move that signals the formal decoupling of China's two closed internet ecosystems from US silicon. Expect Gulf compute deals to start including Chinese-chip clauses."
+    },
+    {
+      "name": "Fintech startup quietly burned $81K of Claude tokens in a week",
+      "classification": "Emerging",
+      "body": "San Francisco fintech <b>Slash</b> rolled back its AI coding push after a single employee racked up <b>$81,267</b> in Claude tokens building a side game. Agentic spend governance is the next invisible line item — pitch it before clients learn the hard way."
+    },
+    {
+      "name": "Yahoo opened its DSP to 23 agentic ad partners on MCP",
+      "classification": "Confidential",
+      "body": "<b>Yahoo Agent Network</b> went live with <b>DoubleVerify, Innovid, IAS, Kochava, MIQ, LiveRamp, Pacvue</b> and others plugging in via open MCPs — a quiet template for how brand campaigns will route through agents instead of media plans."
+    }
+  ],
   "first_of_kind": [
     {
-      "name": "NVIDIA — World-Action Models",
+      "name": "Anthropic — Paving the Way for Agents in Biology + VirBench",
       "tag": "Research",
-      "body": "NVIDIA published a synthesis arguing the next robotics frontier is models <b>pretrained on video to imagine</b>, then fine-tuned on robot data to act. The same lineage powers installations that respond to the room around them — not just to prompts.",
-      "link_url": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
-      "link_text": "developer.nvidia.com"
+      "body": "Anthropic published a benchmark called <b>VirBench</b> showing frontier models hit only <b>16.9%</b> on real viral-sequence retrieval — until you bolt on a deterministic tool, which lifts accuracy to <b>99.7%</b>. The lesson generalises far beyond biology: agents need tools, not bigger brains.",
+      "link_url": "https://www.anthropic.com/research/agents-in-biology",
+      "link_text": "anthropic.com"
     },
     {
-      "name": "ByteDance Seedance 2.5",
-      "tag": "Research preview",
-      "body": "First major closed video model to claim <b>native 30-second 4K</b> generation in a single segment, ingesting up to <b>50 multimodal references</b> — images, audio, 3D white models. The stitching workflow is now legacy.",
-      "link_url": "https://seed.bytedance.com/en/",
-      "link_text": "seed.bytedance.com"
+      "name": "Z.ai GLM-5.2 — open-weight frontier",
+      "tag": "Open weights",
+      "body": "A <b>753B-parameter</b> Chinese open-weight model under MIT licence, <b>1M-token context</b>, beating GPT-5.5 on long-horizon coding benchmarks at <b>~1/6th the cost</b>. The new floor under every closed model's pricing conversation.",
+      "link_url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "link_text": "artificialanalysis.ai"
     },
     {
-      "name": "Krea 2 Raw + Turbo — open weights",
+      "name": "Mistral OCR 4 — sovereign document intelligence",
       "tag": "Shipped",
-      "body": "Krea released its 12B image model as <b>open weights under a custom enterprise license</b>, generating production-grade stills in roughly <b>two seconds</b>. The Raw/Turbo split is built for live brand systems, not gallery prints.",
-      "link_url": "https://www.krea.ai/krea-2-open-source",
-      "link_text": "krea.ai"
+      "body": "Released June 23 and runs in a <b>single container</b> on a client's own infrastructure, outputting <b>bounding boxes, block classification and confidence scores</b> across <b>170 languages</b>. The first OCR pitch that survives a GCC bank's compliance desk untouched.",
+      "link_url": "https://mistral.ai/news/ocr-4/",
+      "link_text": "mistral.ai"
     },
     {
-      "name": "Latent Spatial Memory for Video World Models",
-      "tag": "Research",
-      "body": "A new paper proposes a persistent spatial memory layer so generative video stops forgetting what's behind the camera between shots. This is the missing piece for <b>long-coherent</b> branded environments and walk-around AR.",
-      "link_url": "https://huggingface.co/papers/2606.09828",
-      "link_text": "huggingface.co"
-    }
-  ],
-  "partners": [
-    {
-      "category": "GCC AI Infra",
-      "name": "1001 AI",
-      "body": "Just closed <b>$30M</b> led by Lux Capital to wire AI into Gulf heavy industry — a natural anchor for any experiential layer we'd build on top of MENA operational data."
-    },
-    {
-      "category": "Drone-to-3D",
-      "name": "Spexi",
-      "body": "Partnered with Niantic Spatial to turn drone imagery into urban-scale Gaussian splat models — the fastest path to splatting a whole Riyadh or Doha district for a pitch."
-    },
-    {
-      "category": "Splat Capture",
-      "name": "Splatica",
-      "body": "Mobile 360-to-3D Gaussian Splatting service, now bundled with Insta360 — a clean prosumer capture front-end if we want to onboard regional creators into our pipeline."
-    },
-    {
-      "category": "Open 3DGS",
-      "name": "VAST-AI-Research",
-      "body": "Built <b>TripoSplat</b>, the MIT-licensed image-to-3D-Gaussian generator — small enough to drop into any web pipeline without a dependency war."
-    },
-    {
-      "category": "Creative AI",
-      "name": "Mother London",
-      "body": "Made the <b>Claude</b> Super Bowl films that just won the Cannes Film Grand Prix — proof a small, sharp creative shop can out-think the holding companies on AI work."
-    },
-    {
-      "category": "AI Production",
-      "name": "Innovative Dreams",
-      "body": "The <b>Luma × Wonder Project</b> joint studio for hybrid AI-traditional filmmaking on AWS — the model template if a Gulf studio asks us to set up an in-house AI production line."
-    }
-  ],
-  "patterns": [
-    {
-      "tag": "Global",
-      "headline": "The video workflow just collapsed from stitching to single-shot direction.",
-      "body": "Seedance 2.5 generates <b>30 seconds at native 4K</b> from one prompt with 50 reference inputs. The whole industry of cutting, concatenating, and re-prompting between shots — most of what AI video houses sold last year — becomes overhead, not craft."
-    },
-    {
-      "tag": "Global",
-      "headline": "Hardware scarcity is now an XR pricing problem.",
-      "body": "Apple raised <b>Vision Pro</b> by $200 to $3,700, plus hikes on Macs, iPads, and HomePod — all blamed on a RAM and storage shortage. Spatial computing's volume play just got pushed further out; the near-term winners will be experiences that run on glasses and browsers, not headsets."
-    },
-    {
-      "tag": "Global",
-      "headline": "Commerce is becoming a conversation between agents.",
-      "body": "Salesforce shipped <b>Agentforce Commerce</b> GA with Shopper, Buyer, and Merchant agents, days after the Cannes Film Grand Prix went to an ad about resisting ads. The brand's job is no longer to talk to a human directly — it's to be legible, trustworthy, and persuasive to the agent in the middle."
-    },
-    {
-      "tag": "GCC · our region",
-      "headline": "Gulf governments are buying creative AI competitions, not deliverables.",
-      "body": "<b>Dubai Municipality</b> just launched the world's first AI-powered park-design challenge for Al Safa 2 with public voting on shortlisted entries. The pattern repeats from NEOM to Qiddiya — the region is buying processes and showcases, which is exactly the bundle ARlab sells."
-    }
-  ],
-  "signals": [
-    {
-      "headline": "ByteDance broke the segment ceiling in AI video.",
-      "body": "At Volcano Engine FORCE in Beijing, ByteDance unveiled <b>Seedance 2.5</b> — a model it claims generates <b>30-second 4K clips natively</b>, no stitching, ingesting up to <b>50 multimodal references</b>. Enterprise beta is live, public launch targeted for early July; the existing Seedance platform is already at <b>$2B ARR</b>. The MPA cease-and-desist hangover from 2.0 is unresolved.",
-      "arlab_use": "wire a seedance pipeline into the next brand-film pitch before the western shops catch up."
-    },
-    {
-      "headline": "Meta dropped Ray-Ban from the box and started a price war.",
-      "body": "Meta and EssilorLuxottica launched <b>Meta Glasses at $299</b> — at least <b>$80 cheaper</b> than the entry Ray-Ban Meta — under Meta's own brand with new designs. It's a clear signal that the smart-glass category is moving from fashion-partner novelty to platform play, with Display variants seeded above it.",
-      "arlab_use": "treat sub-$300 glasses as the actual install base our gcc clients are pitching to."
-    },
-    {
-      "headline": "Apple Vision Pro just got $200 more expensive.",
-      "body": "Apple pushed the M5 <b>Vision Pro to $3,700</b>, alongside hikes on Macs, iPads, MacBook Neo, HomePod, and Apple TV — all blamed on the global RAM and storage crunch. The unit-volume story for headsets just got worse; the browser and smart-glass story just got better.",
-      "arlab_use": "rebalance the roadmap away from headset-first builds and toward glasses + webgpu."
-    },
-    {
-      "headline": "Cannes' biggest creative prize went to an AI ad mocking AI ads.",
-      "body": "The <b>Cannes Lions Film Grand Prix</b> went to Anthropic's <b>Claude</b> Super Bowl films by Mother London — two spots arguing there is a time and a place for advertising, released days after OpenAI announced ads inside ChatGPT. Sam Altman publicly accused Anthropic of being deceptive, which only sharpened the campaign.",
-      "arlab_use": "sell the studio's point of view on ai, not just our ability to make it."
-    },
-    {
-      "headline": "Salesforce shipped commerce agents as a real product.",
-      "body": "<b>Agentforce Commerce</b> hit GA with three distinct agents — Shopper, Buyer, Merchant — ahead of peak shopping season, and Salesforce now says AI assistants are driving retail traffic up <b>119%</b>. Brands will spend the next six months making themselves legible to agents, not browsers.",
-      "arlab_use": "start building the agent-readable layer of every brand site we touch."
-    },
-    {
-      "headline": "Dubai launched the world's first AI-powered park-design challenge.",
-      "body": "<b>Dubai Municipality</b> opened a global challenge to redesign <b>Al Safa 2 Park</b> using AI across site analysis, climate modelling, and visualisation — with <b>Dh200,000</b> in cash prizes and community voting on shortlisted entries. Applications close 15 August. This is the GCC's first government-issued open creative AI brief.",
-      "arlab_use": "file a serious entry — the brief is exactly our bundle."
+      "name": "OpenAI Rosalind Biodefense — frontier under trusted access",
+      "tag": "Research preview",
+      "body": "OpenAI expanded <b>GPT-Rosalind</b>, its life-sciences frontier model, through a <b>trusted-access deployment model</b> for vetted researchers and US government partners. The future of frontier distribution is now visibly a permission list, not a price.",
+      "link_url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+      "link_text": "openai.com"
     }
   ],
   "tools": [
     {
       "numeral": "i",
-      "name": "Seedance 2.5 (Volcano Engine beta)",
-      "body": "Native 30-second 4K AI video with up to 50 reference inputs — the first model that can plausibly deliver a full branded spot from a single prompt without manual stitching.",
-      "link_url": "https://seed.bytedance.com/en/"
+      "name": "Aura 15.0 (Ramen)",
+      "body": "Multi-agent AI assistant for <b>Unreal AND Unity</b> with Sandbox Mode, custom Skills, and the industry's first <b>unlimited frontier-model usage</b> — the killer tool for installation studios.",
+      "link_url": "https://www.tryaura.dev/"
     },
     {
       "numeral": "ii",
-      "name": "TripoSplat",
-      "body": "Single-image to 3D Gaussian splat generator, MIT-licensed, ~2,000 lines of code with near-zero dependencies — drop straight into a Three.js or WebGPU stack without a CUDA odyssey.",
-      "link_url": "https://github.com/VAST-AI-Research/TripoSplat"
+      "name": "GLM-5.2 (Z.ai)",
+      "body": "MIT-licensed 753B open-weight LLM with a <b>1M-token context window</b>, available on Z.ai's first-party API at <b>$1.40/M input, $4.40/M output</b> — and freely deployable on your own GPUs.",
+      "link_url": "https://z.ai/"
     },
     {
       "numeral": "iii",
-      "name": "Krea 2 Raw + Turbo (open weights)",
-      "body": "12B image model now released as open weights under a custom enterprise licence, generating production stills in roughly two seconds — viable as the image layer for live branded systems.",
-      "link_url": "https://www.krea.ai/krea-2-open-source"
+      "name": "Mistral OCR 4",
+      "body": "Structure-aware document AI in a single container — bounding boxes, confidence scores, 170 languages, self-hosted for regulated and sovereign clients.",
+      "link_url": "https://mistral.ai/news/ocr-4/"
     },
     {
       "numeral": "iv",
-      "name": "Salesforce Agentforce Commerce",
-      "body": "GA-stage commerce agents (Shopper, Buyer, Merchant) for brands to expose their catalogue and checkout to conversational AI surfaces — a template for how to make any client agent-ready.",
-      "link_url": "https://www.salesforce.com/news/stories/agentforce-commerce-announcement/"
+      "name": "Cursor for iOS",
+      "body": "Public beta from June 29 — launch and manage <b>always-on cloud coding agents</b> from an iPhone, with parallel branch monitoring.",
+      "link_url": "https://cursor.com/changelog/ios-mobile-app"
     },
     {
       "numeral": "v",
-      "name": "Doubao 2.1 Pro (Volcano Engine)",
-      "body": "ByteDance's production-grade LLM is now serving over <b>180 trillion tokens a day</b> — a credible non-Western brain for Gulf clients who want distance from the US/EU AI stack.",
-      "link_url": "https://seed.bytedance.com/en/"
+      "name": "GPT-5.6 Sol / Terra / Luna (API preview)",
+      "body": "Limited-access frontier preview through API and Codex only — <b>Terra</b> matches GPT-5.5 at <b>2x cheaper</b>, <b>Luna</b> is the cheapest in the family.",
+      "link_url": "https://openai.com/index/previewing-gpt-5-6-sol/"
     },
     {
       "numeral": "vi",
-      "name": "Pika 2.5 with Pikaframes",
-      "body": "Cinematic short-form video model with frame-anchored extension — useful where Seedance is overkill and we need fast, controllable storyboards for client review.",
-      "link_url": "https://pikaslabs.com/pika-2-5/"
+      "name": "Tencent HY-WorldPlay (HY-World 1.5)",
+      "body": "Open-source streaming video diffusion that generates <b>real-time interactive worlds</b> from a single image or text prompt — explorable, with long-term geometric consistency.",
+      "link_url": "https://huggingface.co/tencent/HY-WorldPlay"
     }
   ],
-  "undisclosed": [
+  "partners": [
     {
-      "name": "ByteDance's quiet $2B video business",
-      "classification": "Emerging",
-      "body": "While the Seedance 2.5 headlines flew, ByteDance disclosed its enterprise Seedance platform has reached <b>$2B in annual recurring revenue</b> — meaning a Chinese AI video stack is already the size of a public US software company, mostly invisible to Western buyers."
+      "category": "Game-Engine Agents",
+      "name": "Ramen (Aura)",
+      "body": "Only multi-agent AI assistant covering Unreal and Unity in one product, with flat-rate unlimited usage — collapses the installation team to half."
     },
     {
-      "name": "Doubao crosses the production threshold",
-      "classification": "Confidential",
-      "body": "Volcano Engine confirmed <b>Doubao 2.1 Pro</b> now serves <b>180 trillion daily tokens</b> — a 10x surge that puts ByteDance's LLM in the same operational class as OpenAI's deployment. No press tour, just a one-line conference disclosure."
+      "category": "Open-Weight LLMs",
+      "name": "Z.ai (formerly Zhipu)",
+      "body": "Beijing lab whose <b>GLM-5.2</b> just became the most powerful open-weight model on the leaderboard; the vendor-neutral fallback for any closed-API pitch."
     },
     {
-      "name": "Apple's RAM-shortage cover story",
-      "classification": "Restricted",
-      "body": "Apple's <b>$200 Vision Pro hike</b> and price increases across MacBook, iPad, HomePod, and even the new MacBook Neo are all blamed on a RAM and storage shortage. Reads less like an Apple problem and more like a warning shot for every XR/AI vendor with a hardware bill of materials this year."
+      "category": "Sovereign Document AI",
+      "name": "Mistral",
+      "body": "European AI lab now positioning <b>OCR 4</b> as the on-prem default for regulated regions — the easiest sell into a Saudi or Emirati bank legal team."
     },
     {
-      "name": "Niantic Spatial × Spexi for physical AI",
-      "classification": "Eyes only",
-      "body": "<b>Niantic Spatial</b> quietly partnered with drone-imagery startup <b>Spexi</b> to turn aerial captures into urban-scale Gaussian models for 'physical AI'. The same pipeline that powered Pokémon GO is now mapping cities into splats — the GCC giga-projects are the obvious next customer."
+      "category": "VR Storytelling",
+      "name": "Studio Syro",
+      "body": "Independent immersive studio launching <b>Spatial Mailbox</b> on Quest June 30 — first asynchronous 3D messaging app in VR. Possible co-creator for branded social VR drops."
+    },
+    {
+      "category": "Model Routing Layer",
+      "name": "OpenRouter",
+      "body": "Model marketplace tracking open weights in real time; one integration gives the studio fall-through access to GLM-5.2, Wan, Hunyuan, DeepSeek without managing vendors."
+    },
+    {
+      "category": "Geospatial Splat LOD",
+      "name": "Cesium",
+      "body": "Just shipped hierarchical level-of-detail for 3D Gaussian Splats inside 3D Tiles, in collaboration with Khronos and Niantic Spatial — the production bridge from splat capture to streamable city-scale scenes."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Frontier AI is becoming a state-licensed distribution channel, not a product.",
+      "body": "<b>GPT-5.6 Sol</b>, <b>Anthropic Mythos</b>, and <b>GPT-Rosalind</b> all ship behind a White House vetting layer. The next decade's frontier capabilities won't be bought; they'll be granted. A studio's procurement strategy now includes a diplomatic strategy."
+    },
+    {
+      "tag": "Global",
+      "headline": "Chinese open weights have caught the closed Western frontier.",
+      "body": "<b>Wan</b> at #2 in video, <b>GLM-5.2</b> beating GPT-5.5 at 1/6th the cost, <b>HY-WorldPlay</b> shipping real-time interactive worlds for free. The closed-model premium just collapsed for everything except the very top tier — and that tier is the one nobody can buy anyway."
+    },
+    {
+      "tag": "Global",
+      "headline": "The coding agent left the desk. The creative one is next.",
+      "body": "<b>Cursor on iOS</b>, <b>Aura</b> across two game engines with unlimited usage, <b>Higgsfield Supercomputer 2.0</b> running full marketing lifecycles. The workstation isn't where work happens anymore. Pricing the studio by hours-at-a-desk is officially obsolete."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The Gulf is collapsing entire utilities and ministries into single AI-first systems.",
+      "body": "<b>DEWA's</b> world-first AI Virtual Engineer goes operational this quarter; <b>G42</b> is building an agent factory and a 100-trillion-token compute centre; <b>HUMAIN</b> consolidates Saudi national AI under PIF + Aramco. The buying unit is no longer a campaign — it's a sovereign system the studio either plugs into or doesn't."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Wire Wan and GLM-5.2 into every active pitch.",
+      "body": "Swap Sora/Veo/Claude references in next week's decks for the open-weight backbone — Wan for video, GLM-5.2 for reasoning. The cost story alone wins three meetings."
+    },
+    {
+      "numeral": "ii",
+      "title": "Move the Unreal and Unity pipelines onto Aura 15.0 this week.",
+      "body": "Whoever owns the installation pipeline should benchmark Aura's unlimited mode against current build times — if Ramen's half-time claim holds even partially, the studio's day rate gets repriced."
+    },
+    {
+      "numeral": "iii",
+      "title": "Build a sovereign-AI demo for GCC banks and ministries.",
+      "body": "R&D should stand up a Mistral OCR 4 deployment running on-prem against a fake Gulf bank document set — the compliance-clean angle is the door-opener no US vendor can match this month."
+    },
+    {
+      "numeral": "iv",
+      "title": "Open a federal-vetted-partner channel via a US ally firm.",
+      "body": "The partnerships function should identify a US-domiciled studio or integrator already inside the GPT-5.6 / Mythos vetting list, and sign a co-pitch agreement for Gulf accounts before GA closes the arbitrage."
     }
   ]
 }
