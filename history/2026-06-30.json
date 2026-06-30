@@ -1,0 +1,223 @@
+{
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "File a Dubai AI Park entry before August 15.",
+      "body": "Dubai Municipality opened a global AI-driven park-design competition for Al Safa 2 with cash prizes and community voting. This is a free pitch into the exact MENA buyer we want — whoever owns government partnerships should assemble a small AI + urban-design strike team this week."
+    },
+    {
+      "numeral": "ii",
+      "title": "Stand up a Seedance 2.5 enterprise pipeline.",
+      "body": "Native 30-second 4K clips with 50 reference inputs ends our segment-stitching workflow for branded video. R&D should request Volcano Engine beta access now so the studio can pitch a single-shot brand spot before competitors get their seats."
+    },
+    {
+      "numeral": "iii",
+      "title": "Ship a one-image to 3DGS demo on the studio site.",
+      "body": "TripoSplat is MIT-licensed and runs with near-zero dependencies — a junior dev can put a working image-to-splat experience on the homepage. Whoever runs the web team should make this the next showcase tile to convert GCC inbound."
+    },
+    {
+      "numeral": "iv",
+      "title": "Open a channel to the Gulf's new AI infra layer.",
+      "body": "1001 AI just closed a Lux-led $30M round to wire AI into Gulf heavy industry — they need experience layers on top of their stack. The partnerships function should book an intro call this week before the round noise fades."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Video AI",
+      "headline": "Seedance 2.5 opens to the public in early July.",
+      "body": "ByteDance is moving the model out of enterprise beta to <b>CapCut</b>, Dreamina, and Doubao consumer surfaces — putting native 30-second 4K in front of <b>400M+</b> monthly editors."
+    },
+    {
+      "category": "Open Models",
+      "headline": "DeepSeek V4 ships mid-July with peak-valley pricing.",
+      "body": "The official V4 launch will <b>double</b> API rates during peak hours — a quiet pivot from flat pricing that every downstream agent stack will need to re-cost."
+    },
+    {
+      "category": "AI Engineering",
+      "headline": "AI Engineer World's Fair runs through July 2.",
+      "body": "San Francisco's main agentic-AI floor is live now — every credible MCP, eval, and agent vendor will drop news this week. Worth a remote scrape for shippable patterns."
+    },
+    {
+      "category": "Humanoids",
+      "headline": "Tesla Optimus V3 starts mass production this quarter.",
+      "body": "Q3 ramp is now public with a stated <b>10M-unit</b> annual goal — humanoid props enter the realm of possible installation kit for Gulf retail and entertainment activations."
+    }
+  ],
+  "date_display": "30 · 06 · 2026",
+  "first_of_kind": [
+    {
+      "name": "NVIDIA — World-Action Models",
+      "tag": "Research",
+      "body": "NVIDIA published a synthesis arguing the next robotics frontier is models <b>pretrained on video to imagine</b>, then fine-tuned on robot data to act. The same lineage powers installations that respond to the room around them — not just to prompts.",
+      "link_url": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
+      "link_text": "developer.nvidia.com"
+    },
+    {
+      "name": "ByteDance Seedance 2.5",
+      "tag": "Research preview",
+      "body": "First major closed video model to claim <b>native 30-second 4K</b> generation in a single segment, ingesting up to <b>50 multimodal references</b> — images, audio, 3D white models. The stitching workflow is now legacy.",
+      "link_url": "https://seed.bytedance.com/en/",
+      "link_text": "seed.bytedance.com"
+    },
+    {
+      "name": "Krea 2 Raw + Turbo — open weights",
+      "tag": "Shipped",
+      "body": "Krea released its 12B image model as <b>open weights under a custom enterprise license</b>, generating production-grade stills in roughly <b>two seconds</b>. The Raw/Turbo split is built for live brand systems, not gallery prints.",
+      "link_url": "https://www.krea.ai/krea-2-open-source",
+      "link_text": "krea.ai"
+    },
+    {
+      "name": "Latent Spatial Memory for Video World Models",
+      "tag": "Research",
+      "body": "A new paper proposes a persistent spatial memory layer so generative video stops forgetting what's behind the camera between shots. This is the missing piece for <b>long-coherent</b> branded environments and walk-around AR.",
+      "link_url": "https://huggingface.co/papers/2606.09828",
+      "link_text": "huggingface.co"
+    }
+  ],
+  "partners": [
+    {
+      "category": "GCC AI Infra",
+      "name": "1001 AI",
+      "body": "Just closed <b>$30M</b> led by Lux Capital to wire AI into Gulf heavy industry — a natural anchor for any experiential layer we'd build on top of MENA operational data."
+    },
+    {
+      "category": "Drone-to-3D",
+      "name": "Spexi",
+      "body": "Partnered with Niantic Spatial to turn drone imagery into urban-scale Gaussian splat models — the fastest path to splatting a whole Riyadh or Doha district for a pitch."
+    },
+    {
+      "category": "Splat Capture",
+      "name": "Splatica",
+      "body": "Mobile 360-to-3D Gaussian Splatting service, now bundled with Insta360 — a clean prosumer capture front-end if we want to onboard regional creators into our pipeline."
+    },
+    {
+      "category": "Open 3DGS",
+      "name": "VAST-AI-Research",
+      "body": "Built <b>TripoSplat</b>, the MIT-licensed image-to-3D-Gaussian generator — small enough to drop into any web pipeline without a dependency war."
+    },
+    {
+      "category": "Creative AI",
+      "name": "Mother London",
+      "body": "Made the <b>Claude</b> Super Bowl films that just won the Cannes Film Grand Prix — proof a small, sharp creative shop can out-think the holding companies on AI work."
+    },
+    {
+      "category": "AI Production",
+      "name": "Innovative Dreams",
+      "body": "The <b>Luma × Wonder Project</b> joint studio for hybrid AI-traditional filmmaking on AWS — the model template if a Gulf studio asks us to set up an in-house AI production line."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The video workflow just collapsed from stitching to single-shot direction.",
+      "body": "Seedance 2.5 generates <b>30 seconds at native 4K</b> from one prompt with 50 reference inputs. The whole industry of cutting, concatenating, and re-prompting between shots — most of what AI video houses sold last year — becomes overhead, not craft."
+    },
+    {
+      "tag": "Global",
+      "headline": "Hardware scarcity is now an XR pricing problem.",
+      "body": "Apple raised <b>Vision Pro</b> by $200 to $3,700, plus hikes on Macs, iPads, and HomePod — all blamed on a RAM and storage shortage. Spatial computing's volume play just got pushed further out; the near-term winners will be experiences that run on glasses and browsers, not headsets."
+    },
+    {
+      "tag": "Global",
+      "headline": "Commerce is becoming a conversation between agents.",
+      "body": "Salesforce shipped <b>Agentforce Commerce</b> GA with Shopper, Buyer, and Merchant agents, days after the Cannes Film Grand Prix went to an ad about resisting ads. The brand's job is no longer to talk to a human directly — it's to be legible, trustworthy, and persuasive to the agent in the middle."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Gulf governments are buying creative AI competitions, not deliverables.",
+      "body": "<b>Dubai Municipality</b> just launched the world's first AI-powered park-design challenge for Al Safa 2 with public voting on shortlisted entries. The pattern repeats from NEOM to Qiddiya — the region is buying processes and showcases, which is exactly the bundle ARlab sells."
+    }
+  ],
+  "signals": [
+    {
+      "headline": "ByteDance broke the segment ceiling in AI video.",
+      "body": "At Volcano Engine FORCE in Beijing, ByteDance unveiled <b>Seedance 2.5</b> — a model it claims generates <b>30-second 4K clips natively</b>, no stitching, ingesting up to <b>50 multimodal references</b>. Enterprise beta is live, public launch targeted for early July; the existing Seedance platform is already at <b>$2B ARR</b>. The MPA cease-and-desist hangover from 2.0 is unresolved.",
+      "arlab_use": "wire a seedance pipeline into the next brand-film pitch before the western shops catch up."
+    },
+    {
+      "headline": "Meta dropped Ray-Ban from the box and started a price war.",
+      "body": "Meta and EssilorLuxottica launched <b>Meta Glasses at $299</b> — at least <b>$80 cheaper</b> than the entry Ray-Ban Meta — under Meta's own brand with new designs. It's a clear signal that the smart-glass category is moving from fashion-partner novelty to platform play, with Display variants seeded above it.",
+      "arlab_use": "treat sub-$300 glasses as the actual install base our gcc clients are pitching to."
+    },
+    {
+      "headline": "Apple Vision Pro just got $200 more expensive.",
+      "body": "Apple pushed the M5 <b>Vision Pro to $3,700</b>, alongside hikes on Macs, iPads, MacBook Neo, HomePod, and Apple TV — all blamed on the global RAM and storage crunch. The unit-volume story for headsets just got worse; the browser and smart-glass story just got better.",
+      "arlab_use": "rebalance the roadmap away from headset-first builds and toward glasses + webgpu."
+    },
+    {
+      "headline": "Cannes' biggest creative prize went to an AI ad mocking AI ads.",
+      "body": "The <b>Cannes Lions Film Grand Prix</b> went to Anthropic's <b>Claude</b> Super Bowl films by Mother London — two spots arguing there is a time and a place for advertising, released days after OpenAI announced ads inside ChatGPT. Sam Altman publicly accused Anthropic of being deceptive, which only sharpened the campaign.",
+      "arlab_use": "sell the studio's point of view on ai, not just our ability to make it."
+    },
+    {
+      "headline": "Salesforce shipped commerce agents as a real product.",
+      "body": "<b>Agentforce Commerce</b> hit GA with three distinct agents — Shopper, Buyer, Merchant — ahead of peak shopping season, and Salesforce now says AI assistants are driving retail traffic up <b>119%</b>. Brands will spend the next six months making themselves legible to agents, not browsers.",
+      "arlab_use": "start building the agent-readable layer of every brand site we touch."
+    },
+    {
+      "headline": "Dubai launched the world's first AI-powered park-design challenge.",
+      "body": "<b>Dubai Municipality</b> opened a global challenge to redesign <b>Al Safa 2 Park</b> using AI across site analysis, climate modelling, and visualisation — with <b>Dh200,000</b> in cash prizes and community voting on shortlisted entries. Applications close 15 August. This is the GCC's first government-issued open creative AI brief.",
+      "arlab_use": "file a serious entry — the brief is exactly our bundle."
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Seedance 2.5 (Volcano Engine beta)",
+      "body": "Native 30-second 4K AI video with up to 50 reference inputs — the first model that can plausibly deliver a full branded spot from a single prompt without manual stitching.",
+      "link_url": "https://seed.bytedance.com/en/"
+    },
+    {
+      "numeral": "ii",
+      "name": "TripoSplat",
+      "body": "Single-image to 3D Gaussian splat generator, MIT-licensed, ~2,000 lines of code with near-zero dependencies — drop straight into a Three.js or WebGPU stack without a CUDA odyssey.",
+      "link_url": "https://github.com/VAST-AI-Research/TripoSplat"
+    },
+    {
+      "numeral": "iii",
+      "name": "Krea 2 Raw + Turbo (open weights)",
+      "body": "12B image model now released as open weights under a custom enterprise licence, generating production stills in roughly two seconds — viable as the image layer for live branded systems.",
+      "link_url": "https://www.krea.ai/krea-2-open-source"
+    },
+    {
+      "numeral": "iv",
+      "name": "Salesforce Agentforce Commerce",
+      "body": "GA-stage commerce agents (Shopper, Buyer, Merchant) for brands to expose their catalogue and checkout to conversational AI surfaces — a template for how to make any client agent-ready.",
+      "link_url": "https://www.salesforce.com/news/stories/agentforce-commerce-announcement/"
+    },
+    {
+      "numeral": "v",
+      "name": "Doubao 2.1 Pro (Volcano Engine)",
+      "body": "ByteDance's production-grade LLM is now serving over <b>180 trillion tokens a day</b> — a credible non-Western brain for Gulf clients who want distance from the US/EU AI stack.",
+      "link_url": "https://seed.bytedance.com/en/"
+    },
+    {
+      "numeral": "vi",
+      "name": "Pika 2.5 with Pikaframes",
+      "body": "Cinematic short-form video model with frame-anchored extension — useful where Seedance is overkill and we need fast, controllable storyboards for client review.",
+      "link_url": "https://pikaslabs.com/pika-2-5/"
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "ByteDance's quiet $2B video business",
+      "classification": "Emerging",
+      "body": "While the Seedance 2.5 headlines flew, ByteDance disclosed its enterprise Seedance platform has reached <b>$2B in annual recurring revenue</b> — meaning a Chinese AI video stack is already the size of a public US software company, mostly invisible to Western buyers."
+    },
+    {
+      "name": "Doubao crosses the production threshold",
+      "classification": "Confidential",
+      "body": "Volcano Engine confirmed <b>Doubao 2.1 Pro</b> now serves <b>180 trillion daily tokens</b> — a 10x surge that puts ByteDance's LLM in the same operational class as OpenAI's deployment. No press tour, just a one-line conference disclosure."
+    },
+    {
+      "name": "Apple's RAM-shortage cover story",
+      "classification": "Restricted",
+      "body": "Apple's <b>$200 Vision Pro hike</b> and price increases across MacBook, iPad, HomePod, and even the new MacBook Neo are all blamed on a RAM and storage shortage. Reads less like an Apple problem and more like a warning shot for every XR/AI vendor with a hardware bill of materials this year."
+    },
+    {
+      "name": "Niantic Spatial × Spexi for physical AI",
+      "classification": "Eyes only",
+      "body": "<b>Niantic Spatial</b> quietly partnered with drone-imagery startup <b>Spexi</b> to turn aerial captures into urban-scale Gaussian models for 'physical AI'. The same pipeline that powered Pokémon GO is now mapping cities into splats — the GCC giga-projects are the obvious next customer."
+    }
+  ]
+}
