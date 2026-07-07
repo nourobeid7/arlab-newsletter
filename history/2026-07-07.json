@@ -1,0 +1,223 @@
+{
+  "date_display": "07 · 07 · 2026",
+  "signals": [
+    {
+      "headline": "Anthropic just made the agent economy 60% cheaper overnight.",
+      "body": "<b>Claude Sonnet 5</b> shipped on June 30 as the new default for every Free and Pro user at <b>$2/$10</b> per million tokens — priced below Sonnet 4.6 while scoring close to Opus 4.8 on agentic benchmarks. Early partners Cursor and Zapier report multi-step agent runs that used to stall halfway now completing end-to-end, meaning the reliability jump translates into fewer human touchpoints per task. Enterprise tokenmaxxing was burning quarterly budgets in weeks — this pricing is Anthropic's direct answer.",
+      "arlab_use": "reprice every agent pitch off sonnet 5, not sonnet 4."
+    },
+    {
+      "headline": "Cloudflare flipped the entire web from pay-per-crawl to pay-per-answer.",
+      "body": "On July 1 Cloudflare announced that AI answer engines will pay publishers <b>only when their content actually appears inside a generated answer</b>, and opened a waitlist for a <b>Monetization Gateway</b> that charges for any page, dataset, API, or MCP tool behind their edge. Starting <b>September 15, 2026</b>, new sites on Cloudflare block mixed-use crawlers from ad-supported pages by default. Twelve months ago Cloudflare launched Pay-Per-Crawl; they now say that model was insufficient.",
+      "arlab_use": "put every arlab endpoint and dataset behind cloudflare monetization before 15 sep."
+    },
+    {
+      "headline": "China's video AI is now a two-horse race at eleven-figure valuations.",
+      "body": "Kuaishou filed a <b>$3 billion</b> funding round for <b>Kling AI</b> to the Hong Kong exchange on July 3, at an <b>$18 billion valuation</b>, with Tencent and Dubai-based BlueFive Capital co-leading. That's the capital wall Seedance, Veo and Sora now have to climb in the frontier video race. Kling's Higgsfield partnership plus the new war chest signals aggressive push into ad-creative workflows worldwide.",
+      "arlab_use": "sign up for kling enterprise access this week before the wall goes up."
+    },
+    {
+      "headline": "Meta is becoming a hyperscaler, quietly.",
+      "body": "Bloomberg reported on July 1 that <b>Meta</b> is building a cloud business to sell excess AI compute capacity to third parties — the same play AWS, Azure and Google made a decade ago. That converts Meta's massive GPU stockpile from a cost center into a revenue line and creates a fourth serious buyer for our Reality Labs work through the same door. Reality Labs, Advantage+ and this new cloud become one integrated pitch surface.",
+      "arlab_use": "map a triple-door meta pitch: reality labs + advantage+ + new cloud."
+    },
+    {
+      "headline": "China killed AI companions across 345 million users by regulation, not choice.",
+      "body": "<b>ByteDance's Doubao</b> and <b>Alibaba's Qwen</b> announced on July 4-6 that they will shut down all humanlike agent and user-created persona features on <b>July 15</b> to comply with China's Interim Measures for AI Anthropomorphic Interactive Services. Doubao alone hits <b>345 million monthly users</b>; personas become read-only, then wiped by October 15. The EU's synthetic-post labelling deadline is only weeks behind — persona campaigns just became a legal cliff.",
+      "arlab_use": "audit every synthetic-persona idea in the pipeline for disclosure risk."
+    },
+    {
+      "headline": "Midjourney is asking Hollywood to open its own AI closet.",
+      "body": "In a July 4 counter-motion, <b>Midjourney</b> demanded that Disney, Universal and Warner Bros. — the studios suing it for copyright infringement — disclose exactly how they use AI internally on production pipelines. The move flips the discovery burden and pre-emptively exposes an industry that publicly attacks generative AI while quietly using it in-house. Every brand lawyer watching this is now rethinking their AI clauses.",
+      "arlab_use": "add an ai-disclosure clause to every brand contract this quarter."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Samsung's Android XR moment lands on July 22.",
+      "body": "<b>Galaxy Unpacked</b> in London on July 22 is expected to unveil the <b>Galaxy Glasses</b> alongside Fold 8 and Flip 8 — the first true Android XR device with public developer access, and the counter to Meta Ray-Ban Display."
+    },
+    {
+      "category": "Immersive Web",
+      "headline": "SIGGRAPH lands in Vancouver in twelve days.",
+      "body": "<b>SIGGRAPH 2026</b> runs <b>19–23 July</b> in Vancouver, and this year's technical papers preview points to real-time gaussian splats, editable diffusion and neural rendering — the exact stack we sell into GCC pitches."
+    },
+    {
+      "category": "Frontier LLM",
+      "headline": "Gemini 3.5 Pro finally lands on July 17.",
+      "body": "After missing two self-imposed deadlines, Google now targets <b>17 July</b> for <b>Gemini 3.5 Pro GA</b>, described as a full architectural rebuild rather than an incremental bump — the first serious challenge to Sonnet 5 and GPT-5.6 pricing."
+    },
+    {
+      "category": "Regulation",
+      "headline": "China's AI persona law goes live July 15.",
+      "body": "The <b>Interim Measures for AI Anthropomorphic Interactive Services</b> takes effect on <b>15 July</b> — mandatory anti-addiction, instant-exit and disclosure hooks for any humanlike AI. A blueprint the EU, UK and Gulf regulators are already studying line by line."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Higgsfield sprinting to $5B as Sora folds",
+      "classification": "Restricted",
+      "body": "<b>Higgsfield</b> is in talks to raise at a <b>$5 billion valuation</b> on a reported <b>$500M revenue run rate</b> — a quadrupling from its last mark. The pitch is bluntly framed against a shrinking Sora and a retreating Runway. Ad-creative video AI is consolidating into 2-3 winners, fast."
+    },
+    {
+      "name": "Snap SPECS ship windows and battery quietly leaked",
+      "classification": "Emerging",
+      "body": "Snap's <b>$2,195</b> AR SPECS are now taking pre-orders after the June 16 opening — with battery life and ship-date details slipping out this week suggesting deliveries earlier than the market assumed. Every serious AR studio should be putting a unit on a designer's face before Ramadan campaigns brief."
+    },
+    {
+      "name": "PIF's $55B EA takeover heading to a July 30 EU verdict",
+      "classification": "Confidential",
+      "body": "The <b>PIF-led $55 billion buyout of Electronic Arts</b> — the largest LBO in history — is pushing for EU subsidy approval by <b>July 30</b>. If it clears, the world's biggest game IP catalogue lands inside the Kingdom's creative-industrial complex overnight, and the pitch surface for interactive brand IP in Riyadh transforms."
+    },
+    {
+      "name": "MENA infrastructure AI startup 1001 raises $30M",
+      "classification": "Eyes only",
+      "body": "GCC AI startup <b>1001</b> quietly closed a <b>$30 million</b> round to power critical infrastructure with agentic AI — utilities, transport, grid. The same category DEWA and RTA are now deploying agents into. A rare regional partner-ready operator in a segment normally dominated by US primes."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Mistral Leanstral 1.5",
+      "tag": "Research · Apache 2.0",
+      "body": "Mistral dropped <b>Leanstral 1.5</b> on July 2 — an open Lean 4 code-agent model that solves <b>587 of 672 PutnamBench</b> mathematical proof problems, released under Apache 2.0. It reframes theorem-proving as a code-agent task and puts formal-verification-grade reasoning inside a downloadable weight file.",
+      "link_url": "https://mistral.ai/news/leanstral-1-5/",
+      "link_text": "mistral.ai"
+    },
+    {
+      "name": "Anthropic Claude Science",
+      "tag": "Beta",
+      "body": "Launched June 30, <b>Claude Science</b> is Anthropic's unified workbench for researchers — figures generated with the code that produced them, citation verification, and reproducible environments. Novo Nordisk and the Allen Institute are the launch case studies; grant applications open through July 15 for up to <b>$30K in credits</b> per project.",
+      "link_url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "link_text": "anthropic.com"
+    },
+    {
+      "name": "ByteDance Bernini",
+      "tag": "Open-source",
+      "body": "<b>Bernini</b>, released by ByteDance in early July, is a free open-source video generation and editing model with real object insertion, background swap and pose-preserving retouch. It's the first serious open competitor to Runway Aleph on the editing side — and it runs local.",
+      "link_url": "https://morphic.com/resources/models/bernini",
+      "link_text": "morphic.com"
+    },
+    {
+      "name": "NVIDIA Nemotron · 74 papers at ICML 2026",
+      "tag": "Research",
+      "body": "NVIDIA landed <b>74 accepted papers</b> at ICML 2026, most built on open-weight <b>Nemotron</b> foundations — spanning physical-AI reasoning, video, and robot learning. The signal: open models are now driving frontier academic work harder than closed ones, and the ecosystem below Cosmos 3 is deepening fast.",
+      "link_url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+      "link_text": "nvidia.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Claude Sonnet 5",
+      "body": "New default Claude at <b>$2/$10</b> per million tokens with production-grade agent reliability — the fastest way to cut existing agent bills by more than half without a rewrite.",
+      "link_url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "numeral": "ii",
+      "name": "Cloudflare Monetization Gateway",
+      "body": "Waitlist opened July 1 — put any page, dataset, API or MCP tool behind Cloudflare and charge AI answer engines per use. The first real revenue tier for machine-consumed content.",
+      "link_url": "https://blog.cloudflare.com/making-ai-search-smarter/"
+    },
+    {
+      "numeral": "iii",
+      "name": "Bernini (ByteDance)",
+      "body": "Open-source video generation and editing model with insertion, retouch and background swap — the free counter to Runway's paid editing stack, and it runs on our own hardware.",
+      "link_url": "https://morphic.com/resources/models/bernini"
+    },
+    {
+      "numeral": "iv",
+      "name": "Leanstral 1.5",
+      "body": "Mistral's Apache-2.0 Lean 4 code-agent — the piece that lets us layer formal-verification reasoning into safety-critical branded experiences and financial demos.",
+      "link_url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5"
+    },
+    {
+      "numeral": "v",
+      "name": "Claude Science",
+      "body": "Anthropic's unified research workbench — for any GCC pharma, KAUST, or university pitch that needs auditable, reproducible AI outputs with figures tied to their generating code.",
+      "link_url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "numeral": "vi",
+      "name": "Higgsfield Nano Banana Pro",
+      "body": "Higgsfield's pro-level image model tuned on Gemini 3.1 Flash — production-grade text-in-image and photorealistic composites for ad plates without a shoot day.",
+      "link_url": "https://higgsfield.ai/nano-banana-intro"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Video AI",
+      "name": "Higgsfield",
+      "body": "Chasing a <b>$5B valuation</b> on $500M ARR — the fastest-scaling ad-creative video engine, and a partner path around Runway and Sora."
+    },
+    {
+      "category": "GCC Infrastructure AI",
+      "name": "1001",
+      "body": "A <b>$30M</b>-funded MENA operator selling agentic AI into utilities and transport — the exact category DEWA and RTA are buying right now."
+    },
+    {
+      "category": "Serverless GPU",
+      "name": "Modal",
+      "body": "Anthropic's compute layer under Claude Science — the cleanest way to spin up ephemeral, per-project GPU jobs without pre-committing to a hyperscaler."
+    },
+    {
+      "category": "Generative 3D",
+      "name": "Neural4D",
+      "body": "Text- and image-to-3D benchmark leader currently outperforming Meshy, Tripo and Rodin on interior-scene generation — useful for real-time retail and pavilion pitches."
+    },
+    {
+      "category": "Editable 3D AI",
+      "name": "Autodesk Flow Studio (Wonder 3D)",
+      "body": "Autodesk's generative 3D model that outputs <b>editable</b> assets — the missing link between Meshy-style speed and Unity/Unreal pipelines the installation team already knows."
+    },
+    {
+      "category": "GCC AI Capital",
+      "name": "BlueFive Capital",
+      "body": "Dubai-based fund co-leading Kling AI's <b>$3B</b> round — a direct doorway into the Chinese video AI stack for regional pitches where Runway can't legally play."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Agent economics just flipped. The bottleneck is no longer cost, it's what you make agents do.",
+      "body": "Sonnet 5 at <b>$2</b>, GPT-5.6 in preview, Doubao free at 345M users, Leanstral open under Apache 2.0. Every serious frontier lab is now competing on price and reliability, not raw intelligence. The winners over the next twelve months are the studios that ship <b>agent-native products</b>, not the ones squeezing token bills."
+    },
+    {
+      "tag": "Global",
+      "headline": "The web is being rewritten as a paid API surface for machines.",
+      "body": "Cloudflare's move from Pay-Per-Crawl to <b>Pay-Per-Use</b> — plus their new Monetization Gateway for pages, datasets, APIs and MCP tools — reframes every website as a metered endpoint. In twelve months there will be two internets: one browsed by humans, one licensed by agents. Both need to be designed."
+    },
+    {
+      "tag": "Global",
+      "headline": "Generative video has become a capital arms race with two or three survivors.",
+      "body": "<b>Kling</b> at $18B, <b>Higgsfield</b> chasing $5B, Sora shrinking, Runway retreating, Bernini open-sourcing. The tools we integrate today decide which vendor lock we live with for the next three years. Pick tools that are open (Wan, Bernini) plus a paid closed backup (Kling, Higgsfield) — never one of each per pitch."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Gulf utilities and ministries are becoming the first fully agentic governments.",
+      "body": "<b>DEWA</b> deployed agentic AI across its digital platforms this week; <b>RTA</b> launched an AI-powered smart bus response system in parallel. Combined with Dubai's 90-day agentic rollout and the UAE Federal AI Authority, the buyer no longer wants an app — they want a live agent that operates a service on their behalf, forever."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Reprice every open agent pitch on Sonnet 5 economics.",
+      "body": "R&D and the pricing function should rebuild every active proposal and internal cost model on <b>$2/$10 Sonnet 5</b> pricing. The margin room this creates is either a lower quote or a bigger scope — whichever wins the pitch."
+    },
+    {
+      "numeral": "ii",
+      "title": "Stand up an ARlab endpoint on Cloudflare Monetization Gateway.",
+      "body": "The web team should put one dataset or MCP tool behind Cloudflare's Monetization Gateway waitlist this week — before the September 15 default rules go live and every publisher scrambles at once. First movers get the pricing power."
+    },
+    {
+      "numeral": "iii",
+      "title": "Open a formal channel to DEWA and RTA agentic AI teams.",
+      "body": "The partnerships function should book meetings with the newly-formed DEWA agentic-AI unit and RTA's smart-response team this month. Dubai municipal work is where next year's recurring-revenue installations will be signed, not one-off campaigns."
+    },
+    {
+      "numeral": "iv",
+      "title": "Kill or clearly disclose every synthetic-persona idea in the deck.",
+      "body": "Whoever owns brand strategy should audit every AI-influencer and persona concept for compliance with China's July 15 rules and the EU's August 2 synthetic-post labelling deadline. Anything that can't survive disclosure comes out of the pitch deck now."
+    }
+  ]
+}
