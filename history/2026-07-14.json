@@ -1,0 +1,224 @@
+{
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Rebuild the voice stack around full-duplex.",
+      "body": "Every live installation, branded avatar and retail demo should be repriced on GPT-Live-class speech-to-speech models by the end of the week. Whoever owns the real-time pipeline needs a working prototype before month-end."
+    },
+    {
+      "numeral": "ii",
+      "title": "Open a Chinese smart-glass OEM channel.",
+      "body": "The partnerships function should get an NDA and SDK sit-down with at least one of Rokid, XREAL or TCL RayNeo before their IPO windows close. GCC brands will need hardware options that are not Meta or Samsung."
+    },
+    {
+      "numeral": "iii",
+      "title": "Position ARlab on synthetic-ad disclosure.",
+      "body": "The strategy team should draft a disclosure-first ad workflow — labelled AI outputs, provenance metadata, consent trail — and take it to Riyadh and Dubai buyers. Google's new label makes this billable, not optional."
+    },
+    {
+      "numeral": "iv",
+      "title": "Wire the July drops into the pitch deck now.",
+      "body": "R&D should have working demos on Grok 4.5, ChatGPT Work and Muse Image in the deck by Friday. Anything shipped after 8 July should be visible in the next three GCC pitches."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Dev Deadline",
+      "headline": "DeepSeek breaks legacy integrations on 24 July.",
+      "body": "Any studio pipeline still calling the retired <b>deepseek-chat</b> endpoint stops working next Friday, forcing a migration to <b>DeepSeek V4</b> or a rival."
+    },
+    {
+      "category": "Enterprise AI",
+      "headline": "Ai4 Las Vegas becomes the enterprise agent floor.",
+      "body": "The <b>11–13 August</b> Ai4 summit at MGM Grand is where the big agent platforms are staging their next round of GCC-facing contracts."
+    },
+    {
+      "category": "Video AI",
+      "headline": "Meta previews Muse Video before Connect.",
+      "body": "<b>Muse Video</b> was quietly teased alongside Muse Image and is expected to roll into Meta AI apps in the next few weeks, ahead of Meta Connect on 23 September."
+    },
+    {
+      "category": "Model Drop",
+      "headline": "Grok 5 is being telegraphed as imminent.",
+      "body": "Musk has publicly hinted the next SpaceXAI flagship is queued right after Grok 4.5 — expect a coding-first release before summer ends."
+    }
+  ],
+  "date_display": "14 · 07 · 2026",
+  "first_of_kind": [
+    {
+      "name": "Anthropic — Global Workspace / J-Space",
+      "tag": "Research",
+      "body": "Anthropic's interpretability team published a paper describing a hidden <b>global workspace</b> inside Claude — a shared reasoning bus that mirrors a leading theory of consciousness. It is the first working lens into <b>why</b> a frontier model chooses one path over another, which is exactly what regulators and brands will start demanding.",
+      "link_url": "https://www.anthropic.com/research/global-workspace",
+      "link_text": "anthropic.com"
+    },
+    {
+      "name": "OpenCoF — Reasoning via Video Generation",
+      "tag": "Preprint",
+      "body": "A new arXiv release argues that <b>video generation itself</b> is a reasoning substrate — models learn to plan by predicting frames, not by predicting tokens. If it holds, the next wave of world-model pitches shifts from LLM+renderer to video-native cognition.",
+      "link_url": "https://arxiv.org/abs/2607.08763",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Meta Muse Image + Muse Video (MSL)",
+      "tag": "Shipped",
+      "body": "The <b>first models out of Meta's Superintelligence Labs</b> dropped as Muse Image (live) and Muse Video (preview). The Instagram-native rollout was pulled within days after users pushed back on training-data consent — a signal of what launches look like now.",
+      "link_url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "link_text": "ai.meta.com"
+    },
+    {
+      "name": "OpenAI GPT-Live",
+      "tag": "Research preview",
+      "body": "OpenAI released <b>full-duplex</b> voice models that listen and speak at the same time, in the same neural stream. The latency floor is gone — for installations and live AI hosts, this is the frame where the wait between turns finally disappears.",
+      " link_url": "https://openai.com/index/introducing-gpt-live/",
+      "link_text": "openai.com",
+      "link_url": "https://openai.com/index/introducing-gpt-live/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Real-time Voice",
+      "name": "Cartesia",
+      "body": "Sonic 3.5 ships AI laughter and emotion inside a real-time TTS API — the missing layer for interactive brand avatars and voice-first installations."
+    },
+    {
+      "category": "World Models",
+      "name": "Odyssey",
+      "body": "Fresh off a $310M Series B at $1.45B, Odyssey turns video into steerable interactive worlds — a natural engine for branded environments and campaign playgrounds."
+    },
+    {
+      "category": "Smart Glasses OEM",
+      "name": "Rokid",
+      "body": "Preparing a Hong Kong IPO and one of the three Chinese eyewear makers racing to list — a hardware partner GCC brands can lock in before Meta and Samsung monopolise the shelf."
+    },
+    {
+      "category": "Android XR",
+      "name": "XREAL",
+      "body": "Google's lead Android XR hardware partner, just $100M heavier and sprinting to its own public listing — the fastest way onto Gemini-powered eyewear."
+    },
+    {
+      "category": "Video AI",
+      "name": "Kling (Kuaishou)",
+      "body": "Just closed <b>$2.8B</b> at an $18B valuation with Alibaba, Tencent and Baidu — the Chinese video model that GCC clients can license without US export exposure."
+    },
+    {
+      "category": "Voice Cloning",
+      "name": "Sesame",
+      "body": "Conversational TTS with startlingly realistic cloning — a low-cost route to Arabic-fluent branded voices for MENA campaigns."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The frontier labs stopped shipping models. They ship consumer superapps now.",
+      "body": "In one week we got <b>ChatGPT Work</b>, <b>GPT-Live</b>, <b>Grok 4.5 built with Cursor</b>, and <b>Muse Image inside Instagram</b>. The unit of shipping is no longer a weights file — it is a finished product with a workflow. Studios that still sell files are competing with free."
+    },
+    {
+      "tag": "Global",
+      "headline": "Voice AI just crossed the real-time uncanny line.",
+      "body": "Full-duplex speech models mean the pause between human and machine is gone. Live retail, museum installations, brand avatars and hospitality concierges now have a plausible always-on voice — and the ones that don't will feel broken by year-end."
+    },
+    {
+      "tag": "Global",
+      "headline": "Every ad platform now has to confess when a pixel is machine-made.",
+      "body": "<b>Google</b> flipped on AI disclosure labels across My Ad Center this week, following EU labelling rules from August. Advertisers who can prove their creative is disclosed-clean will be priced differently from those who cannot. This is a new billable line, not a compliance cost."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Washington just made the Gulf its license-free AI chip corridor.",
+      "body": "The US eased export controls on <b>Nvidia and AMD</b> chips to the UAE on 10 July, effectively opening a duty-free lane between American compute and Gulf data centres. The GCC is now a first-class sovereign AI pole — the third one — and brands will follow the silicon."
+    }
+  ],
+  "signals": [
+    {
+      "headline": "SpaceXAI shipped its first post-Cursor model and called it Opus-class.",
+      "body": "On 8 July, <b>SpaceXAI</b> released <b>Grok 4.5</b>, the first flagship built jointly with the <b>Cursor</b> team it acquired for $60B in June. Musk positioned it against Anthropic's Opus tier, with legal and finance tuning baked in. The message: the coding agent and the frontier model are now one company, one pipeline.",
+      "arlab_use": "reprice every coding-heavy pitch on grok 4.5 + cursor economics."
+    },
+    {
+      "headline": "OpenAI turned real-time voice into a first-class model.",
+      "body": "<b>GPT-Live</b> shipped on 8 July as OpenAI's first full-duplex voice model — it listens while it speaks, in one neural stream. That kills the last excuse for pre-recorded brand voice, live-event narration, or clunky kiosk conversations. Full-duplex is now the floor, not the ceiling.",
+      "arlab_use": "rebuild every voice installation demo on full-duplex this month."
+    },
+    {
+      "headline": "Meta's Superintelligence Labs launched an image model and Instagram pulled it in three days.",
+      "body": "<b>Muse Image</b> shipped on 7 July as the first product from MSL, then the Instagram-native rollout was <b>quietly removed</b> after a consent uproar over training data. The launch curve for any generative product with user photos is now measured in days before the platform blinks.",
+      "arlab_use": "put a consent-and-provenance layer under every branded generative pitch."
+    },
+    {
+      "headline": "Google will now label every ad it detects as AI-made.",
+      "body": "On 9 July, <b>Google</b> rolled out disclosure tags across <b>My Ad Center</b>, letting users see which ads were built with generative AI. Advertisers must self-declare or be flagged. Combined with the EU's 2 August labelling rule, the AI-native ad campaign is now a regulated object with metadata attached.",
+      "arlab_use": "ship an ARlab disclosure workflow with provenance baked in."
+    },
+    {
+      "headline": "Washington just opened a license-free AI-chip lane to the UAE.",
+      "body": "The US Commerce Department confirmed on 10 July that <b>Nvidia and AMD</b> can now ship advanced AI chips to the UAE without individual licences, alongside expanded defence-tech access. The Gulf is being formalised as a third sovereign AI bloc — American compute, Gulf capital, Gulf demand.",
+      "arlab_use": "position arlab pitches to run on gulf-hosted us silicon by default."
+    },
+    {
+      "headline": "China's smart-glass makers just lined up for the first public listing.",
+      "body": "A former Apple executive's smart-glasses startup hit unicorn status on 6 July with <b>Tencent</b> and <b>Meituan</b> backing, and <b>XREAL</b>, <b>Rokid</b> and <b>TCL RayNeo</b> are now sprinting to become the first listed AI-glasses maker. The eyewear layer is about to be repriced by public markets — before Meta, Samsung or Apple own it.",
+      "arlab_use": "lock a chinese smart-glass sdk partner before their ipo windows close."
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Grok 4.5 (SpaceXAI × Cursor)",
+      "body": "Opus-class reasoning with the Cursor coding layer welded in — useful when the pitch involves an agent that must both plan and ship code.",
+      "link_url": "https://x.ai/news"
+    },
+    {
+      "numeral": "ii",
+      "name": "GPT-Live API",
+      "body": "OpenAI's full-duplex voice model, exposed via the API — the fastest route to a real-time bilingual host or in-store concierge.",
+      "link_url": "https://openai.com/index/introducing-gpt-live/"
+    },
+    {
+      "numeral": "iii",
+      "name": "ChatGPT Work",
+      "body": "OpenAI's new long-running agent that ships documents, decks and websites end-to-end — useful as the back-office layer behind an interactive campaign.",
+      "link_url": "https://openai.com/index/introducing-chatgpt-work/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Meta Muse Image",
+      "body": "MSL's first generative image model, tuned for social-native output — handy for Instagram-first creative tests, with the caveat that consent controls are still shifting.",
+      "link_url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+    },
+    {
+      "numeral": "v",
+      "name": "Cartesia Sonic 3.5",
+      "body": "Real-time TTS with laughter, breath and emotion — the sharpest voice layer for live installations and Arabic-fluent branded characters.",
+      "link_url": "https://www.cartesia.ai/launch"
+    },
+    {
+      "numeral": "vi",
+      "name": "Claude Reflect",
+      "body": "Anthropic's new usage-analytics dashboard — a low-effort way to prove agent ROI to a GCC client before they ask.",
+      "link_url": "https://www.anthropic.com/news/reflect"
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Apple veteran's Chinese smart-glass rival hits unicorn",
+      "classification": "Emerging",
+      "body": "On 6 July, a smart-glasses maker founded by a former Apple executive crossed <b>$1B</b> with fresh cheques from <b>Tencent</b> and <b>Meituan</b>. It is being positioned explicitly as the Chinese answer to Meta's Ray-Ban line — and it flew below most Western trackers this week."
+    },
+    {
+      "name": "Kuaishou's Kling AI closes a $2.8B war chest",
+      "classification": "Confidential",
+      "body": "<b>Kling</b> closed roughly <b>$2.8B at an $18B valuation</b> with <b>Alibaba</b>, <b>Tencent</b> and <b>Baidu</b> all in. ARR reportedly moved from $240M to $500M in three months — the Chinese video-AI race is now a four-horse balance sheet fight, not a model fight."
+    },
+    {
+      "name": "Musk publicly warms to Anthropic — and quietly extends the SpaceX compute deal",
+      "classification": "Restricted",
+      "body": "On 9 July Musk went out of his way to praise Anthropic on X and confirmed he would not 'cut off' its SpaceX compute. Translation: <b>Anthropic</b> and <b>SpaceXAI</b> just deepened their infrastructure entanglement while publicly appearing to be rivals."
+    },
+    {
+      "name": "Runway opens a Paris 'physical AI' hub",
+      "classification": "Eyes only",
+      "body": "<b>Runway</b> quietly announced a Paris office on 7 July, positioned around physical AI and world models rather than video creation. Europe is becoming the second lab geography — and Paris is where the world-model talent is being staged."
+    }
+  ]
+}
