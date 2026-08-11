@@ -1,0 +1,223 @@
+{
+  "date_display": "11 · 08 · 2026",
+  "signals": [
+    {
+      "headline": "Meta just put a 30-billion-parameter agent on a single consumer GPU.",
+      "body": "<b>Meta Superintelligence Labs</b> released <b>Muse Glimmer</b> on August 10 — a 30B open-weight, Apache 2.0 agentic model distilled from Muse Spark, tuned for tool-use, hours-long tasks and self-managed memory. In 4-bit with block-level speculative decoding it fits <b>24 GB VRAM</b> and decodes ~3.1× faster than baseline, meaning the always-on local agent is no longer a research pitch — it runs on a desktop or an M-class Mac. That collapses the cloud premium for any 'AI assistant on-site' brief in the GCC.",
+      "arlab_use": "prototype an on-prem 'always-on brand agent' demo for a Riyadh flagship — no cloud dependency."
+    },
+    {
+      "headline": "Meta made your prompts a currency.",
+      "body": "On August 5, Meta shipped <b>Muse Code</b> — a terminal coding agent powered by <b>Muse Spark 1.2</b> — with a two-tier pricing shelf: standard tokens at <b>$1.25/$4.25 per million</b>, and a heavily discounted <b>Contributor</b> SKU that trades price for the right to train on your prompts and completions. The 'data-for-discount' tier is the real strategic move: Meta is now buying real-world coding traffic through pricing, not scraping. Every enterprise contract, NDA and client repo just became a routing decision.",
+      "arlab_use": "gate every client repo behind a non-training SKU and add a data-use clause to master service agreements."
+    },
+    {
+      "headline": "NVIDIA open-sourced a 34-billion-parameter driver.",
+      "body": "<b>Alpamayo 2 Super</b> landed on August 4 as an open Vision-Language-Action model built for robotaxis and autonomous vehicles — the first frontier VLA NVIDIA has shipped under an open license. Partner <b>Foretellix</b> immediately wired it into an AV validation reference stack. The signal for us: physical-AI weights are now the same commodity as chat weights, and every 'smart city' or Qiddiya-style immersive-mobility pitch can plausibly ship a real driving policy inside a demo.",
+      "arlab_use": "wire alpamayo into a mobility-experience prototype for a gcc smart-district pitch."
+    },
+    {
+      "headline": "ByteDance shipped the first mass-consumer full-duplex A/V model.",
+      "body": "On August 5, ByteDance Seed launched <b>SeedRealtime</b> — a unified audio-video-text model that watches, listens and speaks simultaneously — and rolled it out inside the <b>Douyin</b> app rather than an API. It is the first full-duplex omni-modal model deployed at hundreds-of-millions of users scale, and it points at the same interface Meta and OpenAI are converging on. The AR/attraction pitch just changed: 'a screen that sees, hears, and talks back' is now table-stakes, not a moonshot.",
+      "arlab_use": "rebuild every kiosk and mall-activation pitch around a see-hear-speak loop."
+    },
+    {
+      "headline": "xAI shipped the best surgical image editor on the market.",
+      "body": "<b>Grok Imagine Image 2.0</b> went live as Grok's <b>Quality Mode</b> on August 7 with magic-wand region editing, segmentation, transparent background export, precise typography and multi-reference inputs — landing at <b>#2 on the image arena</b> behind only GPT Image 2. It is the first Imagine release that competes on controllable brand output, not novelty. For paid social and OOH work in the Gulf, xAI just became a credible production tool.",
+      "arlab_use": "add grok imagine to the paid-social and ooh production stack alongside gpt image 2."
+    },
+    {
+      "headline": "Saudi Arabia now owns the world's biggest games publisher outright.",
+      "body": "On August 5, the <b>PIF-led consortium</b> (with Silver Lake and Affinity Partners) closed the <b>$55 billion</b> take-private of <b>Electronic Arts</b> — the largest leveraged buyout in history. EA and its studios — <b>FIFA/EA Sports FC, Battlefield, The Sims, Frostbite</b> — are now controlled from Riyadh, and every future immersive, live-service or brand-in-game slot inside those franchises routes through a PIF portfolio decision. This is the moment the Gulf stops being a market for immersive work and becomes a distribution channel.",
+      "arlab_use": "open a formal channel to pif's savvy games group and ea's new riyadh reporting line."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Frontier Model",
+      "headline": "Gemini 3.5 Pro is telegraphed for August 12 after three missed windows.",
+      "body": "Leaks and Google-internal sightings put the long-delayed <b>Gemini 3.5 Pro</b> live tomorrow, positioning it directly against Claude Fable 5 and GPT-5.6 Terra."
+    },
+    {
+      "category": "AI Capex",
+      "headline": "NVIDIA's Q2 earnings on August 27 will price the rest of 2026's AI capex curve.",
+      "body": "The Q2 call is the first read since Alpamayo and the Humain factory ramp — anything short of triple-digit data-center growth resets every hyperscaler contract."
+    },
+    {
+      "category": "GCC · LEAP",
+      "headline": "LEAP 2026 lands in Riyadh August 31 – September 3 with HUMAIN as headliner.",
+      "body": "<b>HUMAIN</b> is expected to announce its <b>AI academy</b> and next equity commitments on the LEAP stage, making the last week of August the busiest deal window of the GCC year."
+    },
+    {
+      "category": "GCC · Compute",
+      "headline": "NEOM's 1.5 GW Oxagon AI factory breaks ground within months.",
+      "body": "<b>DataVolt</b> confirmed on August 5 that construction on the <b>$5B, 1.5 GW</b> Oxagon campus starts by roughly November, targeting first-phase live in 2028 — Saudi sovereign compute stops being a slide."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "OpenAI quietly bought the deck",
+      "classification": "Confidential",
+      "body": "On August 10, OpenAI acquired presentation startup <b>NextSlide</b> — a barely-visible signal that ChatGPT is being wired into the boardroom slide format, not just the doc. Every 'AI generates the pitch' vendor now competes with a native ChatGPT deck surface."
+    },
+    {
+      "name": "Anthropic just hired a former Mexican Supreme Court justice",
+      "classification": "Restricted",
+      "body": "Anthropic named <b>Mariano-Florentino Cuéllar</b> — ex-justice and Carnegie president — as its first <b>Chief Global Affairs Officer</b> on August 4. The lab is quietly building a diplomatic arm on the scale of a mid-sized government, ahead of a widening Trump-era tension with US policy."
+    },
+    {
+      "name": "Snap Ads MCP gives every AI agent its own login",
+      "classification": "Emerging",
+      "body": "The <b>Snap Ads MCP server</b> went live August 6 with <b>per-agent OAuth keys</b>, letting ChatGPT, Claude or Gemini each run their own campaigns with independent credentials. The agent-shaped ad account is now real infrastructure — and identity, not creative, is the new bottleneck."
+    },
+    {
+      "name": "Higgsfield proved AI likeness licensing scales",
+      "classification": "Eyes only",
+      "body": "A new <b>Higgsfield</b> production released August 8 demonstrated fully-licensed, actor-approved AI likenesses at feature-film scale, according to Forbes. The 'talent as an API' contract is quietly moving from experiment to standard rider — regional brand deals in the GCC are next."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Tencent Hunyuan — WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "tag": "Research preview",
+      "body": "WorldClaw turns a single open-ended prompt into an <b>explicit, explorable and editable</b> 3D open-world made of independently textured meshes, using coarse-to-fine planning agents plus an iterative refinement loop that fixes scale, pose and terrain contact. This is the first credible agentic pipeline for whole-world 3D — a direct fit for Qiddiya, Diriyah or Six Flags-style virtual twin briefs.",
+      "link_url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "link_text": "tencent-hunyuan.github.io"
+    },
+    {
+      "name": "Tencent Hunyuan — Hunyuan3D-Buffalo 1.0",
+      "tag": "Research",
+      "body": "A <b>unified multimodal 3D</b> model that generates, edits and understands geometry inside a single architecture — the first release where 'make me an asset', 'change this leg' and 'label the parts' run through the same weights. It collapses three vendors (asset gen, retopo, semantic tagging) into one endpoint.",
+      "link_url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+      "link_text": "tencent-hunyuan.github.io"
+    },
+    {
+      "name": "Alibaba — Qwen-3D Generalist Spatial VLM",
+      "tag": "Research",
+      "body": "<b>Qwen-3D</b> is a generalist 3D vision-language model built for spatial understanding — grounding, layout, part-level reasoning and free-form 3D Q&A inside one open family. It is the first VLM designed to natively 'see' geometry, which is the missing piece under every AR agent, robot demo or splat-driven walkthrough.",
+      "link_url": "https://qwen-3d.github.io/",
+      "link_text": "qwen-3d.github.io"
+    },
+    {
+      "name": "Meta — Muse Glimmer 30B",
+      "tag": "Shipped",
+      "body": "The technical write-up behind the Muse Glimmer release: a <b>29.6B dense multimodal</b> model with a dedicated perception encoder, distilled from Muse Spark, with <b>DFlash</b> block-level speculative decoding and 4-bit quantization tuned for hours-long agentic sessions on one consumer GPU. Weights, model card and inference recipes are all live under Apache 2.0.",
+      "link_url": "https://developer.meta.com/ai/models/muse-glimmer/",
+      "link_text": "developer.meta.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Muse Glimmer (Meta)",
+      "body": "30B open-weight agentic model, Apache 2.0, fits 24 GB VRAM — the first serious 'always-on local brand agent' you can install on a workstation for a client.",
+      "link_url": "https://developer.meta.com/ai/models/muse-glimmer/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Muse Code (Meta)",
+      "body": "Terminal coding agent on Muse Spark 1.2 with a Contributor tier — cheap tokens in exchange for training data; use it for internal tooling, never for client code.",
+      "link_url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+    },
+    {
+      "numeral": "iii",
+      "name": "Grok Imagine Image 2.0",
+      "body": "xAI's new Quality Mode with magic-wand region editing, precise typography, background removal and multi-reference — arena #2 behind GPT Image 2, and shockingly good at brand layouts.",
+      "link_url": "https://grok.com/imagine"
+    },
+    {
+      "numeral": "iv",
+      "name": "NVIDIA Alpamayo 2 Super",
+      "body": "Open 34B Vision-Language-Action model for robotaxi and AV workflows — the physical-AI runtime for any mobility-pitch demo where 'the car actually drives itself in the film'.",
+      "link_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
+    },
+    {
+      "numeral": "v",
+      "name": "Snap Ads MCP Server",
+      "body": "Every AI agent gets its own OAuth key and can create, run and optimize Snap campaigns end-to-end — the first commercial agentic ad account we can actually build against.",
+      "link_url": "https://forbusiness.snapchat.com/blog/snapchat-ads-mcp"
+    },
+    {
+      "numeral": "vi",
+      "name": "Hunyuan3D-Buffalo 1.0",
+      "body": "Unified 3D generation, editing and understanding in one model — one endpoint replaces Meshy + Rodin + a retopo pass for early-stage worldbuilds.",
+      "link_url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Fast Inference",
+      "name": "Fal.ai",
+      "body": "The lowest-latency inference layer for image/video diffusion — the backbone we should be using when a live installation needs sub-second AI generation."
+    },
+    {
+      "category": "3D Generation",
+      "name": "Deemos (Rodin Gen-2)",
+      "body": "Best-in-class image-to-3D with clean topology — the studio partner to license for volume asset generation on GCC virtual-twin briefs."
+    },
+    {
+      "category": "World Generation",
+      "name": "Tencent Hunyuan Lab",
+      "body": "The team behind WorldClaw and Hunyuan3D-Buffalo — the fastest-moving research group in end-to-end 3D world gen, and the one to open a research-partnership dialogue with now."
+    },
+    {
+      "category": "Physical AI Validation",
+      "name": "Foretellix",
+      "body": "AV scenario validation on top of Alpamayo 2 Super — the credible technical partner for any smart-mobility or driverless demo we pitch into Qiddiya or NEOM."
+    },
+    {
+      "category": "3D Data Ops",
+      "name": "Voxel51",
+      "body": "3D neural reconstruction plus dataset tooling — the missing middleware between a splat capture on-site and a delivered runtime scene."
+    },
+    {
+      "category": "Deck Intelligence",
+      "name": "NextSlide",
+      "body": "Just acquired by OpenAI — study the product now to understand how the pitch deck itself is about to be regenerated inside ChatGPT."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The always-on agent just moved from the cloud to the desk.",
+      "body": "Muse Glimmer, plus a wave of 30B-class open-weight releases, means a real agentic model now runs on a single consumer GPU under Apache 2.0. <b>The premium for a cloud LLM is now a UX and safety story, not a capability story</b> — and every GCC client that cares about sovereignty just got a cheaper, on-prem answer."
+    },
+    {
+      "tag": "Global",
+      "headline": "Foundation labs are pricing your data as revenue.",
+      "body": "Meta's Contributor tier turns prompts and completions into a discount lever, and Snap's per-agent OAuth turns identity into a billing primitive. <b>The commercial surface of AI is no longer tokens — it is data rights and agent identity.</b> Every contract we sign now needs a data-use clause and an agent-identity clause."
+    },
+    {
+      "tag": "Global",
+      "headline": "The interface has gone full-duplex, and the screen has gone quiet.",
+      "body": "SeedRealtime shipped inside Douyin as a see-hear-speak model at consumer scale, right as Grok Imagine 2.0 collapsed the image editor into a single 'point and speak' surface. <b>The future kiosk, glass, and mall installation is a continuous conversation, not a menu.</b> Anyone still storyboarding tap-taps is designing for 2024."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi just moved from AI buyer to AI landlord.",
+      "body": "The <b>$55B EA close</b>, HUMAIN's equity checkbook, and DataVolt's 1.5 GW Oxagon groundbreak in the same fortnight mean PIF now owns the compute, the venture capital and the world's largest game publisher. <b>Every immersive brief in the region now goes through a portfolio owned by one shareholder.</b> Winning in the GCC is now the same conversation as winning inside PIF."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Ship an on-desk brand agent demo on Muse Glimmer.",
+      "body": "R&D should stand up a single-GPU workstation running Muse Glimmer as an always-on brand assistant this week — voice-triggered, tool-using, entirely local — as the anchor demo for the next NEOM and Qiddiya pitch cycles."
+    },
+    {
+      "numeral": "ii",
+      "title": "Rebuild the ad pitch around agentic accounts, not creatives.",
+      "body": "Whoever owns the paid-media practice should wire the Snap Ads MCP server into a working agent that briefs, generates, launches and optimizes a campaign end-to-end — sold as a running system on a monthly, not a per-asset invoice."
+    },
+    {
+      "numeral": "iii",
+      "title": "Open a formal EA-Riyadh and Savvy channel.",
+      "body": "The partnerships function should get a written intro into EA Sports FC, Frostbite and Savvy Games Group inside the next four weeks — positioning ARlab as the immersive-brand studio-of-record for the newly-Saudi-owned catalogue before every other regional agency does."
+    },
+    {
+      "numeral": "iv",
+      "title": "Add a data-use and agent-identity clause to every contract.",
+      "body": "Whoever owns commercial ops should update the master service agreement this week to (a) forbid training on client prompts by default and (b) require named OAuth identities for any AI agent operating on a client account. Both are now table-stakes governance, not niceties."
+    }
+  ]
+}
