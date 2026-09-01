@@ -1,0 +1,223 @@
+{
+  "date_display": "01 · 09 · 2026",
+  "signals": [
+    {
+      "headline": "Salesforce just moved its entire CRM inside Claude.",
+      "body": "On August 26 <b>Salesforce and Anthropic</b> launched <b>Claudeforce</b> — the CRM UI is now a chat surface, and Claude reads, writes and closes Salesforce records natively. The pitch to customers is that you won't need to open Salesforce anymore. This is the first Fortune-100 app to admit the model is the product surface and the app is the plumbing.",
+      "arlab_use": "redesign every brand campaign as an in-chat surface, not a website"
+    },
+    {
+      "headline": "Nvidia bought its way into every silicon layer in one weekend.",
+      "body": "On August 31 <b>Nvidia</b> put <b>$3.5B</b> of equity into <b>MediaTek</b> to co-develop NVLink Fusion custom silicon — days after unveiling NVHBM custom high-bandwidth memory and the Rubin LPX/CPX inference platforms. Nvidia is no longer just selling GPUs; it is buying stakes across CPU, memory, edge and inference to lock in the entire compute stack.",
+      "arlab_use": "price every real-time creative pipeline off nvidia's stack, not a cloud reseller"
+    },
+    {
+      "headline": "Saudi Arabia turned on its second sovereign AI factory in six weeks.",
+      "body": "On August 31, hours before LEAP opened, <b>AMD, Cisco and HUMAIN</b> confirmed <b>AMD Instinct systems are live</b> in Riyadh and committed to a <b>1 GW</b> build-out. The Kingdom now has parallel Nvidia and AMD compute floors under one sovereign operator — no Western lab has that redundancy.",
+      "arlab_use": "pitch a compute-agnostic creative layer that runs on both stacks"
+    },
+    {
+      "headline": "Alibaba shipped a Qwen-4 preview that undercuts Opus 4.6 at a fraction of the cost.",
+      "body": "On August 26, <b>Alibaba</b> released <b>Qwen 3.8-Flash-Next</b> — an open-weight preview of Qwen 4 with roughly <b>6B active parameters</b>, benchmarking above Opus 4.6 on most tasks and priced for what Alibaba calls ultimate cost efficiency. The Chinese open-weight cadence has now outpaced every closed frontier release cycle this quarter.",
+      "arlab_use": "rebuild every retainer's brain on qwen 3.8-flash-next before the next scope"
+    },
+    {
+      "headline": "Nvidia's Q2 revenue doubled and the market shrugged.",
+      "body": "<b>Nvidia</b> posted <b>$96.2B</b> in Q2 revenue with <b>106% YoY growth</b> and guided Q3 higher, yet the stock slipped — a signal that the market has fully priced infinite AI capex and is now watching who cannot pay. Every AI vendor's economics get judged against that curve now.",
+      "arlab_use": "tie every proposal to a compute-cost line, not a hourly rate"
+    },
+    {
+      "headline": "The music industry just opened the second front on AI copyright.",
+      "body": "On August 29, <b>Sony Music Publishing and Warner Chappell</b> sued <b>Anthropic</b>, framing Claude's training data as \"one of the largest ongoing thefts of IP in history.\" Coming two weeks after Anthropic's $1.5B author settlement was finalized, audio rights are now the next multi-billion-dollar liability line on every frontier lab's balance sheet.",
+      "arlab_use": "add music/audio training-data indemnity to every ai sow this week"
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Snap turns on its $2,195 Specs at a September 16 launch event.",
+      "body": "Snap has confirmed a <b>September 16</b> event to open orders for the <b>$2,195 Specs</b>, the first Snap glasses positioned as a full AR computer rather than an accessory."
+    },
+    {
+      "category": "Trade Show",
+      "headline": "IFA Berlin becomes the smart-glasses proving ground on September 4.",
+      "body": "<b>IFA 2026</b> opens September 4–8 with a confirmed <b>RayNeo</b> new-product launch and a wearables floor that has swelled to fill Apple's vacated slot."
+    },
+    {
+      "category": "Meta Connect",
+      "headline": "Meta Connect on September 23 will hard-launch Ray-Ban Gen 3.",
+      "body": "Meta has locked <b>September 23</b> for Connect 2026 with a teased new glasses line — the Gen 3 Ray-Bans are expected to add a display option and open a third-party developer SDK."
+    },
+    {
+      "category": "OpenAI DevDay",
+      "headline": "OpenAI DevDay lands in San Francisco on September 29.",
+      "body": "OpenAI's global <b>DevDay</b> on September 29 is the likely stage for the <b>Astra</b> reveal after this week's leaked \"mozaik-alpha-fdm\" outputs surfaced on X."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "OpenAI Astra — first \"mozaik-alpha-fdm\" outputs leaked",
+      "classification": "Eyes only",
+      "body": "On August 29–30 the first internal outputs of OpenAI's <b>Astra</b> checkpoint, tagged <b>mozaik-alpha-fdm</b>, appeared on X — visual quality is being described as a step-change over GPT-5.6 Sol. This is the model OpenAI paused to safety-review earlier this month; a DevDay reveal on September 29 is now the working assumption."
+    },
+    {
+      "name": "Anthropic quietly took the CRM router seat",
+      "classification": "Confidential",
+      "body": "The <b>Claudeforce</b> deal signed on August 26 is being read on the Street as a multi-year, multi-billion-dollar API commitment from Salesforce — locking Anthropic into the enterprise router just as its <b>$2T IPO</b> roadshow starts. Every AI-native SaaS pitch now has to justify why it isn't building through Claude first."
+    },
+    {
+      "name": "OpenAI paused its own training to catch a misalignment",
+      "classification": "Restricted",
+      "body": "OpenAI publicly acknowledged on August 24 that it is <b>slowing model development</b> for safety review — the same week Anthropic sprints toward its filing. The frontier gap has just been handed to a competitor by the incumbent, and the enterprise buyers have noticed."
+    },
+    {
+      "name": "HUMAIN's stack now runs redundant silicon",
+      "classification": "Emerging",
+      "body": "Buried in the August 31 AMD announcement: HUMAIN is operating both <b>Nvidia</b> and <b>AMD Instinct MI355X</b> floors under one roof and plans a <b>1 GW</b> expansion. Cohere models are already running on Cohere-Humain infrastructure; the sovereign stack is now genuinely vendor-independent — a first for a Gulf operator."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Code World Model — Coding Agent as World Brain",
+      "tag": "Research",
+      "body": "A new paper posted August 25 reframes a coding agent as a <b>world model</b> — the agent maintains a running simulation of the codebase and the runtime, then plans against it. This is the first serious bridge between world-model research and everyday software agents.",
+      "link_url": "https://arxiv.org/abs/2608.25927",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "HunyuanWorld 2.0 (Tencent)",
+      "tag": "Open weights",
+      "body": "Tencent's <b>HY-World 2.0</b> is a multi-modal world model that reconstructs, generates and simulates 3D worlds from a single image or text prompt — weights and code are public on GitHub and Hugging Face. Directly usable as a splat/mesh feeder for real-time WebGPU scenes.",
+      "link_url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "link_text": "github.com"
+    },
+    {
+      "name": "Adobe Firefly Sound Studio",
+      "tag": "Shipped",
+      "body": "Adobe made <b>Firefly Audio</b> generally available: music, speech and SFX generation with a commercial-use license baked in. The licence is being pitched as the product — Adobe is selling indemnified generative audio to enterprises.",
+      "link_url": "https://blog.adobe.com/en/publish/2026/08/20/adobe-firefly-expands-its-creative-ai-studio-generate-music-speech-and-sound-effects-in-one-place",
+      "link_text": "blog.adobe.com"
+    },
+    {
+      "name": "Nvidia Vera Rubin LPX + NVHBM platform",
+      "tag": "Research preview",
+      "body": "On August 26 Nvidia introduced <b>Rubin LPX</b>, <b>NVLink Fusion</b>, and custom <b>NVHBM</b> memory — a new inference class explicitly designed for massive-context and long-horizon agent workloads. This is the substrate every real-time creative pipeline will run on in 2027.",
+      "link_url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "link_text": "blogs.nvidia.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Qwen 3.8-Flash-Next",
+      "body": "Alibaba's <b>August 26</b> open-weight Qwen-4 preview — beats Opus 4.6 on most benchmarks at a fraction of the cost, ideal as the always-on brain behind live installations and agents.",
+      "link_url": "https://huggingface.co/Qwen"
+    },
+    {
+      "numeral": "ii",
+      "name": "Claude in Chrome (GA)",
+      "body": "Anthropic's Claude browser extension went <b>generally available</b> on August 27 — a real agent that reads, clicks and forms across your live tabs, priced into paid Claude plans.",
+      "link_url": "https://claude.com/blog/claude-in-chrome-generally-available"
+    },
+    {
+      "numeral": "iii",
+      "name": "Claudeforce",
+      "body": "Salesforce's Claude-native CRM surface — the model executes deals, updates records and orchestrates flows without opening the app. First reference implementation of \"app inside model.\"",
+      "link_url": "https://www.salesforce.com/claudeforce/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Adobe Firefly Audio",
+      "body": "Now-GA studio for AI music, speech and SFX with a commercial-use licence — the fastest legal path to indemnified generative audio in a client campaign.",
+      "link_url": "https://firefly.adobe.com/"
+    },
+    {
+      "numeral": "v",
+      "name": "HunyuanWorld 2.0",
+      "body": "Tencent's open-weight world model outputs navigable 3D scenes and splats from a single prompt — a drop-in generator for WebGPU / Three.js pipelines.",
+      "link_url": "https://huggingface.co/tencent/HY-World-2.0"
+    },
+    {
+      "numeral": "vi",
+      "name": "Nano Banana (Gemini 2.5 Flash Image)",
+      "body": "Google's newly production-grade image edit endpoint with strong identity preservation and one-shot compositing — now exposed via the Gemini API for programmatic use in ad pipelines.",
+      "link_url": "https://ai.google.dev/gemini-api/docs/image-generation"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Camera-Free Glasses",
+      "name": "Even Realities",
+      "body": "Passed a $1B valuation on a display-only, camera-free glasses line — the enterprise-safe form factor for Gulf retail and hospitality clients that reject Meta/Snap cameras."
+    },
+    {
+      "category": "Robot Foundation Models",
+      "name": "Physical Intelligence (π)",
+      "body": "Building a generalist robot brain that transfers to unseen tasks — the right partner if any GCC hospitality or retail brief asks for a physical AI installation."
+    },
+    {
+      "category": "Live Video AI",
+      "name": "Krea",
+      "body": "Just shipped changelog updates this week; real-time image and video generation with a clean fal-powered API and a working directors' UI for live installations."
+    },
+    {
+      "category": "Voice Agents",
+      "name": "Vapi",
+      "body": "The cleanest production stack for real-time voice agents — sub-second latency, LLM-agnostic, ready to run an Arabic-first brand assistant on smart glasses or kiosks."
+    },
+    {
+      "category": "Splat Cloud",
+      "name": "ROCK Robotic Splat Labs",
+      "body": "A professional gaussian splat capture-to-cloud pipeline — the piece missing from most agency 3D workflows when a client wants a fast site scan turned into a WebGPU asset."
+    },
+    {
+      "category": "AI Video Platform",
+      "name": "Higgsfield",
+      "body": "Closed <b>$400M Series B</b> at <b>$5.4B</b> in August — MCP endpoints and character-consistency APIs are now stable enough to sit inside a live creative pipeline."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The app is dying. The model is the surface now.",
+      "body": "Claudeforce is the tell: <b>Salesforce</b> just admitted customers won't need to open Salesforce anymore. This is the first Fortune-100 SaaS to concede that the model is the UI and the app is the API. Every website, every campaign microsite, every branded destination is now a legacy shape."
+    },
+    {
+      "tag": "Global",
+      "headline": "Nvidia is buying the whole stack, layer by layer, in public.",
+      "body": "With <b>$3.5B into MediaTek</b>, custom NVHBM memory, an OpenAI backstop and a Perplexity round in flight, Nvidia is no longer a supplier — it is the balance sheet of the industry. Every creative-tech vendor's compute costs will be set by Nvidia's take rate on that stack."
+    },
+    {
+      "tag": "Global",
+      "headline": "Copyright is now audio, and the number is a billion, not a fine.",
+      "body": "Anthropic finalized a <b>$1.5B</b> author settlement in July, and Sony + Warner Music sued on August 29. Training-data liability is now the largest known unpriced risk in generative AI, and every creative agency using these tools without indemnity clauses is exposed by contract."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi's sovereign compute is now dual-silicon and operator-led.",
+      "body": "On <b>August 31</b>, HUMAIN went live with <b>AMD Instinct</b> systems while continuing to run Nvidia floors and Cohere models on the same infrastructure. The Kingdom has quietly built the world's first genuinely vendor-agnostic sovereign AI operator — and it is opening its capacity to partners at LEAP this week."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Rewire every pitch around \"app inside the model.\"",
+      "body": "Rebuild the campaign deck template so the default output is a chat/agent surface inside Claude, Gemini or a client's own model — with the website reframed as the backend, not the destination. The web team should ship one reference build this week."
+    },
+    {
+      "numeral": "ii",
+      "title": "Reprice everything on Qwen 3.8-Flash-Next economics.",
+      "body": "R&D should port the two most active production pipelines to Qwen 3.8-Flash-Next and publish a cost delta versus Opus/Claude. Use that delta to justify a shift from hourly fees to a metered creative-infrastructure model on the next three renewals."
+    },
+    {
+      "numeral": "iii",
+      "title": "Add music, audio and training-data indemnity to every SOW.",
+      "body": "Legal and the partnerships function should push a new clause covering AI-generated music, voice and image output — plus a right-of-substitution if a foundation model is sued out of production. Sony/Warner v. Anthropic makes this non-optional."
+    },
+    {
+      "numeral": "iv",
+      "title": "Land a formal channel to HUMAIN's dual-silicon floor at LEAP.",
+      "body": "Whoever owns the Riyadh relationship should book a same-week meeting with HUMAIN, AMD and Cisco on the LEAP floor to secure test access to the new AMD Instinct capacity — and pitch a Gulf-landmark real-time creative build that runs on both stacks."
+    }
+  ]
+}
