@@ -1,0 +1,223 @@
+{
+  "date_display": "15 · 09 · 2026",
+  "signals": [
+    {
+      "headline": "OpenAI put a real-time voice model in the API for five cents a minute.",
+      "body": "On September 10 OpenAI shipped <b>GPT-Live-1</b> to the API at <b>$0.05/minute</b>, billed per second, with 12 voices, native transcripts and turn detection. Full-duplex means the model speaks and listens at the same time — the same architecture powering ChatGPT Voice, now exposed to any brand. This is the moment 'voice agent' stops being a chatbot demo and starts being a line item.",
+      "arlab_use": "ship a branded voice-agent demo on gpt-live-1 this week — quote it per minute, not per project."
+    },
+    {
+      "headline": "Anthropic's own CEO called for the industry to slow down — and Altman and Musk backed him.",
+      "body": "On September 12 Dario Amodei published <b>'We Must Pace the Frontier'</b>, arguing labs must deliberately throttle capability gains. <b>Sam Altman</b> and <b>Elon Musk</b> publicly agreed within 48 hours. By September 14 the Washington Post confirmed <b>Anthropic, OpenAI and Google</b> have been meeting since July on a shared AI safety standards body — safety is now the axis every serious pitch and procurement conversation runs on.",
+      "arlab_use": "put a model-safety and provenance clause in every deck — the buyer is now asking."
+    },
+    {
+      "headline": "Anthropic booked its first profitable quarter and lapped OpenAI on revenue.",
+      "body": "Anthropic posted <b>Q2 2026 revenue above $11.5B</b> — 14× year-over-year, more than double Q1's $4.73B, and past <b>OpenAI's $6.7B</b> for the same quarter. It reported positive adjusted operating income, becoming the first frontier lab to reach profitability. The October IPO is now being priced against a <b>$2T</b> target.",
+      "arlab_use": "reprice long-term claude retainers before the ipo repricing hits."
+    },
+    {
+      "headline": "Suno signed the majors — AI music just became a licensed workflow.",
+      "body": "On September 9 <b>Suno</b> launched <b>v6, v6-wild and v6-mini</b>, its first models built with <b>Warner Music Group, BMG and Believe</b> as licensed partners. The next day <b>Universal Music and ElevenLabs</b> signed a multi-year deal to build a co-owned AI music platform. The copyright war is over — the settlement is a rev-share.",
+      "arlab_use": "swap every unlicensed music workflow to suno v6 before the next sow ships."
+    },
+    {
+      "headline": "Sakana priced orchestration below the frontier and made routing the product.",
+      "body": "On September 11 <b>Sakana AI</b> shipped <b>Fugu Max</b> ($2 / $6 per million tokens) and <b>Fugu Ultra v2</b> — a multi-agent orchestrator that swaps open and specialist models to beat closed frontier stacks on price and performance. Sakana calls it 'supply-chain resilience.' It's the pattern from the Anthropic router seat, now open and cheap.",
+      "arlab_use": "pilot fugu max on the always-on retainers — the margin lives in orchestration now."
+    },
+    {
+      "headline": "Meta quietly rebuilt the management layer it had just torn out of its AI division.",
+      "body": "On September 11 Business Insider reported that <b>Meta's Applied AI (AAI)</b> division is asking individual contributors to move back into management roles — a partial reversal of the flatter, AI-heavy structure Zuckerberg championed after cutting <b>8,000</b> jobs and reassigning <b>~7,000</b> into AAI earlier this year. The lesson buyers are absorbing: agents can execute, but they still need humans to decide.",
+      "arlab_use": "sell the human-decision layer as a paid tier, not a freebie above the ai stack."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Snap unveils Specs in full on September 16 in Los Angeles.",
+      "body": "Evan Spiegel gives the first in-depth demo of the <b>$2,195</b> standalone AR glasses at a livestreamed LA event — the closest thing to a consumer AR platform launch of the year."
+    },
+    {
+      "category": "Smart Glasses",
+      "headline": "Meta Connect on September 23–24 will hard-launch Ray-Ban Gen 3.",
+      "body": "Two Gen 3 models expected with a faster chip, Live AI stretching to hours, plus the second wave of the Ray-Ban Display SDK — the moment glasses-first pitches stop being speculative."
+    },
+    {
+      "category": "GCC Compute",
+      "headline": "HUMAIN's Horizon Ultra AI PC ships to enterprise on September 20.",
+      "body": "Built with <b>Qualcomm Snapdragon X2 Elite</b> and Microsoft Windows, running HUMAIN's on-device AI features — the sovereign stack is now landing on the desk, not the data center."
+    },
+    {
+      "category": "Video API",
+      "headline": "OpenAI's Sora API goes 410 Gone on September 24.",
+      "body": "Every request to <b>sora-2</b> and <b>sora-2-pro</b> dies — anyone still building on the endpoint has nine days to migrate video pipelines or pull the plug."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Two Anthropic safety researchers walked in the same week — one gave up unvested equity",
+      "classification": "Eyes only",
+      "body": "<b>Jacob Coxon</b> resigned on September 9 two months before his equity would have vested; <b>Joe Benton</b>, who led an Anthropic safety subteam, resigned days later alongside a Google DeepMind counterpart. Both told reporters the industry is hiding safety incidents. This is the credibility wedge that made Amodei's slowdown essay unavoidable."
+    },
+    {
+      "name": "30 coding-agent sandboxes are leaky and Anthropic's patch took 50 days",
+      "classification": "Restricted",
+      "body": "Stealth startup <b>Accomplish</b> disclosed on September 13 that over <b>30</b> coding-agent sandboxes across the major CLI tools have escape vulnerabilities, and that Anthropic's patch cycle ran <b>50 days</b>. Any client running agentic code in production without a real microVM boundary is currently exposed."
+    },
+    {
+      "name": "Meta's AAI is quietly reinstating managers it just cut",
+      "classification": "Confidential",
+      "body": "The <b>Applied AI</b> division that Zuckerberg built by reassigning 7,000 staff and flattening structure is now voluntarily offering IC-to-manager conversions. Nobody is announcing it. It signals the ceiling on AI-only replacement is closer than the earnings calls suggest."
+    },
+    {
+      "name": "GPT-6 Astra 'got dumber' — paying users are rolling back to Sol",
+      "classification": "Emerging",
+      "body": "Since September 11 developers including the team behind Opencode have publicly reverted from <b>GPT-6 Astra</b> to its predecessor <b>GPT-5.6 Sol</b>, complaining of quality regression in the days after launch. Model-routing pitches just got a lot easier to sell."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Programmable World Model (Alaya Lab)",
+      "tag": "Research",
+      "body": "Released September 9, <b>PWM</b> decouples world-state maintenance from visual observation — an agent turns natural-language instructions into executable programs that mutate a persistent world state, then a generative renderer draws it. Entities persist off-screen; events are irreversible; world facts are queryable. Closest thing yet to a directable, editable spatial engine.",
+      "link_url": "https://alaya-lab.github.io/pwm",
+      "link_text": "alaya-lab.github.io"
+    },
+    {
+      "name": "Suno v6 (licensed)",
+      "tag": "Shipped",
+      "body": "Suno's <b>v6, v6-wild and v6-mini</b> shipped September 9 as the first frontier music models built on licensed catalog from <b>WMG, BMG and Believe</b>. Single-lyric replacement without full regeneration. Revenue flows to rightsholders from day one — the first commercially defensible generative music stack.",
+      "link_url": "https://suno.com/blog/v6",
+      "link_text": "suno.com"
+    },
+    {
+      "name": "Fugu Max & Fugu Ultra v2 (Sakana AI)",
+      "tag": "Shipped",
+      "body": "Launched September 11, <b>Fugu Max</b> is a swappable multi-agent orchestrator priced at $2 / $6 per million tokens; <b>Fugu Ultra v2</b> pushes the peak by chaining specialists over open and closed models. Sakana positions it as vendor-lock-in insurance — routing the product, not the model.",
+      "link_url": "https://sakana.ai/fugu-max",
+      "link_text": "sakana.ai"
+    },
+    {
+      "name": "SuperSplat Editor 3.0 (PlayCanvas)",
+      "tag": "Shipped",
+      "body": "Shipped September 8, <b>SuperSplat 3.0</b> rewrites the reference Gaussian-splat editor on <b>WebGPU only</b>, dropping the WebGL2 path, adding sort-free Stochastic Alpha, and cutting peak memory so scenes several times larger open interactively. Combined with Three.js r186's native splat pipeline, browser splats are now production-grade.",
+      "link_url": "https://blog.playcanvas.com/supersplat-3-0/",
+      "link_text": "blog.playcanvas.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "GPT-Live-1 (OpenAI Realtime API)",
+      "body": "Full-duplex voice model in the OpenAI API at $0.05/min with 12 voices, turn detection and native transcripts — the fastest path to a shippable branded voice agent.",
+      "link_url": "https://platform.openai.com/docs/models/gpt-live-1"
+    },
+    {
+      "numeral": "ii",
+      "name": "SuperSplat Editor 3.0",
+      "body": "WebGPU-native Gaussian splat editor from PlayCanvas that handles far larger scenes with lower memory — the new default authoring surface for live splat deliverables.",
+      "link_url": "https://superspl.at/editor"
+    },
+    {
+      "numeral": "iii",
+      "name": "Lens Studio 5.24",
+      "body": "Snap's AR authoring tool shipped September 10 with new AI dev-mode plugins and MCP integration — this is what to build against ahead of the Specs launch on Sept 16.",
+      "link_url": "https://ar.snap.com/download"
+    },
+    {
+      "numeral": "iv",
+      "name": "Sakana Fugu Max",
+      "body": "Multi-agent orchestrator priced at $2/$6 per million tokens that swaps open and specialist models to beat closed frontier stacks on cost — the retainer-margin lever.",
+      "link_url": "https://sakana.ai/fugu-max"
+    },
+    {
+      "numeral": "v",
+      "name": "GPT-Image 2.5 Sunburst",
+      "body": "Released September 8, OpenAI's highest-precision image editing model with low/med/high/xhigh/max quality tiers — for hero-frame retouch work where GPT-Image 2 falls short.",
+      "link_url": "https://platform.openai.com/docs/models/gpt-image-2.5"
+    },
+    {
+      "numeral": "vi",
+      "name": "Adobe Firefly AI Assistant",
+      "body": "Now driving multi-step workflows across Photoshop, Premiere and Firefly from natural language — the agent that will run inside every enterprise Creative Cloud seat next quarter.",
+      "link_url": "https://www.adobe.com/products/firefly/features/ai-assistant.html"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Open World Models",
+      "name": "Alaya Lab",
+      "body": "Chinese open-source lab behind AlayaWorld and Programmable World Model — closest thing to a directable spatial engine ARlab can pilot without waiting for Atlas access."
+    },
+    {
+      "category": "Model Orchestration",
+      "name": "Sakana AI",
+      "body": "Tokyo lab shipping Fugu Max/Ultra as swappable multi-agent orchestration — cheapest current path to matching frontier quality on always-on installations."
+    },
+    {
+      "category": "Web 3D Runtime",
+      "name": "PlayCanvas / SuperSplat",
+      "body": "Ships the WebGPU-only splat editor and viewer runtime that ARlab's site and campaigns can standardise on — direct channel for co-marketing splat landmarks."
+    },
+    {
+      "category": "Licensed Music AI",
+      "name": "Suno",
+      "body": "Now the only frontier music model with WMG/BMG/Believe rights cleared at generation time — the pitch-safe audio partner for GCC brand campaigns."
+    },
+    {
+      "category": "AI Glasses OEM",
+      "name": "Rokid",
+      "body": "49-gram AI glasses with shipping volume already outselling Meta's display category — a real hardware partner for a GCC smart-glasses activation before Ray-Ban Gen 3 lands."
+    },
+    {
+      "category": "Agent Security",
+      "name": "Accomplish",
+      "body": "Stealth startup that disclosed the 30-sandbox coding-agent leak — the credible auditor to bring in when a GCC client asks whether agentic installations are safe to deploy."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The frontier labs are negotiating their own slowdown in public.",
+      "body": "Amodei's <b>'We Must Pace the Frontier'</b> essay, Altman and Musk co-signing, two Anthropic safety departures, and a joint <b>Anthropic-OpenAI-Google</b> standards body all landed inside eight days. Safety and provenance are now procurement questions, not PR ones. Sell them explicitly."
+    },
+    {
+      "tag": "Global",
+      "headline": "The music copyright fight ended in a licence, not a verdict.",
+      "body": "<b>Suno v6</b> ships with WMG/BMG/Believe; <b>ElevenLabs and UMG</b> announce a co-built platform the next day. Generative audio just moved from unlicensed grey market to rev-share supply chain — the same arc coming for stock imagery and video."
+    },
+    {
+      "tag": "Global",
+      "headline": "Orchestration is the moat now — the model is a swappable component.",
+      "body": "<b>Sakana Fugu Max</b> at $2/M tokens, GitHub's HydraFusion router, and Anthropic-in-Salesforce all point the same way: the buyer will not pay for a single model, they will pay for whoever picks the right one per task. Sell the orchestration layer as the product."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "HUMAIN is moving from AI infrastructure to the endpoint on the desk.",
+      "body": "On September 20 <b>HUMAIN's Horizon Ultra AI PC</b> — Qualcomm Snapdragon X2 Elite, Microsoft Windows, HUMAIN AI on-device — reaches enterprise buyers, with a goal of <b>one million</b> devices in the Middle East. Sovereign AI now has a hardware SKU that GCC procurement can put on a purchase order."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Ship a branded voice-agent demo on GPT-Live-1 this week.",
+      "body": "The real-time team should build one metered voice experience for a hero brand at $0.05/minute economics — a museum guide, retail concierge, or campaign phone line — and quote it per usage minute, not per project."
+    },
+    {
+      "numeral": "ii",
+      "title": "Retire the WebGL2 splat stack and standardise on SuperSplat 3.0 + Three.js r186.",
+      "body": "The web team should rebuild the splat pipeline on WebGPU-only tooling now, cut memory budgets, and put a demo landmark on arlab.com before Meta Connect so the pitch matches what buyers see."
+    },
+    {
+      "numeral": "iii",
+      "title": "Open a Horizon Ultra pilot channel with HUMAIN and Microsoft before Sept 20.",
+      "body": "The partnerships function should request an early-enterprise pilot allocation of the HUMAIN AI PC and prepare an on-device brand-agent demo that a GCC procurement officer can purchase as a bundle."
+    },
+    {
+      "numeral": "iv",
+      "title": "Add a licensed-music and Suno v6 clause to every SOW.",
+      "body": "Whoever owns contracts should drop the unlicensed music workflow, standardise on Suno v6 with WMG/BMG/Believe rights cleared, and pass the indemnity through — kill sync-legal risk before it kills a pitch."
+    }
+  ]
+}
