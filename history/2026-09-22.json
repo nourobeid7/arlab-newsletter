@@ -1,0 +1,223 @@
+{
+  "date_display": "22 · 09 · 2026",
+  "signals": [
+    {
+      "headline": "Snap turned Specs into an enterprise runtime — and priced the connectivity per month.",
+      "body": "At its Sept 16 launch, <b>Snap</b> shipped <b>Specs Intelligence</b> and pulled <b>Nvidia, AWS and Salesforce</b> on stage as agent runtimes for the $2,195 glasses. A cellular charging case with <b>Verizon</b> data from <b>$10/month</b> makes Specs the first AR headset priced like a phone, not a peripheral.",
+      "arlab_use": "pitch specs as the on-face agent surface for a gcc enterprise vertical this week."
+    },
+    {
+      "headline": "Alibaba pulled the whole stack — chip, cloud, model, agent — into one keynote.",
+      "body": "At Apsara on Sept 22, <b>Alibaba</b> unveiled a new custom AI chip, rebuilt its cloud stack, dropped the <b>Qwen4</b> family (Max, Plus, Flash, 27B) and laid out a public roadmap to a <b>5–10 trillion parameter</b> Qwen 5. Shares jumped ~5% before the model even shipped — the story is 'China's AI factory,' not any single benchmark.",
+      "arlab_use": "reprice the always-on retainer on qwen4-flash economics before month-end."
+    },
+    {
+      "headline": "Meta will ship a smart-glasses variant with no camera at all.",
+      "body": "Ahead of Connect, multiple outlets confirmed <b>Meta</b> is preparing a camera-less Ray-Ban SKU after 24 months of privacy backlash and shipments-drag reports. The category leader is now hedging the sensor itself — capture is optional, always-on AI is not.",
+      "arlab_use": "design brand experiences that work face-out and mic-only, not just camera-first."
+    },
+    {
+      "headline": "Google gave every AI agent root access to the smart home.",
+      "body": "On Sept 16, <b>Google</b> opened <b>Home MCP</b> early access, letting third-party AI agents read state and control lights, thermostats and cameras through the Model Context Protocol. MCP just moved from developer tools into the physical space — the house is the app.",
+      "arlab_use": "prototype an mcp-driven ambient install for a gcc hospitality or retail brief."
+    },
+    {
+      "headline": "Tencent shipped Hy Image 3.5 Preview the same morning Alibaba spoke.",
+      "body": "On Sept 22, <b>Tencent</b> released <b>Hy Image 3.5 Preview</b> with <b>20 reference images</b>, native <b>4K</b> output and multi-round editing, priced from <b>$0.024</b> a 2K image on Tencent Cloud. HK shares jumped over 7% intraday — the Chinese image race is now a same-day arms race, not a quarterly one.",
+      "arlab_use": "add hy image 3.5 as a second sovereign-safe image lane behind nano banana."
+    },
+    {
+      "headline": "Cannes Lions planted its flag in Riyadh — with the Ministry of Media inside.",
+      "body": "On Sept 17, LIONS announced <b>LIONS Riyadh</b> in partnership with Saudi's <b>Ministry of Media</b>, a new regional festival landing in 2027. The Kingdom's soft-power play just captured the global creative-awards podium — every GCC agency will restructure its award calendar around it.",
+      "arlab_use": "start prepping a lions riyadh 2027 submission trail for our best gcc work now."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Meta Connect on Sept 23–24 is when the glasses category gets its consumer year.",
+      "body": "Menlo Park, two days, <b>Muse</b> personal-agent integration, Ray-Ban Gen 3 variants including the reported camera-less SKU — and Zuckerberg needs a hit."
+    },
+    {
+      "category": "Dev Platform",
+      "headline": "OpenAI DevDay lands in San Francisco on Sept 29.",
+      "body": "The pitch is <b>platform</b>, not model — expect Realtime, Agents SDK, and the post-Sora video story to headline the keynote."
+    },
+    {
+      "category": "3D Pipeline",
+      "headline": "Blender 5.3 stable arrives Nov 10 with native Gaussian splatting across Workbench, EEVEE and Cycles.",
+      "body": "Alpha runs to Sept 30; the release ships <b>PLY and SPZ v4</b> support — every splat pipeline built on plugins goes obsolete overnight."
+    },
+    {
+      "category": "GCC Trade",
+      "headline": "GITEX Global moves to Expo City Dubai for Dec 7–11, 2026.",
+      "body": "New venue, new dates, GCC's biggest tech buyers in one week — the last enterprise pitching window before Q1 budgets close."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Claude Fable 5.2 — stealth routing already in the wild",
+      "classification": "Emerging",
+      "body": "Independent testers logged <b>Fable 5.2</b> and <b>Opus 5.5</b> traffic on Anthropic endpoints as recently as Sept 21. Routing analysts at CellCog now expect a public drop inside the OpenAI DevDay window — a classic counter-launch."
+    },
+    {
+      "name": "Meta's no-camera Ray-Ban is a Connect surprise, not a rumor",
+      "classification": "Restricted",
+      "body": "PetaPixel, Digitimes and Engadget converged on the same leak in the last 7 days: a camera-less Ray-Ban SKU is ready to reveal on Sept 23. Meta is quietly re-segmenting the line by sensor, not price."
+    },
+    {
+      "name": "Alibaba Qwen 5 aims at 10 trillion parameters",
+      "classification": "Confidential",
+      "body": "Buried in the Apsara roadmap: Qwen 5 targets <b>5–10T parameters</b>, with the custom Aegaeon-class chip as the training substrate. The public message is 'agentic era' — the private one is that China is done buying Nvidia for the next-gen run."
+    },
+    {
+      "name": "SwitchBot MindClip is testing the post-Humane ambient wearable at $100",
+      "classification": "Eyes only",
+      "body": "Quietly announced at IFA and shipping now, the <b>MindClip</b> is a $100 clip-on AI recorder that captures ideas, promises and to-dos passively. The category Humane and Rabbit couldn't crack is being restarted from the low-price end."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Tencent Hy Image 3.5 Preview",
+      "tag": "Research preview",
+      "body": "Multi-round editing, up to <b>20 reference images</b> for identity/style control, and native <b>4K</b> output — priced from <b>$0.024</b> per 2K image on Tencent Cloud. First image model to make 4K a default, not a mode.",
+      "link_url": "https://superpowerdaily.com/posts/tencent-releases-hy-image-3-5-preview-with-multi-round-editing-and-4k-output",
+      "link_text": "superpowerdaily.com"
+    },
+    {
+      "name": "AI Smart Glasses for Wearable Intelligence (arXiv 2609.19793)",
+      "tag": "Research",
+      "body": "Sept 17 survey and framework mapping the shift from <b>egocentric sensing</b> to <b>agentic personalization</b> on smart glasses. Reads as the design brief every glasses OEM will hand its product team next quarter.",
+      "link_url": "https://arxiv.org/abs/2609.19793",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Blender 5.3 — native Gaussian splats",
+      "tag": "Alpha",
+      "body": "First mainstream DCC to bake <b>3D Gaussian splatting</b> into Workbench, EEVEE and Cycles with <b>PLY + SPZ v4</b> import. Alpha open until Sept 30, stable Nov 10 — splats stop being a plugin and become a primitive.",
+      "link_url": "https://digitalproduction.com/2026/09/22/blender-5-3-brings-gaussian-splats-home/",
+      "link_text": "digitalproduction.com"
+    },
+    {
+      "name": "Alibaba — full-stack AI roadmap (Apsara 2026)",
+      "tag": "Shipped",
+      "body": "New custom AI chip, rebuilt cloud stack, <b>Qwen4</b> family and a public target of <b>5–10T parameter</b> Qwen 5 — all announced in a single Sept 22 keynote framed as 'China's AI factory' from silicon to agent.",
+      "link_url": "https://www.alibabagroup.com/en-US/document-1994119844504535040",
+      "link_text": "alibabagroup.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Hy Image 3.5 Preview (Tencent Cloud)",
+      "body": "20-reference multi-image conditioning + 4K + multi-round editing at ~2.4¢ per 2K image — the new price/quality anchor for brand imagery outside the US stack.",
+      "link_url": "https://www.orcarouter.ai/blog/hy-image-3-5-preview-is-live"
+    },
+    {
+      "numeral": "ii",
+      "name": "Google Home MCP (early access)",
+      "body": "First-party MCP server exposing lights, thermostats, sensors and cameras to any compliant agent — a shortcut into ambient installs without hand-rolling every integration.",
+      "link_url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
+    },
+    {
+      "numeral": "iii",
+      "name": "Snap Specs Intelligence (iPhone + Mac)",
+      "body": "Cross-platform companion for the $2,195 Specs that runs the same agent on desktop, phone and glasses — the first real 'agent that follows you' on shipping AR hardware.",
+      "link_url": "https://9to5mac.com/2026/09/16/snap-specs-intelligence-cellular-support/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Meta Muse Personal AI Agent",
+      "body": "Meta's consumer agent, live at <b>$20 and $100 tiers</b>, hooked into the Ray-Ban line and about to headline Connect — worth burning a week to test against Claude and ChatGPT for brand workflows.",
+      "link_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+    },
+    {
+      "numeral": "v",
+      "name": "Gauss Cannon (Warpgate Labs)",
+      "body": "Open-source Blender pipeline for training and cleaning splats from scene renders — the bridge that makes Blender 5.3's native splats useful before the stable ships.",
+      "link_url": "https://github.com/warpgatelabs/gauss-cannon"
+    },
+    {
+      "numeral": "vi",
+      "name": "Vidu S1 (Shengshu)",
+      "body": "Real-time interactive video generation driven by voice — the first hosted model where a live host and an AI-generated clip can react to each other in the same second.",
+      "link_url": "https://huggingface.co/papers/2607.03118"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Real-time Video AI",
+      "name": "WaveSpeed AI",
+      "body": "Fastest-in-class hosted inference for Kling, Wan and Hy Image — the serving layer that turns generative video into a live pipeline, not a batch job."
+    },
+    {
+      "category": "Interactive Video",
+      "name": "Shengshu (Vidu)",
+      "body": "Vidu S1 is the first commercial real-time interactive video model — perfect for a talk-to-brand mirror or a live avatar host installation."
+    },
+    {
+      "category": "Splat Pipeline",
+      "name": "Warpgate Labs",
+      "body": "The team behind Gauss Cannon; the fastest path from a Blender scene to a browser-ready gaussian splat, right as Blender 5.3 makes splats native."
+    },
+    {
+      "category": "Agent Routing",
+      "name": "OrcaRouter",
+      "body": "Production LLM router with hybrid offline/online learning; already brokering Hy Image 3.5 access — a clean partner to run our multi-model creative router on."
+    },
+    {
+      "category": "Local Video",
+      "name": "Lightricks (LTX-2)",
+      "body": "Open-weights LTX-2 is the fastest video model that actually runs on consumer GPUs — the fallback when a client won't ship prompts to Beijing or San Francisco."
+    },
+    {
+      "category": "Ambient AI",
+      "name": "SwitchBot (MindClip)",
+      "body": "$100 clip-on ambient AI recorder now shipping — a cheap way to seed an ambient-agent experiment for a GCC retail or hospitality pilot."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Smart glasses stopped being fashion tech this week — they became enterprise runtimes.",
+      "body": "Snap put <b>Nvidia, AWS and Salesforce</b> agents on Specs, priced cellular data by the month, and let Meta take the consumer-fashion lane. The pitch to buyers is no longer 'wear this' — it's 'run your CRM on this face-out.' Every AR studio has to pick a side: agent runtime or brand novelty."
+    },
+    {
+      "tag": "Global",
+      "headline": "China's answer is now the full stack in one week — chip, cloud, model, agent.",
+      "body": "<b>Alibaba</b> and <b>Tencent</b> shipped on the same day (Sept 22): custom silicon + Qwen4 + a public 10T roadmap, countered by 4K Hy Image 3.5 within hours. This isn't a model-vs-model race anymore — it's a factory-vs-factory one, and the West's answer is more compute, not more speed."
+    },
+    {
+      "tag": "Global",
+      "headline": "MCP quietly became the operating system for the physical world.",
+      "body": "In three weeks, MCP has picked up <b>Google Home</b>, Snap Ads, Salesforce and a growing list of first-party servers. The interesting question is no longer 'which model' — it's 'which MCP surface do we own,' because whoever owns the surface owns the session."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi's soft-power play now owns the awards podium — creative capital moves to Riyadh.",
+      "body": "In the same week, <b>LIONS Riyadh</b> was announced with the <b>Ministry of Media</b>, Misk's Creative Forum opened, and Riyadh Season 2025–26 kept absorbing global IP. The 'where do you win your Cannes' question now has a Riyadh answer — and the region's creative retainers will follow the podium."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Ship a Specs-Intelligence enterprise vertical demo before Connect closes.",
+      "body": "Pick one GCC vertical — hospitality front-of-house, luxury retail, or gigaproject site ops — and stand up a Snap Specs demo using Specs Intelligence + one of the announced Nvidia/AWS/Salesforce agent runtimes. The pitch window closes the moment Meta owns the news cycle on Sept 24."
+    },
+    {
+      "numeral": "ii",
+      "title": "Add Hy Image 3.5 as a second image lane, priced and sovereign-safe.",
+      "body": "The creative-tech function should stand up Hy Image 3.5 Preview alongside Nano Banana in the visual pipeline this week, with a per-asset cost sheet at 2.4¢ / 2K. It unlocks a Chinese-cloud lane for KSA and Qatar briefs that can't route through US endpoints."
+    },
+    {
+      "numeral": "iii",
+      "title": "Rebuild the splat pipeline on Blender 5.3 alpha + SPZ v4 now.",
+      "body": "Whoever owns the 3D pipeline should port every active splat asset to SPZ v4 and validate on the Blender 5.3 alpha before Sept 30. If we're ready when the Nov 10 stable ships, we skip the entire competitive gap where studios are still learning the plugin era."
+    },
+    {
+      "numeral": "iv",
+      "title": "Open a formal channel to LIONS Riyadh and Ministry of Media before agencies do.",
+      "body": "The partnerships function should file an introduction to the LIONS Riyadh organizing team and Ministry of Media this week — a year ahead of 2027, positioning ARlab as the region's AI/immersive craft partner while the framework is still being drawn."
+    }
+  ]
+}
