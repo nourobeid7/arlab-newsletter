@@ -1,0 +1,223 @@
+{
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Stand up an 'always-on brand agent' lane this week.",
+      "body": "Dots proved the market will buy persistent workers over chat sessions. Package a branded always-on agent — Dots, Claude Code CLI, or an in-house router — as a monthly subscription, not a project."
+    },
+    {
+      "numeral": "ii",
+      "title": "Open a sovereign-weights pilot on Beam.",
+      "body": "A 501B open-weight Western model that fits a GCC data-residency pitch arrives this month. Spin up a hosted Beam endpoint on a GCC cloud and pre-brief NEOM, HUMAIN, and Qatar MCIT buyers before competitors do."
+    },
+    {
+      "numeral": "iii",
+      "title": "Ship an Apps SDK app inside ChatGPT by month-end.",
+      "body": "1.2B weekly users just became a distribution surface and the shelf is still mostly empty. Push one branded ARlab mini-app — booking, config, visualiser — into the Apps SDK before the agency majors land there."
+    },
+    {
+      "numeral": "iv",
+      "title": "Lock a Galaxy Glasses demo window with Samsung Gulf.",
+      "body": "Samsung's Gemini-powered glasses drop in November. Whoever owns the partnerships function should get a dev kit, a Lens, and a short brand demo booked for a Riyadh or Dubai activation inside launch week."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Open Weights",
+      "headline": "Reflection Beam weights hit the open hub this month.",
+      "body": "<b>Reflection AI</b> says the full 501B open-weight release lands in October — the first serious Western answer to DeepSeek and Qwen."
+    },
+    {
+      "category": "Smart Glasses",
+      "headline": "Samsung Galaxy Glasses go on sale in November.",
+      "body": "Gemini-powered Android XR eyewear with a confirmed November window — the first Ray-Ban Meta rival with a mainstream phone-maker behind it."
+    },
+    {
+      "category": "Nvidia GTC",
+      "headline": "GTC Berlin opens on October 20 as Europe's AI-infra moment.",
+      "body": "<b>Nvidia GTC Berlin</b> runs Oct 20–22 with a Jensen keynote; expect Omniverse, Isaac GR00T and new sovereign-cloud partner deals."
+    },
+    {
+      "category": "Agent Policy",
+      "headline": "US federal buyers start ordering under the new GSA AI clause.",
+      "body": "The <b>GSA</b> AI acquisition clause took effect last week — vendor data-use, audit and suspension terms are now the template every Gulf procurement team will copy."
+    }
+  ],
+  "date_display": "06 · 10 · 2026",
+  "first_of_kind": [
+    {
+      "name": "Reflection Beam — 501B open-weight MoE",
+      "tag": "Research · open weights",
+      "body": "<b>Reflection AI</b>, founded by ex-DeepMind researchers and backed by <b>Nvidia</b>, dropped a 501-billion-parameter mixture-of-experts model trained for frontier reasoning and coding. Weights go public this month — the first credible Western open-weight at that scale.",
+      "link_url": "https://reflection.ai/blog/introducing-beam",
+      "link_text": "reflection.ai"
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "tag": "Shipped",
+      "body": "OpenAI's new flagship, <b>GPT-6.1 Sol</b>, is tuned for long-horizon programming and tool use and sits underneath Dots and Codex Cloud. It's the model the Apps SDK and Agents API now run on by default.",
+      "link_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "link_text": "openai.com"
+    },
+    {
+      "name": "Marble — World Labs' generative world model",
+      "tag": "Shipped · API",
+      "body": "<b>Fei-Fei Li's World Labs</b> formally shipped <b>Marble</b> and its World API — turn a prompt or a few images into an interactive 3D environment, exportable to splats or mesh. Finally a world model built for creative pipelines, not research demos.",
+      "link_url": "https://www.worldlabs.ai/blog/marble-world-model",
+      "link_text": "worldlabs.ai"
+    },
+    {
+      "name": "Qwen Intelligence — agentic phone stack",
+      "tag": "Research preview",
+      "body": "<b>Alibaba</b> rolled Qwen into a full on-device agent stack for smartphones with HONOR as first partner. Think Apple Intelligence, but open and shipping across Chinese and GCC hardware OEMs first.",
+      "link_url": "https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597",
+      "link_text": "alibabacloud.com"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Open Weights",
+      "name": "Reflection AI",
+      "body": "Nvidia-backed, ex-DeepMind founders, 501B open weights — the fastest path to a sovereign-safe frontier endpoint for GCC clients."
+    },
+    {
+      "category": "World Models",
+      "name": "Odyssey",
+      "body": "Odyssey-3 is a general-purpose world model built to drive robots, agents and interactive video from the same brain — perfect for live installation briefs."
+    },
+    {
+      "category": "3D · WebGPU",
+      "name": "Spline (V2)",
+      "body": "V2 rebuilt the editor on WebGPU with AI agents and native Gaussian-splat support — a credible browser-first 3D stack we can resell inside brand pitches."
+    },
+    {
+      "category": "Inference Layer",
+      "name": "fal.ai",
+      "body": "Hosts Kling 4.0, Flux, LTX and Beam within hours of release — a single API we can wire into every ARlab campaign without model lock-in."
+    },
+    {
+      "category": "Interactive Video",
+      "name": "Decart",
+      "body": "Real-time generative world models (Oasis 3) now good enough for live, playable brand environments on a browser — one of the few labs selling the frames, not the research."
+    },
+    {
+      "category": "Voice Agents",
+      "name": "Cekura",
+      "body": "A small, tested voice-agent platform that beat Vapi and Retell in independent trials — a cleaner spine for Arabic-first branded voice than the usual stack."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The chat window is now an operating system — and the app shelf is still mostly empty.",
+      "body": "OpenAI reported <b>1.2 billion weekly ChatGPT users</b> at DevDay and opened a developer marketplace and Apps SDK inside the chat. The surface that beats websites, apps and search is now addressable — and whoever ships first inside it owns the shelf space when it fills."
+    },
+    {
+      "tag": "Global",
+      "headline": "Agents stopped being sessions. They are persistent workers now.",
+      "body": "<b>Dots</b> from OpenAI, <b>Muse for Small Business</b> from Meta, and <b>Claude for Government</b> all shipped in the same week — all three are branded as always-on, assignable agents rather than chats. The retainer model has to follow: brands will buy monthly workers, not one-off builds."
+    },
+    {
+      "tag": "Global",
+      "headline": "Open-weight AI just reshored to the West.",
+      "body": "<b>Reflection's Beam</b> drops a 501B open MoE backed by Nvidia at a fraction of the Qwen/DeepSeek training cost. For the first time, enterprise and sovereign buyers get a Western open weight at frontier scale — the sovereign-AI pitch no longer forces a Chinese dependency."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The GCC is where 'deployment-not-hype' AI is actually being graded.",
+      "body": "<b>Ai Everything Abu Dhabi</b> opened this week framed around government, healthcare and industry deployments rather than demos. Pair that with HUMAIN's silicon push and Qatar's tourism-tech RFPs this quarter, and the Gulf is the only region where sovereign AI is being bought, not just announced."
+    }
+  ],
+  "signals": [
+    {
+      "headline": "OpenAI shipped Dots — always-on agents that keep working after you close the chat.",
+      "body": "At DevDay, <b>OpenAI</b> introduced <b>Dots</b>, assignable agents that live in a sidebar, keep executing in the background, and report back when done. It is the first mainstream branding of 'the agent as a persistent worker,' not a chat session — and it ships bundled with the new Agents API, Spaces, and a developer marketplace.",
+      "arlab_use": "reprice retainers as monthly always-on workers, not project builds."
+    },
+    {
+      "headline": "ChatGPT hit 1.2 billion weekly users and turned itself into an app platform.",
+      "body": "OpenAI used DevDay to confirm <b>1.2B weekly ChatGPT users</b> and opened the <b>Apps SDK</b> so any developer can ship a mini-app directly inside the chat window. The marketplace, Spaces for shared agents, and in-chat checkout make ChatGPT the new distribution surface — bigger than iOS and faster to ship into.",
+      "arlab_use": "build an arlab-branded apps-sdk mini-app before the agency majors land there."
+    },
+    {
+      "headline": "Reflection dropped a 501B open-weight model and planted the Western flag.",
+      "body": "<b>Reflection AI</b>, founded by ex-DeepMind researchers and backed by <b>Nvidia</b>, launched <b>Beam</b>, a 501-billion-parameter mixture-of-experts open-weight model aimed squarely at <b>DeepSeek</b> and <b>Qwen</b>. The weights land later this month — the first time a Western lab has shipped a frontier-grade open weight that enterprise and sovereign buyers can actually self-host.",
+      "arlab_use": "pre-brief gcc sovereign-ai buyers on a self-hosted beam endpoint this week."
+    },
+    {
+      "headline": "Meta pushed Muse down into every Shopify small business.",
+      "body": "<b>Meta</b> rolled <b>Muse for Small Business</b> live as a subscription funnel aimed at the millions of Shopify-powered sellers already running Instagram and Facebook ads. The pitch — an always-on AI agent that writes, buys, targets and reports — eats the bottom of the agency market in one move. Shopify brands have until Oct 13 to enable Shop Pay to plug in.",
+      "arlab_use": "stop pitching smbs — move up into brand-system work only agencies can do."
+    },
+    {
+      "headline": "Claude for Government went GA across every US agency.",
+      "body": "<b>Anthropic</b> made <b>Claude for Government</b> generally available to all federal, state, local and tribal agencies, with <b>Claude Code CLI</b> and Microsoft 365 early access included. It's a textbook sovereign-AI play — and the exact shape GCC ministries will demand next, from HUMAIN to Qatar MCIT to Abu Dhabi's new sovereign stack.",
+      "arlab_use": "mirror the public-sector packaging into a 'claude-for-ministry' pitch for the gulf."
+    },
+    {
+      "headline": "Samsung confirmed Galaxy Glasses for a November drop.",
+      "body": "<b>Samsung</b> locked a November launch window for its first <b>Galaxy Glasses</b> — Android XR hardware with Gemini baked in, a real Ray-Ban Meta rival with the full Samsung distribution behind it. For the first time a mainstream phone-maker will push an AI eyewear SKU through carriers in both the US and GCC.",
+      "arlab_use": "secure a galaxy glasses dev kit and ship a brand lens inside launch week."
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "OpenAI Dots",
+      "body": "Always-on agents you can assign tasks to inside ChatGPT — the first mainstream 'persistent worker' primitive, bundled with the new Agents API and Spaces.",
+      "link_url": "https://chatgpt.com/dots"
+    },
+    {
+      "numeral": "ii",
+      "name": "GPT-6.1 Sol",
+      "body": "OpenAI's new flagship for long-horizon reasoning, coding and tool use — the default brain behind Dots, Codex Cloud and the Apps SDK marketplace.",
+      "link_url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+    },
+    {
+      "numeral": "iii",
+      "name": "Reflection Beam",
+      "body": "501B open-weight MoE from a Nvidia-backed Western lab — the first serious self-hostable frontier model for a sovereign-safe GCC deployment.",
+      "link_url": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "numeral": "iv",
+      "name": "Kling 4.0",
+      "body": "Kuaishou's new video model lands with 30-second clips, 10 keyframes and 4K output — now hostable on fal.ai and WaveSpeed, pre-IPO pricing pressure guaranteed.",
+      "link_url": "https://klingai.com"
+    },
+    {
+      "numeral": "v",
+      "name": "World Labs Marble (World API)",
+      "body": "Formally launched generative world model with an API: prompt or image to an interactive 3D scene, exportable to splats or mesh — a plug-in for immersive-web pitches.",
+      "link_url": "https://www.worldlabs.ai/blog/marble-world-model"
+    },
+    {
+      "numeral": "vi",
+      "name": "ElevenLabs v4 + v4 Turbo",
+      "body": "New speech model with 90+ languages and much tighter expression control — the voice spine for Arabic-first always-on brand agents.",
+      "link_url": "https://elevenlabs.io"
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "SoftBank + Nvidia finish wiring $64B into OpenAI",
+      "classification": "Confidential",
+      "body": "<b>SoftBank</b> and <b>Nvidia</b> quietly completed the 82-trillion-won payment leg of their OpenAI commitment on Oct 2 — the final slug of what's now a ~$250B infrastructure backstop. The capital stack behind frontier AI is now one coordinated balance sheet, and it is not neutral."
+    },
+    {
+      "name": "Jay Clayton named US AI czar; 'Super Intelligence Force' stood up",
+      "classification": "Restricted",
+      "body": "On Oct 4 the US named <b>Jay Clayton</b> AI czar and announced a <b>Super Intelligence Force</b> task force — a federal response to the slowdown-vs-accelerate fight. Expect the GCC to use this as cover for their own national AI councils and to accelerate sovereign procurement, not slow it."
+    },
+    {
+      "name": "OpenAI's Decisions API quietly reprices every agent workflow",
+      "classification": "Emerging",
+      "body": "Buried in DevDay was a <b>Decisions API</b> and an <b>Ultrafast</b> inference tier that priced routing and verdicts separately from generation. The real cost per agent task is going to drop faster than the token price did — orchestration margins are the next thing to compress."
+    },
+    {
+      "name": "Odyssey-3 world model shipped to selected partners",
+      "classification": "Eyes only",
+      "body": "<b>Odyssey</b> quietly opened Odyssey-3 to a small set of robotics and interactive-media teams — one foundation world model driving robot arms, humanoids, drones, agents and video games. The first world model built explicitly as a platform rather than a demo."
+    }
+  ]
+}
