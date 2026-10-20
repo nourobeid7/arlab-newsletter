@@ -1,0 +1,223 @@
+{
+  "date_display": "20 · 10 · 2026",
+  "signals": [
+    {
+      "headline": "Meta parked a frontier open model on a desktop.",
+      "body": "On Oct 15 Meta released <b>Muse Spark Open</b> — an <b>816B</b>-parameter MoE with public weights and a license permissive enough to deploy — and it runs on <b>two paired Mac Studios</b> instead of a GPU rack. The hardware wall for a US frontier model just collapsed to under $20k. The best American open-weight model is now a desk purchase, not a cloud contract.",
+      "arlab_use": "stand up a two-mac muse spark rig as the house-sovereign model"
+    },
+    {
+      "headline": "DeepSeek hot-shipped a new flagship straight into the live API.",
+      "body": "On Oct 17–18 DeepSeek pushed <b>V4.1-Flash</b> directly into the same production endpoint — cheaper, faster, MIT-licensed — and only told the world after the fact. There was no release note, no version bump, no migration window. The frontier is now patching itself behind every integration you ship.",
+      "arlab_use": "pin model versions and build a model-drift guardrail into every production prompt"
+    },
+    {
+      "headline": "Alibaba undercut Meta on glasses at $450.",
+      "body": "On Oct 13 Alibaba put the <b>Qwen N1</b> on sale in China — a <b>50MP</b> camera, native Qwen multimodal, and a price <b>$200</b> under the Ray-Ban Meta Gen 3. It is the first serious Chinese consumer glass pitched directly at Meta's lineup. The smart-glasses war is no longer a one-stack race.",
+      "arlab_use": "spec a dual-rail glasses demo that runs on qwen and on meta glass"
+    },
+    {
+      "headline": "Nvidia put a Blackwell-Grace superchip inside a laptop.",
+      "body": "<b>RTX Spark</b> laptops started shipping at <b>$2,399–$2,599</b> — roughly <b>1 petaflop</b> of AI compute, <b>128GB</b> of unified memory, enough to run a mid-weight open model locally. The 'AI workstation' category just moved from desk to bag. On-site inference for installations is now a hardware spec, not an architecture debate.",
+      "arlab_use": "stop quoting cloud inference on pitches that need on-site data privacy"
+    },
+    {
+      "headline": "Krea priced realtime image editing at six cents an edit.",
+      "body": "<b>Krea 3</b> dropped Oct 15–16 with sub-second edit latency and an API on fal at <b>$0.03–$0.06</b> per image. It is faster than Photoshop, cheaper than a stock photo, and already integrated for live creative workflows. Realtime brand imagery just became a production utility.",
+      "arlab_use": "move the live image lane for installations onto krea 3"
+    },
+    {
+      "headline": "Qatar established a National Center for AI by Amiri decree.",
+      "body": "On Oct 20 the Amir ratified a restructure of MCIT that creates a standalone <b>National Center for AI</b> as part of a wider ministerial reshuffle. Doha is now the third GCC pole alongside Riyadh and Abu Dhabi — each with its own national stack, its own buyer, its own agenda. The regional map just got a new capital.",
+      "arlab_use": "open a doha channel this week before milipol closes"
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "GTC Berlin",
+      "headline": "Nvidia opens its first European flagship conference Oct 20–22.",
+      "body": "<b>GTC Berlin</b> runs through Thursday with keynote focus on <b>Rubin</b> economics, European sovereign-AI deals and the Nemotron 3.5 open-model push — the clearest signal of what Nvidia will try to sell MENA buyers next."
+    },
+    {
+      "category": "Milipol Qatar",
+      "headline": "Doha opens Milipol + the AI Security Summit on Oct 21.",
+      "body": "Milipol Qatar 2026 runs <b>Oct 21–23</b> with the Doha International Conference on AI & Security running alongside — the first live showcase since the National Center for AI was decreed."
+    },
+    {
+      "category": "COP31",
+      "headline": "COP31 Antalya puts AI energy use on the climate agenda.",
+      "body": "<b>COP31</b> runs <b>Nov 9–20</b> in Antalya with an explicit AI pledge from the presidency; expect new scope-3 disclosure rules that will land in every GCC data-centre contract within a quarter."
+    },
+    {
+      "category": "AWS re:Invent",
+      "headline": "AWS re:Invent lands in Las Vegas Nov 30–Dec 4.",
+      "body": "<b>re:Invent 2026</b> is the last big hyperscaler stage of the year — Bedrock pricing, agent orchestration primitives, and the Nova family roadmap all get repriced in a single week."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Nothing's two-model smart-glasses line",
+      "classification": "Confidential",
+      "body": "Leaks on Oct 14 confirm <b>Nothing</b> is readying two pairs of smart glasses — one with a camera and full AI stack, one deliberately without. The 'camera-free' SKU mirrors Meta's Oct 2026 move; the London-made challenger is now in the glasses race before anyone priced it in."
+    },
+    {
+      "name": "Apple's rushed M7 and Baltra server chip",
+      "classification": "Eyes only",
+      "body": "Supply-chain reporting on Oct 15 claims <b>Apple</b> has skipped the <b>M6 Pro</b> entirely to accelerate an AI-first <b>M7</b> — with the Baltra server chip bolted on top for internal inference. Apple is quietly rebuilding its silicon ladder around AI, not Mac Pro refresh cycles."
+    },
+    {
+      "name": "OpenAI's humanoid body program",
+      "classification": "Emerging",
+      "body": "On Oct 19 Altman confirmed <b>OpenAI</b> is now explicitly building a humanoid robot with a demo window of <b>2027</b>. The chat window is being extended into a physical shell; this reshapes who buys spatial-AI stacks from whom in 24 months."
+    },
+    {
+      "name": "OpenAI-Apple trade-secret truce",
+      "classification": "Restricted",
+      "body": "On Oct 14 <b>OpenAI</b> formally agreed in court not to use the Apple device-plan trade secrets Apple accused an ex-OpenAI engineer of walking out with. The hardware fight is now a slow legal squeeze — but the IO device roadmap is still live underneath it."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Muse Spark Open 816B",
+      "tag": "Open weights",
+      "body": "Meta's new open-weight MoE is the <b>largest US-origin</b> open model to date, with a <b>42B</b> active-parameter path for inference. Weights, tokenizer and reference code are posted — a dual-Mac Studio deployment path is already documented.",
+      "link_url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "link_text": "huggingface.co"
+    },
+    {
+      "name": "Kandinsky S2V 1.0",
+      "tag": "Research",
+      "body": "A new audio-driven avatar video generator with lip-sync and expression control, released Oct 13. Directly relevant to always-on brand avatars, live creative presenters and voice-agent faces.",
+      "link_url": "https://arxiv.org/abs/2610.19290",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Gaussian Splatting for Real-Time Scene Reconstruction (survey)",
+      "tag": "Research",
+      "body": "A fresh Oct 13 arXiv survey mapping every real-time splat pipeline — methods, systems, trade-offs — right as Blender 5.3 ships native splat support. The reference text for whoever rebuilds the splat stack this quarter.",
+      "link_url": "https://arxiv.org/abs/2610.17513",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Nvidia Nemotron 3.5 Super VL + Bolt",
+      "tag": "Shipped",
+      "body": "Nvidia expanded Nemotron 3.5 on Oct 16–19 with a <b>Super VL</b> multimodal model and an edge-grade <b>Bolt</b> variant — both open, both targeted at agent runtimes from data centre down to PC. The open-weights portfolio now covers the full enterprise ladder.",
+      "link_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "link_text": "blogs.nvidia.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Krea 3",
+      "body": "Realtime image editing with sub-second latency at <b>$0.03–$0.06</b> per edit via fal — a credible live-image engine for installations and live socials.",
+      "link_url": "https://www.krea.ai/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Kling 4.0",
+      "body": "Kling's new flagship (Oct 17) ships <b>30-second</b> clips and <b>15</b> reference-image conditioning — the first professional-grade continuous shot you can art-direct, not just prompt.",
+      "link_url": "https://klingai.com/"
+    },
+    {
+      "numeral": "iii",
+      "name": "DeepSeek V4.1-Flash",
+      "body": "The MIT-licensed <b>V4.1-Flash-1017</b> shipped straight into the live API — frontier-tier reasoning, same endpoint, a fraction of the Anthropic bill for always-on agents.",
+      "link_url": "https://api-docs.deepseek.com/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Nvidia Nemotron 3.5 Bolt",
+      "body": "Edge-grade Nemotron for agent runtimes on PC, laptop and (eventually) wearable. Pairs naturally with the new RTX Spark laptops for on-site installations.",
+      "link_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    },
+    {
+      "numeral": "v",
+      "name": "Beeble Canvas",
+      "body": "Node-based AI compositor with Beeble's SwitchX relight baked in — a real alternative to Nuke for AI-first VFX pipelines on brand video and virtual-production work.",
+      "link_url": "https://beeble.ai/"
+    },
+    {
+      "numeral": "vi",
+      "name": "Letta Code",
+      "body": "Stateful memory-first coding harness — a Claude Code / Cursor alternative that remembers the project across sessions, built for small agent teams doing persistent work.",
+      "link_url": "https://www.letta.com/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Behavior World Model",
+      "name": "Mirror Particle",
+      "body": "A world model aimed at predicting consumer behavior — the primitive we need for personalised branded environments and 'what will the visitor do next' loops."
+    },
+    {
+      "category": "CAD World Model",
+      "name": "Skyfall AI",
+      "body": "<b>SKY-001</b> turns text or 2D sketches into full CAD build sequences — a direct feeder into installation fabrication, pavilion builds and physical props for campaigns."
+    },
+    {
+      "category": "Video AI Agents",
+      "name": "Gupshup",
+      "body": "Launched <b>video-based AI agents</b> on Oct 14 — Indian-built, multilingual, already deployed across MENA — a plausible stack for Arabic-first video assistants on brand sites."
+    },
+    {
+      "category": "Omnimodal Realtime",
+      "name": "MOSI",
+      "body": "Chinese real-time omnimodal AI startup raised <b>~1B RMB</b> pre-A on Oct 14 — building the live voice+vision loop that underpins Decart-style installation experiences."
+    },
+    {
+      "category": "AI Hearing Glasses",
+      "name": "Legato",
+      "body": "Launched AI hearing glasses on Oct 1 — a reminder that the glasses category is fragmenting fast beyond camera-forward designs, and accessibility is a new premium brand lane."
+    },
+    {
+      "category": "GCC Sovereign CX",
+      "name": "Toku",
+      "body": "On Oct 8 announced deployment of its AI customer-experience platform on <b>Core42</b>'s sovereign-enabled public cloud in the UAE — the clean path for GCC brands that cannot send data to US clouds."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The frontier open model is now a desk purchase, not a cloud contract.",
+      "body": "Muse Spark Open at <b>816B</b> runs on two Mac Studios. Nvidia just put a petaflop of Blackwell in a laptop. The best open model and the hardware to run it both now fit inside a studio's capex line — and that collapses the economics of 'always-on' creative systems overnight."
+    },
+    {
+      "tag": "Global",
+      "headline": "Models are now patched silently inside the API — version pins are the new SLA.",
+      "body": "DeepSeek shipped V4.1-Flash straight into the live endpoint with no release notes. Anthropic has done the same quietly for months. Every production prompt you have is a bet on an underlying weight set that can change overnight; pinning versions and running drift tests is now a non-negotiable SOW clause."
+    },
+    {
+      "tag": "Global",
+      "headline": "Smart-glasses retail went self-service — the category needs touch, not pitch.",
+      "body": "Rokid opened the world's first self-service AI-glasses store in Hong Kong on Oct 16. Alibaba put Qwen N1 on general sale the same week. Meta's $249 Adventurer hits shelves Oct 23. The category has decided it has to be tried on, not demoed — a model ARlab's own experiential briefs can start to template."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The GCC AI map is now three capitals, not two.",
+      "body": "Riyadh has HUMAIN and LEAP. Abu Dhabi has G42, Core42 and Ai Everything. On Oct 20 Doha stood up its own <b>National Center for AI</b> by Amiri decree. Pitching GCC as 'one market' is now wrong — three sovereign stacks mean three procurement cycles, three languages of persuasion, three distinct AI-partner shortlists."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Stand up a Muse Spark Open rig as the house sovereign model.",
+      "body": "Have the R&D function spec a two-Mac Studio deployment of <b>Muse Spark Open 816B</b> this week — it becomes the demo-grade 'US open-weight on-prem' lane we pitch against the Chinese stacks already in GCC enterprise."
+    },
+    {
+      "numeral": "ii",
+      "title": "Rebuild the realtime image lane on Krea 3 + Kling 4.0.",
+      "body": "Have the creative-tech pod retire the current Midjourney/Firefly image chain for live installations and replace it with Krea 3 ($0.06/edit) plus Kling 4.0 for continuous shots — a cheaper, faster, more directable stack for always-on brand surfaces."
+    },
+    {
+      "numeral": "iii",
+      "title": "Open a Doha channel before Milipol closes.",
+      "body": "Have the partnerships function get a founding-partner meeting with the brand-new <b>Qatar National Center for AI</b> this week — before every Riyadh and Abu Dhabi agency arrives at Milipol and crowds the room."
+    },
+    {
+      "numeral": "iv",
+      "title": "Write a model-pin clause into every production SOW.",
+      "body": "Have whoever owns the delivery pipeline add a 'model version + drift test' clause to every active SOW — the DeepSeek silent-swap episode means a live client build can regress overnight without a changelog to blame."
+    }
+  ]
+}
