@@ -1,0 +1,223 @@
+{
+  "date_display": "03 · 11 · 2026",
+  "signals": [
+    {
+      "headline": "Aramco bought itself a 49% stake in Saudi's AI champion for $2.6B cash.",
+      "body": "In a Sunday close, <b>Saudi Aramco</b> put $2.6B into <b>HUMAIN</b>, the PIF-backed AI vehicle, taking a 49% equity position and bringing a $9B asset package with it. The move effectively routes oil cashflow directly into Saudi sovereign model-training and datacentre build-out. HUMAIN now has a parent that prints money and a shareholder register that reads like the Kingdom's power map.",
+      "arlab_use": "open a humain channel this week before the aramco liquidity hits the vendor list."
+    },
+    {
+      "headline": "Abu Dhabi signed four OpenAI deployment deals in a single afternoon.",
+      "body": "On Nov 2, Sam Altman closed four separate agreements across Abu Dhabi — with <b>ADNOC</b> (first energy company globally to deploy OpenAI Frontier agents), <b>G42</b>, the UAE government, and the education sector. The reporting also pointed at a $20B OpenAI round partly anchored by the Emirates. Where Riyadh is building its own stack, Abu Dhabi just licensed the frontier wholesale.",
+      "arlab_use": "package a frontier-agent pitch for gcc energy and government buyers before the integrators do."
+    },
+    {
+      "headline": "Google's Computer Use agent is now generally available.",
+      "body": "<b>Gemini Computer Use</b> graduated from preview to GA on Oct 30 — 388 days after first demo — with pricing, SLAs and a production tier. The client app still executes the actions, but the model now plans across screenshots, coordinate grids and multi-tab workflows. The agent surface is no longer a lab toy; it is a billable API.",
+      "arlab_use": "ship a brand-workflow computer-use demo this month and bill it as an agent, not a prototype."
+    },
+    {
+      "headline": "Mistral dropped the weights for a 1-trillion-parameter model you can download.",
+      "body": "On Oct 29 <b>Mistral</b> released open weights for <b>Large 4 \"Le Chonk\"</b>, a 1T-parameter MoE, with day-0 vLLM support and a stated cybersecurity-defender posture. The Hugging Face checkpoint is live and partners are already quantizing it to run on-prem. The frontier open-weight race just moved from 500B to a trillion in six weeks.",
+      "arlab_use": "rebuild the sovereign-deploy pitch on le chonk and retire the earlier house model."
+    },
+    {
+      "headline": "Opera proposed a web standard that lets any site run an AI model inside the browser.",
+      "body": "<b>Opera WebAI</b> landed on Oct 27 as a draft standard for local-first inference: pages ask the browser to load and run a model on the user's machine, no server round-trip. If the standard sticks, the client stops being a thin GPU proxy and becomes an inference host. For HTML/JS/Three.js shops this is the biggest surface change since WebGPU went baseline.",
+      "arlab_use": "prototype a webai local-inference demo on an existing microsite before competitors ship."
+    },
+    {
+      "headline": "Pika shipped a 33B open-weight video model with native audio in six steps.",
+      "body": "<b>Pika H3 Flex</b> landed Oct 30 — a 33B-parameter video model, released on Hugging Face and GitHub, generating with native audio in 6 inference steps and debuting at #1 on DesignArena's open t2v board. It is faster-than-real-time on consumer GPUs and ships with professional-iteration controls. Open video just caught up to the closed labs on quality AND unit economics.",
+      "arlab_use": "add a pika h3 flex native-audio lane to the price list this week."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Hardware Keynote",
+      "headline": "Nvidia takes GTC to Washington on November 30 with new AI reveals.",
+      "body": "<b>Jensen Huang</b> keynotes GTC Washington Nov 30 — the first flagship GTC on US soil since Blackwell, pitched squarely at federal and sovereign buyers."
+    },
+    {
+      "category": "Cloud Summit",
+      "headline": "AWS re:Invent runs Nov 30 – Dec 4 in Las Vegas.",
+      "body": "Amazon's media, sports and advertising track is already published; the Bedrock agent and physical-AI roadmap will be where the pitch moves."
+    },
+    {
+      "category": "IPO Window",
+      "headline": "Anthropic's ANT ticker roadshow starts the Nasdaq clock.",
+      "body": "After the S-1 landed Oct 26 with Goldman and Morgan Stanley leading, the <b>ANT</b> roadshow opens the capital spigot for every Anthropic-adjacent partner."
+    },
+    {
+      "category": "China Listing",
+      "headline": "DeepSeek closes a $15B pre-IPO round at a $74B valuation.",
+      "body": "Backed by <b>CATL</b> and <b>Tencent</b>, the round front-runs a Shanghai listing — the China frontier lab is about to be publicly priced."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Cloudflare SGLang tenant-isolation bug leaked prompts between users",
+      "classification": "Confidential",
+      "body": "<b>Cloudflare's</b> own writeup admits a tenant-isolation flaw in its SGLang serving stack returned data from other users' prompts in 155 <b>GLM-5.3</b> Workers AI responses between Aug 27 and Sep 9. Only prompts longer than 681,280 tokens were affected — i.e. exactly the long-context agent workloads brands are starting to run. Every multi-tenant inference contract now needs a prompt-isolation clause."
+    },
+    {
+      "name": "Anthropic S-1 reveals $16.3B H1 revenue and $80.7B net loss",
+      "classification": "Restricted",
+      "body": "The <b>Anthropic</b> prospectus shows $16.3B first-half revenue and an $80.7B net loss — the loss is largely a convertible-note markup against a $693M operating loss, but the headline will be weaponized. Expect enterprise procurement to use it as a leverage point on pricing and term length through Q1."
+    },
+    {
+      "name": "Cathedral — ex-DOGE operators poking holes in frontier AI labs",
+      "classification": "Eyes only",
+      "body": "<b>Cathedral</b>, a cybersecurity startup founded by former DOGE staffers, surfaced this week with paths into sensitive systems around multiple AI labs. The pitch isn't the model — it's the software surface wrapping the model: dashboards, deploy tools, data pipes. The attack surface creative studios also ship with every demo."
+    },
+    {
+      "name": "Apple Creator Studio quietly turned into an AI editing suite",
+      "classification": "Emerging",
+      "body": "On Oct 28 <b>Apple</b> rolled new AI tools into <b>Creator Studio</b> plus a sizeable <b>Final Cut Pro</b> upgrade — assisted edit, auto-caption, scene suggestions. No keynote, no 'Apple Intelligence' banner. Apple is quietly building a creator-first AI stack adjacent to Adobe and Runway."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "OctreeSplat — Hierarchical octree-guided feed-forward Gaussian splatting",
+      "tag": "Research",
+      "body": "A feed-forward splat generator that uses a hierarchical octree to prune and allocate Gaussians on the fly — moves 3DGS reconstruction out of per-scene fitting and into a single pass. Published Nov 2 on arXiv; the kind of pipeline change that quietly rewrites a live splat demo's unit economics.",
+      "link_url": "https://arxiv.org/abs/2611.02658",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Wave Forcing — speed-of-light streaming video generation",
+      "tag": "Research",
+      "body": "A new scheduling scheme that keeps a streaming autoregressive video model saturated on-device, closing most of the gap between generation and playback. If it holds up at scale, this is the architecture that puts live generative video on a browser tab, not a datacentre.",
+      "link_url": "https://arxiv.org/abs/2611.00859",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Hugging Face ProtoStar — a public AI-ready science data lake",
+      "tag": "Shipped",
+      "body": "<b>Hugging Face</b>, GW and partners launched <b>Project ProtoStar</b> on Oct 29 — a federated effort to make publicly-funded science datasets model-trainable by default. For brands with research arms (health, climate, museums) this is a ready-made data lane without new infrastructure.",
+      "link_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "link_text": "huggingface.co"
+    },
+    {
+      "name": "Learning-to-Memorize — dynamic context for hour-long autoregressive video",
+      "tag": "Research preview",
+      "body": "A dynamic memory-management policy for long-horizon autoregressive video generation — the piece that lets a single model hold a scene across tens of minutes without drift. Posted Nov 1; the direct unlock for always-on brand environments and infinite-loop installs.",
+      "link_url": "https://arxiv.org/abs/2611.01858",
+      "link_text": "arxiv.org"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Mistral Large 4 \"Le Chonk\" — open weights",
+      "body": "1T-parameter MoE released Oct 29 with day-0 vLLM support and a cybersecurity-defender posture — the new default for sovereign and on-prem brand deployments.",
+      "link_url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Gemini Computer Use (GA)",
+      "body": "Google's computer-use agent went general availability Oct 30 with production SLAs; client app executes, model plans — the first billable, SLA-backed browser-automation API from a frontier lab.",
+      "link_url": "https://ai.google.dev/gemini-api/docs/computer-use"
+    },
+    {
+      "numeral": "iii",
+      "name": "GPT-6.1 Terra",
+      "body": "<b>OpenAI</b> shipped GPT-6.1 Terra on Oct 26 — a cheaper, faster computer-use model routed through API, Work and Codex. Resets the per-action price floor for agent workflows.",
+      "link_url": "https://platform.openai.com/docs/models"
+    },
+    {
+      "numeral": "iv",
+      "name": "Opera WebAI",
+      "body": "Draft web standard that lets a page load and run a local AI model inside the browser — the client becomes an inference host. Opera shipped it in-browser Oct 27 alongside the W3C proposal.",
+      "link_url": "https://www.opera.com/features/webai"
+    },
+    {
+      "numeral": "v",
+      "name": "Pika H3 Flex",
+      "body": "33B open-weight video model with native audio in 6 steps — faster-than-real-time on consumer GPUs, available on Hugging Face and GitHub.",
+      "link_url": "https://pika.art/pika-h3-flex"
+    },
+    {
+      "numeral": "vi",
+      "name": "Apple Creator Studio (AI update)",
+      "body": "Apple's creator suite picked up assisted edit, auto-caption and scene-suggestion AI on Oct 28, with a parallel Final Cut Pro upgrade — a Mac-native creative lane with no Adobe tax.",
+      "link_url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "GCC Sovereign AI",
+      "name": "HUMAIN",
+      "body": "Saudi's PIF-backed AI champion just took $2.6B from Aramco for 49% — the single most well-funded buyer of model, infra and talent on the peninsula."
+    },
+    {
+      "category": "Formal Reasoning",
+      "name": "Axiom Math",
+      "body": "AI-mathematician outfit that formalized the 15,000-page Classification of Finite Simple Groups in 24 days — the right partner when a client asks for 'provably correct' AI logic in a regulated vertical."
+    },
+    {
+      "category": "Editable AI Visuals",
+      "name": "SurgePix",
+      "body": "Launched this week on Product Hunt — AI image generation where every layer is editable, text is replaceable, regions are repaintable, and the whole thing is agent-callable. The missing bridge between generative imagery and brand design systems."
+    },
+    {
+      "category": "AI Browser",
+      "name": "Strawberry",
+      "body": "Stockholm-based AI browser with per-user 'companions' that run multi-step workflows across tabs — the easiest way to productize a brand-knowledge agent without building a client app."
+    },
+    {
+      "category": "Agent Infrastructure",
+      "name": "Daytona",
+      "body": "Croatian-founded sandbox-as-a-service for AI agents, became a unicorn on a $60M Series B. If an installation needs isolated code-exec on tap, this is the pipe."
+    },
+    {
+      "category": "GPU Efficiency",
+      "name": "Simplismart",
+      "body": "Indian AI-inference optimizer that just took a $14M round from Nvidia — pitches 'same model, fewer GPUs,' which is the only margin lever left on real-time video and avatar pipelines."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Agents just moved from preview to production in one week.",
+      "body": "<b>Gemini Computer Use</b> went GA with SLAs, <b>GPT-6.1 Terra</b> reset the price floor, and both now ship as billable, measurable APIs. The 2026 debate about whether agents are real is over — the 2027 debate is pricing per action and liability per screen. Agencies that are still demoing agents in 2026 will be bidding against ones who deploy them in Q1."
+    },
+    {
+      "tag": "Global",
+      "headline": "Open-weight frontier models now ship as sovereign deployment packages, not research toys.",
+      "body": "<b>Mistral Le Chonk</b> landed with a cybersecurity-defender narrative, deployment guides and vLLM support — not a demo notebook. Open weights are no longer a hobbyist signal; they are a procurement category. The sovereign-weights pitch finally has a stable product behind it."
+    },
+    {
+      "tag": "Global",
+      "headline": "The browser is becoming the primary AI runtime.",
+      "body": "<b>Opera WebAI</b> proposed local model execution as a web standard the same week <b>Strawberry</b> shipped browser-native AI companions and <b>Apple Creator Studio</b> added AI editing to a browser-adjacent app. The client stopped being a GPU proxy. For a studio that already lives in HTML/JS/WebGPU, this is a native-advantage lane."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi and the UAE split the sovereign-AI playbook in a single 48-hour window.",
+      "body": "On Nov 2, Riyadh deepened its own stack — Aramco paying $2.6B for 49% of <b>HUMAIN</b> — while Abu Dhabi signed four deployment deals with <b>OpenAI</b> across ADNOC, G42, government and education. The Gulf is no longer one AI story: it is two antagonistic strategies — build-your-own versus import-the-frontier — bidding for the same brand budgets."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Open a HUMAIN channel this week.",
+      "body": "With Aramco's cash now parked inside HUMAIN, Saudi's biggest AI buyer just doubled its vendor budget. Whoever owns partnerships should get a first meeting on the calendar before the Riyadh integrators flood the inbox."
+    },
+    {
+      "numeral": "ii",
+      "title": "Ship one brand workflow on Gemini Computer Use.",
+      "body": "Pick a single repetitive client ops task — campaign QA, asset tagging, media approvals — and have R&D stand it up on the newly-GA agent. By Dec, we need to be invoicing a computer-use retainer, not demoing one."
+    },
+    {
+      "numeral": "iii",
+      "title": "Package a Frontier-agent pitch for GCC energy and government.",
+      "body": "ADNOC just became the first energy company deploying OpenAI Frontier agents — every oil, utility and sovereign-services buyer in the Gulf now has permission to greenlight the same. The partnerships function should have a one-pager out this week."
+    },
+    {
+      "numeral": "iv",
+      "title": "Spin up a Le Chonk sovereign-stack and a Pika H3 Flex video lane.",
+      "body": "Whoever runs the pipeline should swap the house open-weight model to <b>Mistral Large 4 Le Chonk</b> and add a <b>Pika H3 Flex</b> native-audio video tier to the rate card — the single-week upgrade that keeps us pricing above open-source rivals without going closed-API."
+    }
+  ]
+}
