@@ -1,0 +1,223 @@
+{
+  "date_display": "10 · 11 · 2026",
+  "signals": [
+    {
+      "headline": "ByteDance put 100-round image editing on a single endpoint.",
+      "body": "<b>ByteDance</b> rolled <b>Seedream 5.5</b> across Dreamina, CapCut and BytePlus with up to <b>100 continuous edit rounds</b> on a single reference and native transparent-PNG output. That is the first time a frontier image model has priced granular campaign iteration as one API call instead of a creative round-trip.",
+      "arlab_use": "reprice image retainers around 100-round edit lanes, not per-asset."
+    },
+    {
+      "headline": "Inference just became the most expensive seat at the AI table.",
+      "body": "<b>fal</b> closed a <b>$1.3B Series F</b> at a <b>$16B valuation</b> — double its summer mark — because demand for real-time generative media inference outran supply. Bessemer led; the thesis is that the models are commodities and the serving layer is the moat.",
+      "arlab_use": "lock an fal partner rate card before gcc briefs hit december."
+    },
+    {
+      "headline": "Samsung opened pre-orders on the first Android XR glasses.",
+      "body": "<b>Samsung Intelligent Eyewear</b> pre-orders go live <b>November 12</b>, with a <b>December 2026</b> ship window confirmed via the Warby Parker earnings release. It is the first Android XR glasses shipment and the Gulf will have units on wrists inside six weeks.",
+      "arlab_use": "secure two review units via samsung gulf and brief a launch demo this week."
+    },
+    {
+      "headline": "Saudi wired another $667M into the AI grid before anyone shipped a model.",
+      "body": "<b>HUMAIN</b> and <b>Infra</b> signed <b>SAR 2.5B ($667M)</b> in financing to stand up <b>1GW</b> of AI data-center capacity. Paired with the 211 plots HUMAIN quietly secured last week, the kingdom is now underwriting physical AI capacity faster than it is buying models.",
+      "arlab_use": "position arlab as the creative layer on top of humain infra before q1 pitches."
+    },
+    {
+      "headline": "Thinking Machines shipped a small model that reads like a frontier one.",
+      "body": "Mira Murati's <b>Thinking Machines Lab</b> launched <b>Inkling 2 Small</b> — a MoE that scores near-frontier on enterprise benchmarks with open weights promised — their first product since the $2B seed. It's the clearest sign that the small-model tier is now where real production budgets land.",
+      "arlab_use": "stand up an inkling 2 small lane for on-device brand agents."
+    },
+    {
+      "headline": "Nvidia capped the China GPU rental loophole at 49%.",
+      "body": "<b>Nvidia</b> told its cloud partners that Chinese customers can account for no more than <b>49%</b> of their B300 rentals, narrowing the overseas workaround Chinese labs like <b>Moonshot</b> had been using. Grey-market B300 rack prices jumped to <b>$2.8M</b> inside 72 hours.",
+      "arlab_use": "audit every china-based render vendor on our pipeline for b300 exposure."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "Smart Glasses",
+      "headline": "Samsung Intelligent Eyewear opens pre-orders November 12.",
+      "body": "<b>Samsung's first Android XR glasses</b> go live for pre-order November 12 with a December 2026 ship window — the Gulf will have review units before Christmas."
+    },
+    {
+      "category": "GCC Summit",
+      "headline": "Dubai Future Week lands November 18-21.",
+      "body": "<b>10,000+</b> leaders, investors and operators descend on Dubai Nov 18-21 — the first big GCC AI stage after Riyadh FII and the natural Q1 pitch window."
+    },
+    {
+      "category": "Open Video",
+      "headline": "Sand.ai drops MAGI-2 open weights on the back of a $200M raise.",
+      "body": "The <b>114B MoE</b> video model is about to land as a full open-weight release — the first serious Chinese answer to Pika H3 Flex."
+    },
+    {
+      "category": "Frontier LLM",
+      "headline": "Google Gemini 3 release is imminent on the Wednesday window.",
+      "body": "Internal timelines point at a <b>Gemini 3 Pro</b> drop this cycle — expect a live-video and agentic computer-use refresh alongside."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Apple begins quiet Qwen trial inside China",
+      "classification": "Confidential",
+      "body": "<b>Apple</b> started a limited China trial of Apple Intelligence powered by <b>Alibaba's Qwen</b>, bypassing the OpenAI stack. The deal sits outside any official announcement, and gives Alibaba a backdoor into every iPhone shipped on the mainland."
+    },
+    {
+      "name": "Moonshot still renting B300 class chips through grey channels",
+      "classification": "Eyes only",
+      "body": "Bloomberg flagged that <b>Moonshot AI</b> continues to access Nvidia top-tier chips via overseas cloud rentals — the exact loophole Nvidia just moved to cap at 49%. Expect a second enforcement wave within weeks."
+    },
+    {
+      "name": "HUMAIN sitting on 211 undisclosed data-center plots",
+      "classification": "Restricted",
+      "body": "Public records now show <b>HUMAIN</b> has quietly secured <b>211 plots</b> of Saudi land for data centers — none of them named in the $667M announcement. The Kingdom is pre-positioning capacity before model procurement."
+    },
+    {
+      "name": "GPT-6 Cyber shipped to a closed Daybreak Red tier",
+      "classification": "Emerging",
+      "body": "<b>OpenAI</b> rolled <b>GPT-6 Cyber</b> only to its gated <b>Daybreak Red</b> security tier — Mozilla, Palo Alto, Cisco named — signalling a split product line where specialised capability lives behind enterprise gates, not the ChatGPT app."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Spark Radix 0.0.1",
+      "tag": "Research preview",
+      "body": "A <b>WebGPU-powered Gaussian splat renderer</b> built directly on three.js — detailed 3D worlds streaming in the browser with no custom engine. This is literally the ARlab stack getting its native real-time splat path.",
+      "link_url": "https://radiancefields.com/spark-radix-brings-webgpu-splat-rendering-to-threejs",
+      "link_text": "radiancefields.com"
+    },
+    {
+      "name": "LiveFoley",
+      "tag": "Research",
+      "body": "First paper to show <b>real-time video-to-audio generation</b> synchronised for interactive immersive worlds — the missing audio layer for every live world model demo. Published 4 November.",
+      "link_url": "https://arxiv.org/abs/2611.05988",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "AgiWorld",
+      "tag": "Research",
+      "body": "An <b>agentic video world model</b> built to maintain persistent worlds across long sessions — not a clip generator, a running environment with memory. The next move past Marble and Odyssey-3.",
+      "link_url": "https://arxiv.org/abs/2611.02341",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "WorldCrafter",
+      "tag": "Research",
+      "body": "<b>Tencent ARC</b> dropped a video world model with <b>implicit 3D-aware memory</b> — the first open-source attempt to solve the long-horizon consistency problem killing every world-model pitch today.",
+      "link_url": "https://github.com/TencentARC/WorldCrafter",
+      "link_text": "github.com"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Seedream 5.5",
+      "body": "ByteDance's image model with <b>100-round continuous editing</b>, transparent PNG, and native rollout across Dreamina + CapCut — the fastest campaign iteration lane shipping right now.",
+      "link_url": "https://seed.bytedance.com/en/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Spark Radix",
+      "body": "WebGPU gaussian splat renderer for three.js — drops photoreal 3D into any brand site without a native app, directly in the ARlab stack.",
+      "link_url": "https://github.com/sparkjsdev"
+    },
+    {
+      "numeral": "iii",
+      "name": "Inkling 2 Small",
+      "body": "Thinking Machines' near-frontier MoE sized for enterprise serving — the small-model tier is now where sovereign brand agents will actually live.",
+      "link_url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    },
+    {
+      "numeral": "iv",
+      "name": "Hedra Live Avatars",
+      "body": "Streaming video avatars at <b>$0.05/min</b> with ultra-low latency — the cheapest realtime face-to-face layer for a live brand agent.",
+      "link_url": "https://www.hedra.com/"
+    },
+    {
+      "numeral": "v",
+      "name": "fal Playground",
+      "body": "Post-$16B raise, fal is the inference partner that ships new models within hours — lock a partner rate and use it as the house serving layer.",
+      "link_url": "https://fal.ai"
+    },
+    {
+      "numeral": "vi",
+      "name": "Niantic Scaniverse + VPS 2.0",
+      "body": "3D space capture plus visual positioning for persistent AR — the only shipped pipeline to anchor a brand experience to a real GCC venue.",
+      "link_url": "https://scaniverse.com/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Open Video Model",
+      "name": "Sand.ai",
+      "body": "114B open-weight MoE video on the way; $200M fresh and a unicorn mark — the cleanest open alternative to Pika and Seedance."
+    },
+    {
+      "category": "Inference Layer",
+      "name": "fal",
+      "body": "At $16B they are the serving fabric for every generative media workflow — partnership gives ARlab a protected rate card for GCC volumes."
+    },
+    {
+      "category": "Small Frontier",
+      "name": "Thinking Machines Lab",
+      "body": "Just shipped Inkling 2 Small with open weights promised — the on-device brand-agent partner before everyone else notices."
+    },
+    {
+      "category": "Live Avatars",
+      "name": "Hedra",
+      "body": "Streaming avatars at five cents a minute — the realtime face layer for every always-on brand agent we pitch."
+    },
+    {
+      "category": "WebGPU Splats",
+      "name": "sparkjsdev (Spark)",
+      "body": "The team shipping WebGPU gaussian splat rendering into three.js — direct pipeline into every ARlab web build."
+    },
+    {
+      "category": "Spatial Capture",
+      "name": "Niantic Spatial",
+      "body": "Scaniverse + VPS 2.0 gives us the world-anchor layer to deliver persistent AR at NEOM, Qiddiya and Boulevard-scale venues."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "Image editing just became a conversation, not a delivery.",
+      "body": "<b>Seedream 5.5</b>'s 100-round native editing collapses the client-feedback loop into the model itself. The deliverable is no longer a file — it's a running edit session, and anyone still selling by-the-asset is about to be undercut."
+    },
+    {
+      "tag": "Global",
+      "headline": "The world-model race moved from clips to persistent memory.",
+      "body": "<b>WorldCrafter</b>, <b>AgiWorld</b> and Genie 3 all landed inside a two-week window — the new axis of competition is 3D-aware memory and long-horizon consistency, not resolution. Brand worlds are about to stop resetting between visits."
+    },
+    {
+      "tag": "Global",
+      "headline": "Inference is the new hyperscaler.",
+      "body": "<b>fal</b>'s $16B valuation says the picks-and-shovels layer now out-earns the model labs it serves. The next cycle of AI margin sits with whoever owns the realtime serving fabric — not whoever trained the weights."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi is building the physical AI layer before the models arrive.",
+      "body": "The kingdom just stacked <b>$667M</b> of new financing on top of <b>211 land plots</b> and the Aramco–HUMAIN tie-up — all in two weeks. The GCC bet is that whoever owns the gigawatts and the ground owns the AI value chain, no matter whose model runs on top."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Stand up a WebGPU splat lane on Spark Radix this week.",
+      "body": "The web team should prototype one GCC venue (Boulevard, Diriyah, NEOM pavilion) as a browser-native gaussian splat on three.js. First to pitch it wins the Q1 brief."
+    },
+    {
+      "numeral": "ii",
+      "title": "Open the HUMAIN + Infra channel while the ink is wet.",
+      "body": "The partnerships function should move on HUMAIN this week with a creative-layer proposition sitting on top of the new 1GW capacity. The physical layer is locking in now — the creative layer never gets a cleaner moment."
+    },
+    {
+      "numeral": "iii",
+      "title": "Reprice image work around 100-round Seedream sessions.",
+      "body": "Whoever owns the creative pipeline should rebuild the image SOW as a monthly edit-session retainer on Seedream 5.5, not per-asset. The deliverable stops being a PNG and becomes an ongoing live channel."
+    },
+    {
+      "numeral": "iv",
+      "title": "Ship a live-avatar brand pilot before Dubai Future Week.",
+      "body": "R&D should build one Hedra Live Avatars demo priced at Hedra's $0.05/min floor, ready to run in the Dubai Future Week showroom on Nov 18-21. That one artefact unlocks three enterprise conversations."
+    }
+  ]
+}
