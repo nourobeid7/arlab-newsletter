@@ -49,12 +49,16 @@ jobs:
           PREAMBLE_HTML: ${{ github.event.inputs.preamble_html }}
         run: python generate.py
 
-      - name: Commit history
+      - name: Rebuild archive site
+        if: success()
+        run: python build_archive.py
+
+      - name: Commit history + archive
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add history/
+          git add history/ docs/
           if ! git diff --staged --quiet; then
             git commit -m "Newsletter $(date -u +%Y-%m-%d)"
             git push
