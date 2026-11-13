@@ -11,7 +11,9 @@ Idempotent. Run locally or in CI after a new issue lands.
 from __future__ import annotations
 
 import json
+import re
 from datetime import date
+from html import unescape
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -37,7 +39,7 @@ ISSUE_SHELL = """<!doctype html>
 </style>
 </head>
 <body>
-<a class="topnav" href="../index.html">← Archive</a>
+<a class="topnav" href="../index.html">← Index</a>
 __BODY__
 </body>
 </html>
@@ -99,10 +101,14 @@ INDEX_SHELL = """<!doctype html>
   .card-teaser{font-family:var(--disp);font-style:italic;font-weight:300;font-size:16.5px;line-height:1.35;color:var(--txt2)}
   .card-arrow{font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:var(--txt);margin-top:14px}
 
+  .pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .pill-s{font-family:var(--sans);font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:var(--txt2);background:var(--glass);border:1px solid var(--edge);border-radius:30px;padding:5px 11px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);white-space:nowrap}
+
   .featured .glass{padding:32px 28px}
   .featured .card-date{font-size:30px}
   .featured .card-teaser{font-size:20px;color:var(--txt);line-height:1.3}
   .featured .card-tag{color:var(--txt);background:var(--glass)}
+  .featured .pill-s{color:var(--txt);font-size:10px;padding:6px 13px}
 
   .foot{margin-top:70px;padding-top:28px;border-top:1px solid var(--edge);text-align:center;font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--txt3)}
 </style>
@@ -116,18 +122,17 @@ INDEX_SHELL = """<!doctype html>
   <div class="layer">
 
     <div class="hero">
-      <div class="pill">Archive</div>
+      <div class="pill">Index</div>
       <div class="kick">ARlab Intelligence</div>
       <div class="mast">Wissam's<br><em>Newsletter</em></div>
       <div class="sub">Every weekly brief, in one quiet room.</div>
       <div class="seal"><span class="seal-l"></span><span class="seal-t">__TOTAL__ issues · updated __UPDATED__</span><span class="seal-r"></span></div>
     </div>
 
-    <div class="sec"><div class="sec-rule"><span class="sec-no">I</span><span class="sec-t">This <em>Week</em></span><span class="sec-l"></span></div><div class="sec-k">latest issue</div></div>
+    <div style="margin:50px 0 0">
     __FEATURED__
-
-    <div class="sec"><div class="sec-rule"><span class="sec-no">II</span><span class="sec-t">The <em>Archive</em></span><span class="sec-l"></span></div><div class="sec-k">every prior week · newest first</div></div>
     __CARDS__
+    </div>
 
     <div class="foot">ARlab · for Wissam</div>
   </div>
@@ -153,9 +158,57 @@ def pick_teaser(payload: dict) -> str:
     return ""
 
 
-def render_card(iso: str, teaser: str, featured: bool = False) -> str:
+_BRAND_RE = re.compile(r"<b>(.*?)</b>", re.I | re.S)
+_WS_RE = re.compile(r"\s+")
+
+
+def pick_pills(payload: dict, max_pills: int = 4) -> list[str]:
+    """Extract 3-4 distinct brand/product names from the week's signals to scan by."""
+    text_blobs: list[str] = []
+    for sig in payload.get("signals") or []:
+        if isinstance(sig, dict):
+            text_blobs.append(sig.get("headline") or "")
+            text_blobs.append(sig.get("body") or "")
+    text = " ".join(text_blobs)
+
+    months = {"january","february","march","april","may","june","july",
+              "august","september","october","november","december"}
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in _BRAND_RE.findall(text):
+        s = _WS_RE.sub(" ", unescape(raw)).strip().rstrip(".,;:")
+        if not s or not re.match(r"[A-Za-z]", s):
+            continue  # skip bare numbers like "$3.4B" or "1.7GW"
+        if len(s) > 28 or len(s.split()) > 4:
+            continue  # skip long phrases and compound descriptions
+        if "," in s or "/" in s or re.search(r"\d{4}", s):
+            continue  # skip comma lists, "A/B" lumps, or dates with years
+        low = s.lower()
+        if low in seen:
+            continue
+        # must look like a proper name: first word capitalized or all-caps acronym,
+        # and not just a common word (e.g. "two paired Mac Studios")
+        first = s.split()[0]
+        if not (first[0].isupper() and (first.isupper() or first[1:].islower() or len(first) <= 3)):
+            continue
+        if low.split()[0] in months:
+            continue
+        seen.add(low)
+        out.append(s)
+        if len(out) >= max_pills:
+            break
+    return out
+
+
+def render_card(iso: str, payload: dict, featured: bool = False) -> str:
     tag = "Latest" if featured else "Issue"
     wrap_class = "card featured" if featured else "card"
+    teaser = pick_teaser(payload)
+    pills = pick_pills(payload, max_pills=5 if featured else 3)
+    pills_html = (
+        '<div class="pills">' + "".join(f'<span class="pill-s">{p}</span>' for p in pills) + "</div>"
+        if pills else ""
+    )
     arrow = "" if featured else '<div class="card-arrow">Read →</div>'
     return (
         f'<a class="{wrap_class}" href="issues/{iso}.html">'
@@ -163,6 +216,7 @@ def render_card(iso: str, teaser: str, featured: bool = False) -> str:
         f'<div class="card-top"><div class="card-date">{pretty_date(iso)}</div>'
         f'<div class="card-tag">{tag}</div></div>'
         f'<div class="card-teaser">{teaser}</div>'
+        f'{pills_html}'
         f'{arrow}'
         f'</div></a>'
     )
@@ -210,10 +264,10 @@ def main() -> None:
 
     issues_newest_first = sorted(issues, key=lambda t: t[0], reverse=True)
     latest_iso, latest_payload = issues_newest_first[0]
-    featured_html = render_card(latest_iso, pick_teaser(latest_payload), featured=True)
+    featured_html = render_card(latest_iso, latest_payload, featured=True)
 
     rest_cards = "\n".join(
-        render_card(iso, pick_teaser(p)) for iso, p in issues_newest_first[1:]
+        render_card(iso, p) for iso, p in issues_newest_first[1:]
     )
 
     cards_body = rest_cards or '<div style="color:#76767f;font-size:12px;text-align:center;padding:20px">No prior issues yet.</div>'
