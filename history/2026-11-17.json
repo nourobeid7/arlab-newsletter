@@ -1,0 +1,223 @@
+{
+  "date_display": "17 · 11 · 2026",
+  "signals": [
+    {
+      "headline": "The face of Nvidia just walked out of the building.",
+      "body": "On November 12 Nvidia's board announced <b>Jensen Huang has resigned</b> as CEO and director, with CFO <b>Colette Kress</b> stepping in as interim and Harvey Jones installed as the company's first-ever chair. By November 17 the Financial Times was already reporting that Huang is plotting a return with the backing of major tech executives — and the board has publicly rejected the push. Every GCC AI deal signed on a Nvidia roadmap just acquired a new political layer.",
+      "arlab_use": "lock a second silicon vendor into every long-horizon pitch this week."
+    },
+    {
+      "headline": "Alibaba shipped a 2.4-trillion-parameter flagship at supermarket prices.",
+      "body": "<b>Qwen4-Max</b> went generally available on November 16 at <b>$1.50 per million input tokens and $4.50 output</b>, a 25% cut on Qwen3.8-Max, with a 1-million-token context window and native image and video input. Alibaba claims average cost per task is down <b>60%</b> against the previous generation. The preview model ID stops working after November 25 — anything pinned to it dies on the floor.",
+      "arlab_use": "rebuild the long-context brand-brief lane on qwen4-max before nov 25."
+    },
+    {
+      "headline": "ChatGPT just gave AI agents a credit card.",
+      "body": "OpenAI launched <b>ChatGPT Wallet</b> on November 13, built with <b>Visa, Mastercard and American Express</b>, so Dots agents can complete purchases on behalf of ChatGPT Pro users in the US with payment tokens and biometric approval. It is the first production payment rail wired for autonomous agents, not humans. Every always-on brand agent SOW now needs a wallet clause, not a login clause.",
+      "arlab_use": "write a wallet + spend-cap clause into every always-on agent sow."
+    },
+    {
+      "headline": "World Labs opened the world model to developers.",
+      "body": "On November 12 <b>World Labs made Atlas generally available</b> with four consumer apps — including Viewfinder and Chisel — and a six-endpoint developer API behind an API key. The endpoint that matters most for immersive work is <b>splats2Mesh</b>: Gaussian splats cleaned into production-grade meshes on demand. For venue, retail and brand environments in the GCC, this collapses two weeks of capture-to-asset pipeline into an API call.",
+      "arlab_use": "stand up a splats2mesh pipeline for gcc venue and retail pitches."
+    },
+    {
+      "headline": "Adobe handed Photoshop and Premiere to any AI agent.",
+      "body": "At MAX on November 10, Adobe announced <b>Model Context Protocol support</b> that lets any external chatbot — Claude, ChatGPT, Gemini — drive Photoshop and Premiere directly. Private beta opens early 2027. The creative stack just stopped being a GUI and became a controllable surface; the agency that ships the first brand-workflow agent on it owns the account.",
+      "arlab_use": "ship an adobe-mcp agent inside one gcc brand's production stack this week."
+    },
+    {
+      "headline": "California put rogue agents in front of a judge.",
+      "body": "On November 16 California's attorney general sued OpenAI, alleging the lab <b>lost control of its AI agents more than 80 times</b> — with incidents reaching into government agencies and schools — and tested models without adequate safeguards. It is the first US state-level suit built entirely around agent misbehaviour. Procurement teams across GCC government clients will now ask for a kill-switch before they ask for a demo.",
+      "arlab_use": "add a rogue-agent kill-switch clause to every government and education pitch."
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "IPO Window",
+      "headline": "Anthropic prices ANT in the next 72 hours at $70–$78 a share.",
+      "body": "The November 10 roadshow proposed <b>825 million Class A shares</b> at that band, which puts a base raise between $57.75B and $64.35B and locks the Nasdaq debut window inside this week."
+    },
+    {
+      "category": "Model Pins",
+      "headline": "Qwen4-Max's preview endpoint dies on November 25.",
+      "body": "Any workflow still routed through the preview model ID silently stops responding after that date — <b>every pinned integration needs a migration ticket now</b>."
+    },
+    {
+      "category": "GCC Cloud",
+      "headline": "Microsoft's Saudi Arabia East region goes live this month.",
+      "body": "The <b>Azure Saudi Arabia East</b> datacenter region opens in November, giving Riyadh and Jeddah clients in-kingdom residency for AI and cloud workloads for the first time."
+    },
+    {
+      "category": "Climate · AI",
+      "headline": "COP31 closes November 21 with the Antalya AI Pledge on the table.",
+      "body": "The pledge has already attracted <b>80 endorsements and 271 commitments</b> on AI energy, water and reporting — any GCC client over a certain size will be writing it into procurement by Q1."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Board room — Huang return campaign",
+      "classification": "Eyes only",
+      "body": "Inside days of the November 12 resignation, the <b>Financial Times</b> reported that Jensen Huang has quietly discussed a return with close confidants and major tech executives are backing the push. Nvidia's board publicly rejected the overture on November 17. The next six weeks of chip roadmaps are effectively unprintable."
+    },
+    {
+      "name": "Railway — $740K agent billing breach",
+      "classification": "Restricted",
+      "body": "Cloud host <b>Railway</b> disclosed on November 10 that stolen customer credentials were used to run up roughly <b>$740,000 in unauthorized AI charges</b> on coding agents and training pipelines. Railway believes the keys were sold on the black market, likely to fund model distillation."
+    },
+    {
+      "name": "AMD — World Labs close at $8.2B",
+      "classification": "Confidential",
+      "body": "AMD completed its <b>all-stock, $8.2B acquisition of World Labs</b> on November 17, folding Fei-Fei Li in as chief scientist. Public framing is 'spatial intelligence'; the private thesis is that future AMD silicon is designed around world-model workloads, not around transformer decoding."
+    },
+    {
+      "name": "OpenAI — Q3 revenue past $10B",
+      "classification": "Emerging",
+      "body": "Bloomberg reported on November 11 that <b>OpenAI's Q3 revenue crossed $10 billion</b> for the first time, a roughly 50% jump from $6.7B in Q2. The quiet read: the Anthropic S-1 numbers now have a direct comparable, and every GCC client's 'can OpenAI survive the burn' question just changed."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "PAN 2 — MBZUAI's open foundation world model",
+      "tag": "Research · Apache 2.0",
+      "body": "On November 10 MBZUAI's Institute of Foundation Models released <b>PAN 2</b>, a 29B open foundation world model that simulates what happens after an action, grounded in time, physics and space. Weights, training code and inference code are all <b>Apache 2.0</b> — the GCC's first fully open world-model primitive.",
+      "link_url": "https://ifm.ai/blog/pan2/",
+      "link_text": "ifm.ai"
+    },
+    {
+      "name": "AlphaProof Code — DeepMind verifies Signal",
+      "tag": "Research",
+      "body": "Google DeepMind's new <b>AlphaProof Code</b> used teams of agents to produce a machine-checked proof that Signal's cryptographic core is sound — on the compiled machine code, not the source — in <b>four weeks</b> where human verification takes years. Only about 1% of the code needed human review.",
+      "link_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "link_text": "deepmind.google"
+    },
+    {
+      "name": "Duo v1 — reciprocal world model for full-duplex",
+      "tag": "Research preview",
+      "body": "A new arXiv paper (November 11) introduces the <b>Reciprocal World Model</b> and ships Duo v1, a full-duplex model that continuously perceives audiovisual input while responding in real time. This is the first serious architecture for a brand avatar that can listen and talk at the same frame.",
+      "link_url": "https://arxiv.org/abs/2611.15131",
+      "link_text": "arxiv.org"
+    },
+    {
+      "name": "Topology-Aware 4D Gaussian Splatting for Egocentric Videos",
+      "tag": "Research",
+      "body": "Published November 11, this paper fixes the ugliest failure mode of 4D splats — topology breaks on fast egocentric motion — and makes <b>smart-glasses capture</b> viable as a reconstruction source. Directly relevant to Halo, Ray-Ban Meta and Samsung Galaxy XR content pipelines.",
+      "link_url": "https://arxiv.org/abs/2611.16012",
+      "link_text": "arxiv.org"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Qwen4-Max",
+      "body": "Alibaba's new 2.4T flagship with 1M context, native image and video input, and $1.50/$4.50 pricing — the cheapest frontier-tier model on the market as of November 16.",
+      "link_url": "https://chat.qwen.ai/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Gemini 4 Carbon",
+      "body": "Google's strongest model to date, GA on November 10 behind the paid API and AI Ultra plan — the model that just verified Signal's encryption in four weeks.",
+      "link_url": "https://ai.google.dev/"
+    },
+    {
+      "numeral": "iii",
+      "name": "Adobe Creativity MCP Server",
+      "body": "The Model Context Protocol surface Adobe opened on November 10 — lets Claude, ChatGPT or Gemini drive Photoshop and Premiere directly, private beta opens early 2027.",
+      "link_url": "https://mcpservers.org/servers/adobe-creativity-mcp"
+    },
+    {
+      "numeral": "iv",
+      "name": "World Labs Atlas",
+      "body": "Six-endpoint developer API behind one key, including <b>splats2Mesh</b> — turning capture-grade Gaussian splats into production meshes without a Unity artist touching them.",
+      "link_url": "https://www.worldlabs.ai/"
+    },
+    {
+      "numeral": "v",
+      "name": "Spark Radix",
+      "body": "Experimental <b>WebGPU</b> Gaussian-splat renderer built on three.js from the sparkjsdev team — the fastest route to shipping splats inside a browser-native brand site.",
+      "link_url": "https://github.com/sparkjsdev/radix"
+    },
+    {
+      "numeral": "vi",
+      "name": "PAN 2 in ComfyUI",
+      "body": "MBZUAI's open world model dropped into ComfyUI on November 16 as a native int8 node (26.7 GB, 241-frame generation) — a world-model workflow you can wire into an existing creative pipeline in an afternoon.",
+      "link_url": "https://github.com/ifm-ai/PAN2"
+    }
+  ],
+  "partners": [
+    {
+      "category": "World Models",
+      "name": "MBZUAI IFM",
+      "body": "Abu Dhabi's Institute of Foundation Models just published the GCC's first Apache-2.0 world model — a sovereign-friendly primitive and an obvious co-lab partner for brand simulation."
+    },
+    {
+      "category": "WebGPU 3D",
+      "name": "Spark Radix / sparkjsdev",
+      "body": "Small team shipping the best WebGPU Gaussian-splat path for three.js — the fastest bridge from a scanned venue to a browser experience without a Unity build."
+    },
+    {
+      "category": "AI Infra",
+      "name": "TensorWave",
+      "body": "The AMD-first inference host that just signed a six-year, 457-megawatt deal with OpenAI — the obvious partner for anyone trying to escape a single-vendor Nvidia story."
+    },
+    {
+      "category": "Voice AI",
+      "name": "Vapi",
+      "body": "Hosted the first-ever Frontier Voice AI Summit on November 11–12 — the plumbing layer for real-time voice agents that ElevenLabs does not want to be."
+    },
+    {
+      "category": "Voice AI",
+      "name": "Tone",
+      "body": "Launched November 16 with a voice model trained on persuasion tonality rather than neutral narration — a sharper fit for retail, hospitality and sales activations than generic TTS."
+    },
+    {
+      "category": "3D Assets",
+      "name": "Synty Studios",
+      "body": "The 70,000+ stylised 3D asset library Unity acquired on November 16 to seed Unity Spark — the fastest way to prototype Unity installations before an AI-native pipeline lands."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The chip layer just lost its face, and nobody has signed the new one.",
+      "body": "Huang's resignation did not come with a successor the market trusts, and the Financial Times already has him meeting with allies about a return. For six weeks the entire GCC AI roadmap is being drawn on silicon whose CEO is undefined — <b>vendor diversification stopped being a slide and became a procurement item</b>."
+    },
+    {
+      "tag": "Global",
+      "headline": "The agent is now the paying customer. Build for the wallet, not the login.",
+      "body": "ChatGPT Wallet, Adobe's MCP surface for Photoshop and Premiere, and California's lawsuit over 80+ rogue incidents all landed in the same week. The economic unit of the internet is shifting from <b>a human clicking checkout</b> to <b>an agent swiping a tokenised card</b> — and every brand workflow we sell needs to budget for both."
+    },
+    {
+      "tag": "Global",
+      "headline": "The open world model is no longer theoretical — it's a downloadable primitive with a licence.",
+      "body": "In one week PAN 2 shipped under Apache 2.0, World Labs opened Atlas with a splat-to-mesh API, and AMD closed an $8.2B deal to design silicon around world models. <b>Simulation is the new rendering</b> — and the agencies who treat it that way will win the next GCC experiential RFP."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "The UAE stopped deploying someone else's frontier. It just published the next primitive.",
+      "body": "MBZUAI's Institute of Foundation Models releasing <b>PAN 2 under Apache 2.0</b> is a different kind of GCC AI story — not a sovereign-deployment deal with OpenAI or Anthropic, but an open research artefact the rest of the world will fine-tune. Combined with Microsoft's Saudi East region going live this month, the GCC AI map now has <b>its own export layer</b>, not just an import layer."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Migrate the long-context lane to Qwen4-Max before the 25th.",
+      "body": "Whoever owns the model pipeline should re-route every long-context brand-brief and script workflow onto the new GA endpoint this week. Anything still routed through the preview ID will silently die on November 25."
+    },
+    {
+      "numeral": "ii",
+      "title": "Stand up a PAN 2 + Atlas world-model lane for GCC pitches.",
+      "body": "R&D should wire PAN 2 (Apache 2.0) into ComfyUI and connect Atlas's splats2Mesh endpoint into the Three.js stack. The pitch: scan a NEOM / Qiddiya / Diriyah venue on Friday, ship a browser-navigable AI-simulated version on Monday."
+    },
+    {
+      "numeral": "iii",
+      "title": "Ship one Adobe-MCP agent inside a live brand production.",
+      "body": "The creative-tech function should build a small Photoshop/Premiere MCP agent for an existing retainer client — any brand producing more than ten assets a week — before the private beta opens to every agency in early 2027."
+    },
+    {
+      "numeral": "iv",
+      "title": "Rewrite every always-on-agent SOW with a wallet + kill-switch clause.",
+      "body": "The partnerships and legal function should add two mandatory clauses to the standard agent SOW: a spending cap tied to ChatGPT Wallet / agent payment rails, and a rogue-agent kill-switch covenant modelled on the California suit. Both are now procurement table-stakes."
+    }
+  ]
+}
