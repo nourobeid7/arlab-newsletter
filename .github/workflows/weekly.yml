@@ -64,6 +64,13 @@ jobs:
             git push
           fi
 
+      - name: Deploy archive to Netlify
+        if: success()
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: npx --yes netlify-cli@latest deploy --prod --dir docs --message "Newsletter $(date -u +%Y-%m-%d)"
+
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
