@@ -1,0 +1,38 @@
+name: 3D & AI tools digest (standalone)
+
+on:
+  workflow_dispatch:
+    inputs:
+      digest_date:
+        description: "History payload date to use (YYYY-MM-DD). Blank = latest."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Send 3D & AI team tools-only digest
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          SENDER_EMAIL: nour@thearlab.com
+          TOOLS_TO_EMAILS: ahmad@thearlab.com,shadi@thearlab.com,mike@thearlab.com
+          TOOLS_CC_EMAILS: dalia@thearlab.com,wissam@thearlab.com,rafic@thearlab.com
+          DIGEST_DATE: ${{ github.event.inputs.digest_date }}
+        run: python send_tools_digest.py
