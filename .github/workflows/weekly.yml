@@ -57,7 +57,7 @@ jobs:
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
           SENDER_EMAIL: nour@thearlab.com
           TOOLS_TO_EMAILS: ahmad@thearlab.com,shadi@thearlab.com,mike@thearlab.com
-          TOOLS_CC_EMAILS: dalia@thearlab.com,wissam@thearlab.com
+          TOOLS_CC_EMAILS: dalia@thearlab.com,wissam@thearlab.com,rafic@thearlab.com
         run: python send_tools_digest.py
 
       - name: Rebuild archive site
