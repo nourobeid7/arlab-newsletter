@@ -35,7 +35,7 @@ OUT = HERE / "out"
 TEMPLATE_FILE = "template_tools_digest.html"
 
 DEFAULT_TO = "ahmad@thearlab.com,shadi@thearlab.com,mike@thearlab.com"
-DEFAULT_CC = "dalia@thearlab.com,wissam@thearlab.com,rafic@thearlab.com"
+DEFAULT_CC = "dalia@thearlab.com,wissam@thearlab.com,rafic@thearlab.com,nour@thearlab.com,youcef@thearlab.com"
 SENDER_DEFAULT = "nour@thearlab.com"
 SUBJECT = "3D & AI team — tools to check this week"
 
