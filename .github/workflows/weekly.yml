@@ -49,6 +49,17 @@ jobs:
           PREAMBLE_HTML: ${{ github.event.inputs.preamble_html }}
         run: python generate.py
 
+      - name: Send 3D & AI team tools-only digest
+        if: success()
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          SENDER_EMAIL: nour@thearlab.com
+          TOOLS_TO_EMAILS: ahmad@thearlab.com,shadi@thearlab.com,mike@thearlab.com
+          TOOLS_CC_EMAILS: dalia@thearlab.com,wissam@thearlab.com
+        run: python send_tools_digest.py
+
       - name: Rebuild archive site
         if: success()
         run: python build_archive.py

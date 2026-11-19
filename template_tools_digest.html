@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3D &amp; AI Team — Tools to Check</title>
+</head>
+<body style="margin:0;padding:0;background:#08080b;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#08080b;">
+  <tr>
+    <td align="center" style="padding:0;">
+      <table role="presentation" width="680" cellpadding="0" cellspacing="0" border="0" style="max-width:680px;width:100%;background:#08080b;color:#f7f7fa;font-family:Helvetica,Arial,sans-serif;">
+
+        <!-- GREETING -->
+        <tr><td style="padding:40px 24px 16px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:22px 26px;font-family:Georgia,'Times New Roman',serif;font-size:15px;line-height:1.65;color:#b2b2bb;">
+              Hey team &mdash; six sharp-edge tools worth a look this week, pulled straight from Wissam&rsquo;s intelligence briefing. <b style="color:#f7f7fa;font-weight:600;">Pick one, try it, share what breaks.</b>
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- HERO -->
+        <tr><td align="center" style="padding:28px 32px 42px 32px;">
+          <div style="font-size:10px;letter-spacing:0.28em;text-transform:uppercase;color:#f7f7fa;border:1px solid #2a2a30;border-radius:30px;padding:7px 16px;display:inline-block;margin-bottom:22px;">For the 3D &amp; AI team</div>
+          <div style="font-size:10px;letter-spacing:0.46em;text-transform:uppercase;color:#b2b2bb;margin-bottom:22px;">ARlab Intelligence</div>
+          <div style="font-family:Georgia,'Times New Roman',serif;font-weight:300;font-size:50px;line-height:1.02;color:#ffffff;">Tools to<br><em style="font-style:italic;">Check</em></div>
+          <div style="margin-top:28px;font-size:10px;letter-spacing:0.3em;color:#b2b2bb;text-transform:uppercase;">&mdash; &nbsp; {{ date }} &nbsp; &mdash;</div>
+        </td></tr>
+
+        <!-- SECTION — TOOLS -->
+        <tr><td style="padding:12px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:#b2b2bb;padding-right:12px;width:30px;">&mdash;</td>
+              <td style="font-family:Georgia,serif;font-weight:300;font-size:25px;color:#f7f7fa;border-bottom:1px solid #2a2a30;padding-bottom:6px;">The <em>Sharp Edge</em></td>
+            </tr>
+          </table>
+          <div style="font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:#76767f;margin-top:8px;margin-left:30px;">six picks, no household names</div>
+        </td></tr>
+
+        <tr><td style="padding:6px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:12px 22px;">
+              {% for t in tools %}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:10px 0;">
+                <tr>
+                  <td valign="top" width="22" style="font-family:Georgia,serif;font-style:italic;font-size:14px;color:#76767f;padding-right:10px;">{{ t.numeral }}</td>
+                  <td valign="top" width="150" style="font-size:13px;font-weight:600;color:#f7f7fa;padding-right:12px;">{{ t.name }}</td>
+                  <td valign="top" style="font-size:12px;color:#b2b2bb;line-height:1.5;padding-right:12px;">{{ t.body|safe }}</td>
+                  <td valign="top" align="right"><a href="{{ t.link_url }}" target="_blank" style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:#f7f7fa;text-decoration:none;border:1px solid #2a2a30;border-radius:30px;padding:5px 11px;white-space:nowrap;">View</a></td>
+                </tr>
+              </table>
+              {% endfor %}
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- CALL -->
+        <tr><td style="padding:40px 24px 8px 24px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#14141a;border:1px solid #2a2a30;border-radius:14px;">
+            <tr><td style="padding:22px 26px;font-family:Georgia,'Times New Roman',serif;font-size:14px;line-height:1.65;color:#b2b2bb;">
+              Reply to this thread with what you tried, what stuck, what broke. One line is enough. The whole brief lives in Wissam&rsquo;s weekly newsletter &mdash; ping Nour if you want the full archive.
+            </td></tr>
+          </table>
+        </td></tr>
+
+        <!-- FOOTER -->
+        <tr><td style="padding:36px 28px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td valign="middle" style="font-family:Georgia,serif;font-weight:300;font-size:18px;color:#f7f7fa;letter-spacing:0.08em;">AR<em>LAB</em></td>
+              <td valign="middle" align="right" style="font-size:9px;color:#76767f;line-height:1.8;letter-spacing:0.14em;text-transform:uppercase;">3D &amp; AI Team Digest<br>{{ date }} &mdash; derived from Wissam&rsquo;s brief</td>
+            </tr>
+          </table>
+        </td></tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
