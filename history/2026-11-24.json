@@ -1,0 +1,223 @@
+{
+  "date_display": "24 · 11 · 2026",
+  "signals": [
+    {
+      "headline": "Anthropic went public and closed day one as a $1.76-trillion company.",
+      "body": "<b>ANT</b> priced at <b>$83</b>, opened at <b>$111.50</b> on November 19, and finished its debut at <b>$97.17</b> — a market cap of roughly <b>$1.76T</b> on the largest IPO on record. The frontier lab is now a listed security, which means every price cut, safety incident, and sovereign deal gets re-priced in public every quarter. The Claude SLA is now a shareholder document.",
+      "arlab_use": "add a stock-event clause to every long-horizon claude contract"
+    },
+    {
+      "headline": "Google dropped Gemini 4 Neon — Carbon-grade thinking at a mid-tier price.",
+      "body": "Launched November 18 at <b>$3 per million input / $15 per million output</b> across a full 1M-token window, <b>Gemini 4 Neon</b> is Google's fourth new Gemini model in a month and lands in Antigravity alongside the <b>/swarm</b> multi-agent runner. It's priced to kill the reasoning-tier of every competitor and cheap enough to run inside a production creative pipeline, not just the pitch.",
+      "arlab_use": "re-route every long-context reasoning job off carbon onto neon this week"
+    },
+    {
+      "headline": "Thinking Machines dropped an open-weight model small enough to run on a laptop.",
+      "body": "Mira Murati's lab released <b>Inkling 2 Mini</b> on November 20 — a <b>26.4B-parameter looped MoE</b> under Apache 2.0, where the middle layers run three times per token so it reasons internally instead of burning output. It runs offline, ships on Tinker for customization, and is the first serious challenge to the cloud-only frontier playbook since Llama. Sovereign deployments just got a reference model they can actually open.",
+      "arlab_use": "stand up an inkling 2 mini rig as the local-reasoning fallback"
+    },
+    {
+      "headline": "Canva opened its design engine to every AI agent on Earth.",
+      "body": "<b>Canva</b> dropped the waitlist on its <b>MCP server</b> on November 24, added APIs, service accounts and granular access controls, and declared itself the design layer of the agentic web. Any agent — Claude, ChatGPT, Gemini, or something you build — can now generate, remix, and publish a Canva design without a human in the loop. The design tool just became an endpoint.",
+      "arlab_use": "wire canva mcp into the always-on brand agents before the holiday rush"
+    },
+    {
+      "headline": "OpenAI cut its top model's price by 20% and nobody blinked.",
+      "body": "On November 17, <b>GPT-6.2 Astra</b> landed at <b>$8 in / $40 out</b> per million tokens — a 20% drop on the previous tier — while Sol held rates and absorbed the everyday work. The frontier lab is now cutting flagship pricing mid-cycle to defend share against Gemini 4 and Qwen4-Max. Reasoning-tier margin is officially in freefall.",
+      "arlab_use": "renegotiate every enterprise astra line item against the new floor"
+    },
+    {
+      "headline": "HUMAIN raised $667M in debt — Saudi's first AI-infra financing.",
+      "body": "On November 17, <b>HUMAIN</b> confirmed a <b>$667M debt package</b> with the Kingdom's National Infrastructure Fund to fund 1 GW of AI compute and power — the first time Saudi AI capex has been financed on a balance sheet rather than a sovereign grant. The playbook just shifted: HUMAIN is now a bankable counterparty, not only a PIF line item. Expect every vendor it signs to be asked for standard debt covenants.",
+      "arlab_use": "move the humain pitch deck into vendor-financing language, not grant language"
+    }
+  ],
+  "coming_next": [
+    {
+      "category": "World Models",
+      "headline": "NIO unveils NWM 3.0 tomorrow in Shanghai.",
+      "body": "<b>NIO</b> drops <b>NWM 3.0</b> on November 25 at NIO IN 2026 — a multivariate autoregressive generative world model for intelligent driving that reconstructs sensor inputs and imagines future road states. The automotive world model lane is moving fast; watch what the training recipe implies for any physical-AI brief."
+    },
+    {
+      "category": "Headsets",
+      "headline": "Pico Space Pro is leaked for a December 2 launch.",
+      "body": "<b>ByteDance's</b> Vision-Pro rival — 4K micro-OLED at ~4,000 PPI, dual-chip architecture, PICO OS 6 — is reported to ship <b>December 2</b> after the US reseller pulled the $2,899 listing at Pico's request. The GCC enterprise MR lane finally has a credible non-Apple option."
+    },
+    {
+      "category": "Enterprise AI",
+      "headline": "GITEX Global 2026 takes over Dubai next week.",
+      "body": "<b>Abu Dhabi Government</b> will show <b>80+ AI projects</b> across five experience zones at GITEX in Dubai — the biggest Emirati AI-public-sector display of the year. The procurement window for creative + applied AI opens on the show floor."
+    },
+    {
+      "category": "AI Pricing",
+      "headline": "The GPT-5.6 Sol promo rate dies on November 30.",
+      "body": "OpenAI's promotional <b>$4 / $20</b> pricing on GPT-5.6 Sol ends November 30; rates revert and any pipeline still pinned to Sol gets a bill surprise. Audit the model registry before the first December invoice lands."
+    }
+  ],
+  "undisclosed": [
+    {
+      "name": "Hedra — Model Factory for physical AI",
+      "classification": "Emerging",
+      "body": "a16z-backed <b>Hedra</b> quietly launched <b>Model Factory</b> on November 10 — an autonomous post-training and inference pipeline built for multimodal and physical AI, with a claimed <b>15× revenue growth</b> in the last year. It's the first commercial attempt at recursive self-improvement outside the big labs, and it's selling into robotics, not chat."
+    },
+    {
+      "name": "Fireworks AI — model weights exfiltrated",
+      "classification": "Confidential",
+      "body": "A breach disclosed in mid-November shows attackers chained identity hops into a privileged cloud service account at <b>Fireworks AI</b> and pulled <b>customer model weights and training data</b>. Second major inference-host weight leak this quarter. Any client who fine-tuned on an outside host needs to assume exposure."
+    },
+    {
+      "name": "OpenAI — ChatGPT shopping edit",
+      "classification": "Eyes only",
+      "body": "On November 23, <b>OpenAI</b> quietly deleted the sentence from its ChatGPT shopping help page that said product results were not influenced by its partnerships. No announcement, no replacement language. Commerce agents are about to become paid media and nobody wants to say so out loud."
+    },
+    {
+      "name": "Diriyah — $200M hotel contract cancelled",
+      "classification": "Restricted",
+      "body": "<b>Diriyah Company</b> cancelled a $200M hotel construction contract this week even as it confirmed <b>SAR 120B</b> of active build and raised fresh <b>$640M</b> for Wadi Safar hospitality. The cash is still there, but counterparties are being swapped mid-flight — gigaproject suppliers should re-check every milestone clause."
+    }
+  ],
+  "first_of_kind": [
+    {
+      "name": "Inkling 2 Mini — Thinking Machines Lab",
+      "tag": "Research · open weights",
+      "body": "A <b>26.4B-parameter looped MoE</b> under Apache 2.0, with middle layers that loop three times per token so the model reasons internally before emitting. Released November 20, runnable on a laptop, and already on Tinker for customization — the sharpest small-model release of the quarter.",
+      "link_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "link_text": "thinkingmachines.ai"
+    },
+    {
+      "name": "Frankensplat — browser 3DGS training on WebGPU",
+      "tag": "Shipped",
+      "body": "OfflineTools' <b>Frankensplat</b> trains Gaussian splats locally in the browser from images and a COLMAP reconstruction — pure JavaScript + WebGPU, live PSNR, PLY export, zero cloud. The entire capture-to-splat loop now runs inside a tab, which quietly collapses the splat delivery pipeline for client work.",
+      "link_url": "https://offlinetools.io/frankensplat/",
+      "link_text": "offlinetools.io"
+    },
+    {
+      "name": "WorldParticle — MIT / UBC",
+      "tag": "Research",
+      "body": "A single physics foundation model that represents materials as particles and predicts their motion — simulating fluids, sand, solids, and folding proteins in one unified system instead of hand-coded simulators. First real contender for a GPT-moment in scientific simulation.",
+      "link_url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "link_text": "news.mit.edu"
+    },
+    {
+      "name": "Pika Enact — directable AI video",
+      "tag": "Research preview",
+      "body": "Built on <b>Pika H3 Flex</b>, Enact lets a creator drag actors, re-stage shots, and give notes <b>while the scene is playing</b> — 24 fps mouse states, spatial grab heatmaps, and five audio tracks you can edit live. The timeline is dead; AI video is becoming a soundstage.",
+      "link_url": "https://pika.art/blog/pika-enact",
+      "link_text": "pika.art"
+    }
+  ],
+  "tools": [
+    {
+      "numeral": "i",
+      "name": "Gemini 4 Neon",
+      "body": "Google's new reasoning mid-tier — Carbon-grade thinking at <b>$3/$15</b> per million, flat across a 1M-token window. The right default for any long-brief or long-context production job.",
+      "link_url": "https://blog.google/products/gemini/gemini-4-neon/"
+    },
+    {
+      "numeral": "ii",
+      "name": "Antigravity /swarm",
+      "body": "The preview multi-agent runner inside <b>Google Antigravity 2.0</b> turns a single prompt into a coordinated team of coding/design agents you can track in real time — now Carbon-powered for AI Pro.",
+      "link_url": "https://antigravity.google/"
+    },
+    {
+      "numeral": "iii",
+      "name": "LangSmith Tool Gateway",
+      "body": "LangChain's new managed layer, in public beta since November 19, governs every tool an agent can call — identity, credentials, scope, audit — from one control plane.",
+      "link_url": "https://www.langchain.com/langsmith"
+    },
+    {
+      "numeral": "iv",
+      "name": "Canva MCP Server",
+      "body": "GA since November 24: any agent can read, generate, and publish Canva designs via MCP. Perfect glue for always-on brand agents that need to ship visual output.",
+      "link_url": "https://www.canva.dev/docs/mcp/"
+    },
+    {
+      "numeral": "v",
+      "name": "Picsart Platform",
+      "body": "Launched November 20 — <b>250+ creative AI models</b> (incl. Wan 3.0 video) behind one API, CLI, and MCP server. Fastest way to spin up a multi-model creative backend without stitching vendors.",
+      "link_url": "https://picsart.io/"
+    },
+    {
+      "numeral": "vi",
+      "name": "Hedra Model Factory",
+      "body": "Autonomous post-training + inference stack for multimodal and physical AI, with recursive self-improvement built in. Use it to train brand-specific avatars and real-time motion models without owning the pipeline.",
+      "link_url": "https://www.hedra.com/"
+    }
+  ],
+  "partners": [
+    {
+      "category": "Open-weight research",
+      "name": "Thinking Machines Lab",
+      "body": "Murati's shop just released an Apache 2.0 looped-MoE that runs on a laptop — the right partner for any sovereign-deployment conversation that can't phone home to a US cloud."
+    },
+    {
+      "category": "Browser 3D",
+      "name": "OfflineTools (Frankensplat)",
+      "body": "The team collapsing splat capture, training, and delivery into a single WebGPU tab — strategic for GCC venue pitches that need site splats in days, not weeks."
+    },
+    {
+      "category": "Physical AI",
+      "name": "Hedra",
+      "body": "Model Factory makes brand-grade avatars, hands, and live motion training a service — lets us ship real-time AI characters without building the pipeline from scratch."
+    },
+    {
+      "category": "Spatial Capture",
+      "name": "SpAItial",
+      "body": "Echo-3 developer API now merges up to eight captures of one space into a single world with reconstructed camera poses and floorplan coordinates — useful for stadium, mall, and heritage-site briefs."
+    },
+    {
+      "category": "Arabic Voice AI",
+      "name": "Bolna",
+      "body": "Just shipped <b>Syl</b>, a purpose-built speech recognition model tuned for short conversational replies in non-English languages — a plug for Arabic voice-agent pilots in the UAE and KSA."
+    },
+    {
+      "category": "AI Micro-Drama",
+      "name": "EloElo",
+      "body": "Launched an AI film studio on November 23 at IFFI Goa aimed at micro-dramas and vertical content — a template worth stealing for Arabic branded fiction at TikTok/Shahid scale."
+    }
+  ],
+  "patterns": [
+    {
+      "tag": "Global",
+      "headline": "The frontier model is now a listed security. Pricing, ethics, and uptime are quarterly disclosures.",
+      "body": "With <b>Anthropic</b> trading on Nasdaq and <b>OpenAI</b> cutting Astra 20% in the same week, model pricing is now a response to short interest, not a research decision. Any SOW with a 12-month model lock-in has to assume a price cut and a safety-incident disclosure inside the term. Build the escape hatch into the contract."
+    },
+    {
+      "tag": "Global",
+      "headline": "The mid-tier model just ate the flagship. Reasoning is now cheap enough to run inside production.",
+      "body": "<b>Gemini 4 Neon</b> at $3/$15, <b>GPT-6.2 Astra</b> down 20%, and <b>Inkling 2 Mini</b> on a laptop all landed in one week. The economics of putting a real reasoning model inside every brand workflow — not just the pitch — are finally positive. Price the always-on lane against the mid-tier, not the flagship."
+    },
+    {
+      "tag": "Global",
+      "headline": "Every creative tool is becoming an MCP endpoint. The customer is now an agent.",
+      "body": "<b>Canva</b> opened MCP to all developers on November 24, <b>Picsart</b> shipped one on November 20, and <b>Adobe</b> landed its own earlier this month. Design and media platforms are racing to be the default output layer for agentic workflows — if your creative stack doesn't expose MCP, it's about to be routed around."
+    },
+    {
+      "tag": "GCC · our region",
+      "headline": "Saudi is financing AI capex on a balance sheet, not a grant. The sovereign is turning into a bank.",
+      "body": "<b>HUMAIN's</b> $667M debt deal, <b>Diriyah's</b> SAR 120B active build and $640M Wadi Safar raise, and PIF's recent SACE-backed structures show the Kingdom moving its AI and gigaproject spend into bankable instruments. Vendors should expect proper credit covenants, milestone escrow, and cancellation rights — the days of open-tab sovereign checks are closing."
+    }
+  ],
+  "action_plan": [
+    {
+      "numeral": "i",
+      "title": "Wire every always-on brand agent into Canva MCP this week.",
+      "body": "The MCP server went GA on November 24 — our always-on social and brand agents should be able to generate and publish Canva assets by Friday. First to ship wins the holiday-campaign pitches."
+    },
+    {
+      "numeral": "ii",
+      "title": "Re-base the reasoning lane on Gemini 4 Neon + GPT-6.2 Astra.",
+      "body": "Audit every pipeline still pinned to Carbon, Qwen4-Max, or Sol promo pricing and port long-context reasoning to Neon at $3/$15. The finance function should see the delta in the November cloud bill."
+    },
+    {
+      "numeral": "iii",
+      "title": "Ship a Frankensplat browser demo for the next GCC pitch.",
+      "body": "The web team should wrap OfflineTools' Frankensplat into a client-safe WebGPU tab that trains a splat of a venue, mall, or site live in the meeting. It kills the capture-to-cloud latency we've been apologising for."
+    },
+    {
+      "numeral": "iv",
+      "title": "Add a tool-gateway clause to every agent SOW.",
+      "body": "Whoever owns the pipeline should mandate a governed tool layer — LangSmith Tool Gateway or equivalent — for credentials, identity, and audit on every agent call. Make it a billable line item, not a hidden assumption."
+    }
+  ]
+}

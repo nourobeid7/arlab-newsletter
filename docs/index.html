@@ -82,8 +82,9 @@
       <div class="brand-m">The <em>Newsletter</em></div>
     </div>
     <div class="m-cell">
-      <button class="m-pill" type="button" data-ym="2026-11" data-first-iso="2026-11-17" aria-label="November 2026">Nov<span class="m-y">&rsquo;26</span></button>
+      <button class="m-pill" type="button" data-ym="2026-11" data-first-iso="2026-11-24" aria-label="November 2026">Nov<span class="m-y">&rsquo;26</span></button>
       <div class="weeks-grp" data-ym="2026-11">
+      <div class="w-row"><button class="w-pill" type="button" data-iso="2026-11-24" aria-label="Nov 24, 2026">Nov 24</button></div>
       <div class="w-row"><button class="w-pill" type="button" data-iso="2026-11-17" aria-label="Nov 17, 2026">Nov 17</button></div>
       <div class="w-row"><button class="w-pill" type="button" data-iso="2026-11-10" aria-label="Nov 10, 2026">Nov 10</button></div>
       <div class="w-row"><button class="w-pill" type="button" data-iso="2026-11-03" aria-label="Nov 3, 2026">Nov 3</button></div>
@@ -139,6 +140,243 @@
   </aside>
 
   <main class="stage">
+    <div class="panel" data-iso="2026-11-24">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Inter:wght@300;400;500&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#08080b;
+    --txt:#f7f7fa;--txt2:#b2b2bb;--txt3:#76767f;
+    --glass:rgba(255,255,255,0.045);--glass-h:rgba(255,255,255,0.08);
+    --edge:rgba(255,255,255,0.12);--edge-h:rgba(255,255,255,0.26);
+    --disp:'Fraunces',serif;--sans:'Inter',sans-serif;
+  }
+  body{background:var(--bg)}
+  .nl{font-family:var(--sans);max-width:680px;margin:0 auto;background:var(--bg);color:var(--txt);position:relative;overflow:hidden;font-weight:300}
+  .bgwrap{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .glow{position:absolute;border-radius:50%;filter:blur(110px)}
+  .g1{width:460px;height:460px;top:-120px;left:50%;transform:translateX(-50%);background:radial-gradient(circle,rgba(140,120,255,0.13),transparent 70%)}
+  .g2{width:380px;height:380px;top:760px;left:-140px;background:radial-gradient(circle,rgba(90,170,255,0.10),transparent 70%)}
+  .g3{width:420px;height:420px;top:1700px;right:-160px;background:radial-gradient(circle,rgba(255,150,210,0.08),transparent 70%)}
+  .g4{width:400px;height:400px;top:2650px;left:-150px;background:radial-gradient(circle,rgba(120,200,255,0.08),transparent 70%)}
+  .grain{position:absolute;inset:0;opacity:0.5;mix-blend-mode:overlay;background-image:radial-gradient(rgba(255,255,255,0.04) 0.5px,transparent 0.5px);background-size:3px 3px}
+  .layer{position:relative;z-index:1}
+
+  .hero{height:360px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 32px}
+  .pill{font-size:9px;letter-spacing:0.28em;text-transform:uppercase;color:var(--txt);background:var(--glass);border:1px solid var(--edge);border-radius:30px;padding:7px 16px;margin-bottom:22px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:inset 0 1px 0 rgba(255,255,255,0.22),0 4px 18px rgba(0,0,0,0.3)}
+  .kick{font-size:9.5px;letter-spacing:0.46em;text-transform:uppercase;color:var(--txt2);margin-bottom:22px;font-weight:400}
+  .mast{font-family:var(--disp);font-weight:300;font-size:62px;line-height:0.94;color:#fff;letter-spacing:-0.01em}
+  .mast em{font-style:italic;font-weight:400}
+  .seal{margin-top:28px;display:flex;align-items:center;gap:16px}
+  .seal-l,.seal-r{width:48px;height:1px;background:var(--edge)}
+  .seal-t{font-size:9px;letter-spacing:0.3em;color:var(--txt2);text-transform:uppercase}
+
+  .body{padding:0 24px 50px}
+  .sec{margin:46px 0 16px}
+  .sec-rule{display:flex;align-items:baseline;gap:12px}
+  .sec-no{font-family:var(--disp);font-style:italic;font-size:16px;color:var(--txt2)}
+  .sec-t{font-family:var(--disp);font-weight:300;font-size:25px;color:var(--txt)}
+  .sec-t em{font-style:italic}
+  .sec-l{flex:1;height:1px;background:var(--edge)}
+  .sec-k{font-size:8.5px;letter-spacing:0.28em;text-transform:uppercase;color:var(--txt3);margin-top:8px;margin-left:28px;font-weight:400}
+
+  .glass{position:relative;background:linear-gradient(135deg,rgba(255,255,255,0.07),rgba(255,255,255,0.02));backdrop-filter:blur(22px) saturate(150%);-webkit-backdrop-filter:blur(22px) saturate(150%);border:1px solid var(--edge);border-radius:24px;padding:20px 22px;margin-bottom:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.25),inset 0 -1px 0 rgba(255,255,255,0.05),0 14px 40px rgba(0,0,0,0.4);transition:transform .4s cubic-bezier(.2,.8,.2,1),box-shadow .4s,border-color .4s}
+  .glass:hover{transform:translateY(-3px);border-color:var(--edge-h);box-shadow:inset 0 1px 0 rgba(255,255,255,0.35),0 20px 50px rgba(0,0,0,0.5)}
+
+  .sig-h{font-family:var(--disp);font-weight:400;font-size:20px;color:var(--txt);line-height:1.2;margin-bottom:7px}
+  .sig-l{font-size:12.5px;color:var(--txt2);line-height:1.55}
+  .sig-l b{color:var(--txt);font-weight:400}
+  .sig-use{font-size:10px;line-height:1.5;color:var(--txt);margin-top:11px;letter-spacing:0.1em;text-transform:uppercase}
+  .sig-use::before{content:'arlab use \00b7  ';color:var(--txt3)}
+
+  .nx{display:flex;gap:18px;align-items:baseline;padding:6px 2px 14px}
+  .nx-cat{flex:0 0 120px;font-family:var(--disp);font-weight:300;font-size:17px;line-height:1.05;color:var(--txt)}
+  .nx-l{font-size:13.5px;font-weight:500;color:var(--txt);line-height:1.3;margin-bottom:3px}
+  .nx-s{font-size:11.5px;color:var(--txt2);line-height:1.5}
+
+  .ud-top,.lab-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:10px}
+  .ud-name,.lab-name{font-family:var(--disp);font-size:18px;font-weight:400;color:var(--txt)}
+  .ud-cls,.lab-tag{font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--txt3);white-space:nowrap;border:1px solid var(--edge);border-radius:30px;padding:4px 9px}
+  .ud-d,.lab-d{font-size:12px;line-height:1.55;color:var(--txt2)}
+  .ud-d b,.lab-d b{color:var(--txt);font-weight:400}
+  .lab-link{color:var(--txt);text-decoration:none;border-bottom:1px solid var(--edge-h)}
+
+  .tl2{display:flex;align-items:baseline;gap:14px;padding:13px 2px}
+  .tl2-i{font-family:var(--disp);font-style:italic;font-size:14px;color:var(--txt3);flex:0 0 26px}
+  .tl2-n{font-size:14px;font-weight:500;color:var(--txt);white-space:nowrap}
+  .tl2-o{font-size:11.5px;color:var(--txt2);flex:1}
+  .tl2-go{font-size:8.5px;letter-spacing:0.14em;text-transform:uppercase;color:var(--txt);text-decoration:none;white-space:nowrap;border:1px solid var(--edge);border-radius:30px;padding:5px 11px}
+
+  .pg{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+  .pk{font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--txt3);margin-bottom:7px}
+  .pn{font-family:var(--disp);font-size:18px;font-weight:400;color:var(--txt);margin-bottom:3px}
+  .ps{font-size:11px;color:var(--txt2);line-height:1.45}
+
+  .pat{padding:14px 0;border-top:1px solid var(--edge)}
+  .pat:first-child{border-top:none}
+  .pat-tag{font-size:8px;letter-spacing:0.2em;text-transform:uppercase;color:var(--txt3);margin-bottom:7px}
+  .pat-h{font-family:var(--disp);font-weight:400;font-size:19px;color:var(--txt);margin-bottom:6px;line-height:1.2}
+  .pat-d{font-size:12px;line-height:1.6;color:var(--txt2)}
+  .pat-d b{color:var(--txt);font-weight:400}
+
+  .ti{display:flex;gap:16px;align-items:flex-start;padding:7px 2px 14px}
+  .ti-n{flex:0 0 24px;font-family:var(--disp);font-style:italic;font-size:20px;color:var(--txt3);line-height:1}
+  .ti-t{font-size:13.5px;font-weight:500;color:var(--txt);margin-bottom:3px}
+  .ti-d{font-size:11.5px;color:var(--txt2);line-height:1.5}
+
+  .foot{margin-top:22px;padding:28px;display:flex;justify-content:space-between;align-items:center}
+  .fb{font-family:var(--disp);font-weight:300;font-size:18px;color:var(--txt);letter-spacing:0.08em}
+  .fb em{font-style:italic}
+  .fn{font-size:8.5px;color:var(--txt3);text-align:right;line-height:1.8;letter-spacing:0.14em;text-transform:uppercase}
+</style>
+
+<div class="nl">
+  <div class="bgwrap">
+    <div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div><div class="glow g4"></div>
+    <div class="grain"></div>
+  </div>
+
+  <div class="layer">
+
+    <div class="hero">
+      <div class="pill">Beta</div>
+      <div class="kick">ARlab Intelligence</div>
+      <div class="mast">Wissam's<br><em>Newsletter</em></div>
+      <div class="seal"><span class="seal-l"></span><span class="seal-t">24 · 11 · 2026</span><span class="seal-r"></span></div>
+    </div>
+
+    <div class="body">
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">I</span><span class="sec-t">The <em>Signals</em></span><span class="sec-l"></span></div><div class="sec-k">the fast read &mdash; one move each</div></div>
+
+      
+      <div class="glass"><div class="sig-h">Anthropic went public and closed day one as a $1.76-trillion company.</div><div class="sig-l"><b>ANT</b> priced at <b>$83</b>, opened at <b>$111.50</b> on November 19, and finished its debut at <b>$97.17</b> — a market cap of roughly <b>$1.76T</b> on the largest IPO on record. The frontier lab is now a listed security, which means every price cut, safety incident, and sovereign deal gets re-priced in public every quarter. The Claude SLA is now a shareholder document.</div><div class="sig-use">add a stock-event clause to every long-horizon claude contract</div></div>
+      
+      <div class="glass"><div class="sig-h">Google dropped Gemini 4 Neon — Carbon-grade thinking at a mid-tier price.</div><div class="sig-l">Launched November 18 at <b>$3 per million input / $15 per million output</b> across a full 1M-token window, <b>Gemini 4 Neon</b> is Google's fourth new Gemini model in a month and lands in Antigravity alongside the <b>/swarm</b> multi-agent runner. It's priced to kill the reasoning-tier of every competitor and cheap enough to run inside a production creative pipeline, not just the pitch.</div><div class="sig-use">re-route every long-context reasoning job off carbon onto neon this week</div></div>
+      
+      <div class="glass"><div class="sig-h">Thinking Machines dropped an open-weight model small enough to run on a laptop.</div><div class="sig-l">Mira Murati's lab released <b>Inkling 2 Mini</b> on November 20 — a <b>26.4B-parameter looped MoE</b> under Apache 2.0, where the middle layers run three times per token so it reasons internally instead of burning output. It runs offline, ships on Tinker for customization, and is the first serious challenge to the cloud-only frontier playbook since Llama. Sovereign deployments just got a reference model they can actually open.</div><div class="sig-use">stand up an inkling 2 mini rig as the local-reasoning fallback</div></div>
+      
+      <div class="glass"><div class="sig-h">Canva opened its design engine to every AI agent on Earth.</div><div class="sig-l"><b>Canva</b> dropped the waitlist on its <b>MCP server</b> on November 24, added APIs, service accounts and granular access controls, and declared itself the design layer of the agentic web. Any agent — Claude, ChatGPT, Gemini, or something you build — can now generate, remix, and publish a Canva design without a human in the loop. The design tool just became an endpoint.</div><div class="sig-use">wire canva mcp into the always-on brand agents before the holiday rush</div></div>
+      
+      <div class="glass"><div class="sig-h">OpenAI cut its top model&#39;s price by 20% and nobody blinked.</div><div class="sig-l">On November 17, <b>GPT-6.2 Astra</b> landed at <b>$8 in / $40 out</b> per million tokens — a 20% drop on the previous tier — while Sol held rates and absorbed the everyday work. The frontier lab is now cutting flagship pricing mid-cycle to defend share against Gemini 4 and Qwen4-Max. Reasoning-tier margin is officially in freefall.</div><div class="sig-use">renegotiate every enterprise astra line item against the new floor</div></div>
+      
+      <div class="glass"><div class="sig-h">HUMAIN raised $667M in debt — Saudi&#39;s first AI-infra financing.</div><div class="sig-l">On November 17, <b>HUMAIN</b> confirmed a <b>$667M debt package</b> with the Kingdom's National Infrastructure Fund to fund 1 GW of AI compute and power — the first time Saudi AI capex has been financed on a balance sheet rather than a sovereign grant. The playbook just shifted: HUMAIN is now a bankable counterparty, not only a PIF line item. Expect every vendor it signs to be asked for standard debt covenants.</div><div class="sig-use">move the humain pitch deck into vendor-financing language, not grant language</div></div>
+      
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">II</span><span class="sec-t">Coming <em>Next</em></span><span class="sec-l"></span></div><div class="sec-k">where to place bets</div></div>
+
+      <div class="glass">
+        
+        <div class="nx"><div class="nx-cat">World Models</div><div><div class="nx-l">NIO unveils NWM 3.0 tomorrow in Shanghai.</div><div class="nx-s"><b>NIO</b> drops <b>NWM 3.0</b> on November 25 at NIO IN 2026 — a multivariate autoregressive generative world model for intelligent driving that reconstructs sensor inputs and imagines future road states. The automotive world model lane is moving fast; watch what the training recipe implies for any physical-AI brief.</div></div></div>
+        
+        <div class="nx"><div class="nx-cat">Headsets</div><div><div class="nx-l">Pico Space Pro is leaked for a December 2 launch.</div><div class="nx-s"><b>ByteDance's</b> Vision-Pro rival — 4K micro-OLED at ~4,000 PPI, dual-chip architecture, PICO OS 6 — is reported to ship <b>December 2</b> after the US reseller pulled the $2,899 listing at Pico's request. The GCC enterprise MR lane finally has a credible non-Apple option.</div></div></div>
+        
+        <div class="nx"><div class="nx-cat">Enterprise AI</div><div><div class="nx-l">GITEX Global 2026 takes over Dubai next week.</div><div class="nx-s"><b>Abu Dhabi Government</b> will show <b>80+ AI projects</b> across five experience zones at GITEX in Dubai — the biggest Emirati AI-public-sector display of the year. The procurement window for creative + applied AI opens on the show floor.</div></div></div>
+        
+        <div class="nx" style="padding-bottom:2px"><div class="nx-cat">AI Pricing</div><div><div class="nx-l">The GPT-5.6 Sol promo rate dies on November 30.</div><div class="nx-s">OpenAI's promotional <b>$4 / $20</b> pricing on GPT-5.6 Sol ends November 30; rates revert and any pipeline still pinned to Sol gets a bill surprise. Audit the model registry before the first December invoice lands.</div></div></div>
+        
+      </div>
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">III</span><span class="sec-t"><em>Undisclosed</em></span><span class="sec-l"></span></div><div class="sec-k">top-secret projects in motion</div></div>
+
+      
+      <div class="glass"><div class="ud-top"><div class="ud-name">Hedra — Model Factory for physical AI</div><span class="ud-cls">Emerging</span></div><div class="ud-d">a16z-backed <b>Hedra</b> quietly launched <b>Model Factory</b> on November 10 — an autonomous post-training and inference pipeline built for multimodal and physical AI, with a claimed <b>15× revenue growth</b> in the last year. It's the first commercial attempt at recursive self-improvement outside the big labs, and it's selling into robotics, not chat.</div></div>
+      
+      <div class="glass"><div class="ud-top"><div class="ud-name">Fireworks AI — model weights exfiltrated</div><span class="ud-cls">Confidential</span></div><div class="ud-d">A breach disclosed in mid-November shows attackers chained identity hops into a privileged cloud service account at <b>Fireworks AI</b> and pulled <b>customer model weights and training data</b>. Second major inference-host weight leak this quarter. Any client who fine-tuned on an outside host needs to assume exposure.</div></div>
+      
+      <div class="glass"><div class="ud-top"><div class="ud-name">OpenAI — ChatGPT shopping edit</div><span class="ud-cls">Eyes only</span></div><div class="ud-d">On November 23, <b>OpenAI</b> quietly deleted the sentence from its ChatGPT shopping help page that said product results were not influenced by its partnerships. No announcement, no replacement language. Commerce agents are about to become paid media and nobody wants to say so out loud.</div></div>
+      
+      <div class="glass"><div class="ud-top"><div class="ud-name">Diriyah — $200M hotel contract cancelled</div><span class="ud-cls">Restricted</span></div><div class="ud-d"><b>Diriyah Company</b> cancelled a $200M hotel construction contract this week even as it confirmed <b>SAR 120B</b> of active build and raised fresh <b>$640M</b> for Wadi Safar hospitality. The cash is still there, but counterparties are being swapped mid-flight — gigaproject suppliers should re-check every milestone clause.</div></div>
+      
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">IV</span><span class="sec-t">First of Its <em>Kind</em></span><span class="sec-l"></span></div><div class="sec-k">unreleased &amp; from the labs</div></div>
+
+      
+      <div class="glass"><div class="lab-top"><div class="lab-name">Inkling 2 Mini — Thinking Machines Lab</div><span class="lab-tag">Research · open weights</span></div><div class="lab-d">A <b>26.4B-parameter looped MoE</b> under Apache 2.0, with middle layers that loop three times per token so the model reasons internally before emitting. Released November 20, runnable on a laptop, and already on Tinker for customization — the sharpest small-model release of the quarter. <a class="lab-link" href="https://thinkingmachines.ai/news/inkling-2-mini/" target="_blank">thinkingmachines.ai</a></div></div>
+      
+      <div class="glass"><div class="lab-top"><div class="lab-name">Frankensplat — browser 3DGS training on WebGPU</div><span class="lab-tag">Shipped</span></div><div class="lab-d">OfflineTools' <b>Frankensplat</b> trains Gaussian splats locally in the browser from images and a COLMAP reconstruction — pure JavaScript + WebGPU, live PSNR, PLY export, zero cloud. The entire capture-to-splat loop now runs inside a tab, which quietly collapses the splat delivery pipeline for client work. <a class="lab-link" href="https://offlinetools.io/frankensplat/" target="_blank">offlinetools.io</a></div></div>
+      
+      <div class="glass"><div class="lab-top"><div class="lab-name">WorldParticle — MIT / UBC</div><span class="lab-tag">Research</span></div><div class="lab-d">A single physics foundation model that represents materials as particles and predicts their motion — simulating fluids, sand, solids, and folding proteins in one unified system instead of hand-coded simulators. First real contender for a GPT-moment in scientific simulation. <a class="lab-link" href="https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109" target="_blank">news.mit.edu</a></div></div>
+      
+      <div class="glass"><div class="lab-top"><div class="lab-name">Pika Enact — directable AI video</div><span class="lab-tag">Research preview</span></div><div class="lab-d">Built on <b>Pika H3 Flex</b>, Enact lets a creator drag actors, re-stage shots, and give notes <b>while the scene is playing</b> — 24 fps mouse states, spatial grab heatmaps, and five audio tracks you can edit live. The timeline is dead; AI video is becoming a soundstage. <a class="lab-link" href="https://pika.art/blog/pika-enact" target="_blank">pika.art</a></div></div>
+      
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">V</span><span class="sec-t">Tools to <em>Check</em></span><span class="sec-l"></span></div><div class="sec-k">the sharp edge, not the basics</div></div>
+
+      <div class="glass" style="padding:8px 22px">
+        
+        <div class="tl2"><span class="tl2-i">i</span><span class="tl2-n">Gemini 4 Neon</span><span class="tl2-o">Google&#39;s new reasoning mid-tier — Carbon-grade thinking at &lt;b&gt;$3/$15&lt;/b&gt; per million, flat across a 1M-token window. The right default for any long-brief or long-context production job.</span><a class="tl2-go" href="https://blog.google/products/gemini/gemini-4-neon/" target="_blank">View</a></div>
+        
+        <div class="tl2"><span class="tl2-i">ii</span><span class="tl2-n">Antigravity /swarm</span><span class="tl2-o">The preview multi-agent runner inside &lt;b&gt;Google Antigravity 2.0&lt;/b&gt; turns a single prompt into a coordinated team of coding/design agents you can track in real time — now Carbon-powered for AI Pro.</span><a class="tl2-go" href="https://antigravity.google/" target="_blank">View</a></div>
+        
+        <div class="tl2"><span class="tl2-i">iii</span><span class="tl2-n">LangSmith Tool Gateway</span><span class="tl2-o">LangChain&#39;s new managed layer, in public beta since November 19, governs every tool an agent can call — identity, credentials, scope, audit — from one control plane.</span><a class="tl2-go" href="https://www.langchain.com/langsmith" target="_blank">View</a></div>
+        
+        <div class="tl2"><span class="tl2-i">iv</span><span class="tl2-n">Canva MCP Server</span><span class="tl2-o">GA since November 24: any agent can read, generate, and publish Canva designs via MCP. Perfect glue for always-on brand agents that need to ship visual output.</span><a class="tl2-go" href="https://www.canva.dev/docs/mcp/" target="_blank">View</a></div>
+        
+        <div class="tl2"><span class="tl2-i">v</span><span class="tl2-n">Picsart Platform</span><span class="tl2-o">Launched November 20 — &lt;b&gt;250+ creative AI models&lt;/b&gt; (incl. Wan 3.0 video) behind one API, CLI, and MCP server. Fastest way to spin up a multi-model creative backend without stitching vendors.</span><a class="tl2-go" href="https://picsart.io/" target="_blank">View</a></div>
+        
+        <div class="tl2" style="padding-bottom:8px"><span class="tl2-i">vi</span><span class="tl2-n">Hedra Model Factory</span><span class="tl2-o">Autonomous post-training + inference stack for multimodal and physical AI, with recursive self-improvement built in. Use it to train brand-specific avatars and real-time motion models without owning the pipeline.</span><a class="tl2-go" href="https://www.hedra.com/" target="_blank">View</a></div>
+        
+      </div>
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">VI</span><span class="sec-t">Partners &amp; <em>Hidden Gems</em></span><span class="sec-l"></span></div><div class="sec-k">small companies, big leverage</div></div>
+
+      <div class="glass" style="padding:18px 20px">
+        <div class="pg">
+          
+          <div><div class="pk">Open-weight research</div><div class="pn">Thinking Machines Lab</div><div class="ps">Murati&#39;s shop just released an Apache 2.0 looped-MoE that runs on a laptop — the right partner for any sovereign-deployment conversation that can&#39;t phone home to a US cloud.</div></div>
+          
+          <div><div class="pk">Browser 3D</div><div class="pn">OfflineTools (Frankensplat)</div><div class="ps">The team collapsing splat capture, training, and delivery into a single WebGPU tab — strategic for GCC venue pitches that need site splats in days, not weeks.</div></div>
+          
+          <div><div class="pk">Physical AI</div><div class="pn">Hedra</div><div class="ps">Model Factory makes brand-grade avatars, hands, and live motion training a service — lets us ship real-time AI characters without building the pipeline from scratch.</div></div>
+          
+          <div><div class="pk">Spatial Capture</div><div class="pn">SpAItial</div><div class="ps">Echo-3 developer API now merges up to eight captures of one space into a single world with reconstructed camera poses and floorplan coordinates — useful for stadium, mall, and heritage-site briefs.</div></div>
+          
+          <div><div class="pk">Arabic Voice AI</div><div class="pn">Bolna</div><div class="ps">Just shipped &lt;b&gt;Syl&lt;/b&gt;, a purpose-built speech recognition model tuned for short conversational replies in non-English languages — a plug for Arabic voice-agent pilots in the UAE and KSA.</div></div>
+          
+          <div><div class="pk">AI Micro-Drama</div><div class="pn">EloElo</div><div class="ps">Launched an AI film studio on November 23 at IFFI Goa aimed at micro-dramas and vertical content — a template worth stealing for Arabic branded fiction at TikTok/Shahid scale.</div></div>
+          
+        </div>
+      </div>
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">VII</span><span class="sec-t"><em>Patterns</em></span><span class="sec-l"></span></div><div class="sec-k">where the whole field is heading</div></div>
+
+      <div class="glass">
+        
+        <div class="pat"><div class="pat-tag">Global</div><div class="pat-h">The frontier model is now a listed security. Pricing, ethics, and uptime are quarterly disclosures.</div><div class="pat-d">With <b>Anthropic</b> trading on Nasdaq and <b>OpenAI</b> cutting Astra 20% in the same week, model pricing is now a response to short interest, not a research decision. Any SOW with a 12-month model lock-in has to assume a price cut and a safety-incident disclosure inside the term. Build the escape hatch into the contract.</div></div>
+        
+        <div class="pat"><div class="pat-tag">Global</div><div class="pat-h">The mid-tier model just ate the flagship. Reasoning is now cheap enough to run inside production.</div><div class="pat-d"><b>Gemini 4 Neon</b> at $3/$15, <b>GPT-6.2 Astra</b> down 20%, and <b>Inkling 2 Mini</b> on a laptop all landed in one week. The economics of putting a real reasoning model inside every brand workflow — not just the pitch — are finally positive. Price the always-on lane against the mid-tier, not the flagship.</div></div>
+        
+        <div class="pat"><div class="pat-tag">Global</div><div class="pat-h">Every creative tool is becoming an MCP endpoint. The customer is now an agent.</div><div class="pat-d"><b>Canva</b> opened MCP to all developers on November 24, <b>Picsart</b> shipped one on November 20, and <b>Adobe</b> landed its own earlier this month. Design and media platforms are racing to be the default output layer for agentic workflows — if your creative stack doesn't expose MCP, it's about to be routed around.</div></div>
+        
+        <div class="pat" style="padding-bottom:2px"><div class="pat-tag">GCC · our region</div><div class="pat-h">Saudi is financing AI capex on a balance sheet, not a grant. The sovereign is turning into a bank.</div><div class="pat-d"><b>HUMAIN's</b> $667M debt deal, <b>Diriyah's</b> SAR 120B active build and $640M Wadi Safar raise, and PIF's recent SACE-backed structures show the Kingdom moving its AI and gigaproject spend into bankable instruments. Vendors should expect proper credit covenants, milestone escrow, and cancellation rights — the days of open-tab sovereign checks are closing.</div></div>
+        
+      </div>
+
+      <div class="sec"><div class="sec-rule"><span class="sec-no">VIII</span><span class="sec-t">Action <em>Plan</em></span><span class="sec-l"></span></div><div class="sec-k">what the team starts now</div></div>
+
+      <div class="glass" style="padding:8px 22px">
+        
+        <div class="ti"><div class="ti-n">i</div><div><div class="ti-t">Wire every always-on brand agent into Canva MCP this week.</div><div class="ti-d">The MCP server went GA on November 24 — our always-on social and brand agents should be able to generate and publish Canva assets by Friday. First to ship wins the holiday-campaign pitches.</div></div></div>
+        
+        <div class="ti"><div class="ti-n">ii</div><div><div class="ti-t">Re-base the reasoning lane on Gemini 4 Neon + GPT-6.2 Astra.</div><div class="ti-d">Audit every pipeline still pinned to Carbon, Qwen4-Max, or Sol promo pricing and port long-context reasoning to Neon at $3/$15. The finance function should see the delta in the November cloud bill.</div></div></div>
+        
+        <div class="ti"><div class="ti-n">iii</div><div><div class="ti-t">Ship a Frankensplat browser demo for the next GCC pitch.</div><div class="ti-d">The web team should wrap OfflineTools&#39; Frankensplat into a client-safe WebGPU tab that trains a splat of a venue, mall, or site live in the meeting. It kills the capture-to-cloud latency we&#39;ve been apologising for.</div></div></div>
+        
+        <div class="ti" style="padding-bottom:8px"><div class="ti-n">iv</div><div><div class="ti-t">Add a tool-gateway clause to every agent SOW.</div><div class="ti-d">Whoever owns the pipeline should mandate a governed tool layer — LangSmith Tool Gateway or equivalent — for credentials, identity, and audit on every agent call. Make it a billable line item, not a hidden assumption.</div></div></div>
+        
+      </div>
+
+    </div>
+
+    <div class="foot">
+      <div class="fb">AR<em>LAB</em></div>
+      <div class="fn">Wissam's Newsletter<br>24 · 11 · 2026 &mdash; Content Ops</div>
+    </div>
+
+  </div>
+</div>
+    </div>
     <div class="panel" data-iso="2026-11-17">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Inter:wght@300;400;500&display=swap');
