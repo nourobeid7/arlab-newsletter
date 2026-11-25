@@ -40,55 +40,61 @@ INDEX_SHELL = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Wissam's Newsletter</title>
+<title>ARlab Newsletter</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Inter:wght@300;400;500&display=swap');
   *{box-sizing:border-box;margin:0;padding:0}
   :root{
-    --bg:#08080b;
-    --txt:#f7f7fa;--txt2:#b2b2bb;--txt3:#76767f;
-    --glass:rgba(255,255,255,0.045);--glass-h:rgba(255,255,255,0.08);
-    --edge:rgba(255,255,255,0.1);--edge-h:rgba(255,255,255,0.24);
-    --disp:'Fraunces',serif;--sans:'Inter',sans-serif;
+    --bg:#070709;
+    --text:#f0f0f0;--text2:#999;--text3:#666;
+    --glass-blur:saturate(210%) blur(40px);
+    --border:rgba(255,255,255,0.14);--border2:rgba(255,255,255,0.22);
+    --accent-ar:#b8aef5;--accent-creator:#f0805a;--accent-ai:#5adab0;
   }
-  html,body{background:var(--bg);color:var(--txt);font-family:var(--sans);font-weight:300;-webkit-font-smoothing:antialiased}
+  html{background:#070709}
+  body{color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;-webkit-font-smoothing:antialiased;
+    background:
+      radial-gradient(900px 600px at 12% -10%, rgba(184,174,245,0.18), transparent 60%),
+      radial-gradient(800px 600px at 95% 10%, rgba(90,218,176,0.14), transparent 55%),
+      radial-gradient(900px 700px at 60% 110%, rgba(240,128,90,0.10), transparent 60%),
+      #070709 !important;
+    background-attachment:fixed !important;
+  }
 
-  /* Ambient */
-  .amb{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-  .glow{position:absolute;border-radius:50%;filter:blur(130px)}
-  .g1{width:560px;height:560px;top:-200px;left:18%;background:radial-gradient(circle,rgba(140,120,255,0.13),transparent 70%)}
-  .g2{width:460px;height:460px;top:45%;left:-170px;background:radial-gradient(circle,rgba(90,170,255,0.09),transparent 70%)}
-  .g3{width:500px;height:500px;top:65%;right:-190px;background:radial-gradient(circle,rgba(255,150,210,0.08),transparent 70%)}
-  .grain{position:absolute;inset:0;opacity:0.5;mix-blend-mode:overlay;background-image:radial-gradient(rgba(255,255,255,0.04) 0.5px,transparent 0.5px);background-size:3px 3px}
+  /* Header — matches Intelligence + Marketing dashboards */
+  .header{padding:22px 40px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(10,10,10,0.4);backdrop-filter:var(--glass-blur);-webkit-backdrop-filter:var(--glass-blur);position:sticky;top:0;z-index:100}
+  .header h1{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.5px;color:var(--text)}
+  .header-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+  .arlab-badge{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);border:1px solid var(--border);padding:5px 11px;border-radius:20px;background:transparent}
+  .dash-link{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text2);border:1px solid var(--border);padding:5px 11px;border-radius:20px;text-decoration:none;transition:border-color .15s,color .15s}
+  .dash-link:hover{border-color:var(--border2);color:var(--text)}
+  .nl-pill{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:5px 12px;border-radius:20px;background:linear-gradient(135deg,rgba(184,174,245,0.22) 0%,rgba(90,218,176,0.16) 55%,rgba(240,128,90,0.20) 100%);color:#f0f0f0;border:1px solid rgba(255,255,255,0.22);box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0 rgba(255,255,255,0.04),0 4px 14px rgba(0,0,0,0.25);backdrop-filter:var(--glass-blur);-webkit-backdrop-filter:var(--glass-blur);white-space:nowrap}
 
   /* Shell */
-  .shell{position:relative;z-index:1;display:grid;grid-template-columns:150px 1fr;gap:36px;max-width:1200px;margin:0 auto;padding:44px 32px 60px;min-height:100vh}
+  .shell{position:relative;z-index:1;display:grid;grid-template-columns:168px 1fr;gap:32px;max-width:1300px;margin:0 auto;padding:28px 40px 60px;min-height:calc(100vh - 62px)}
 
   /* Rail */
-  .rail{position:sticky;top:44px;align-self:start;max-height:calc(100vh - 88px);overflow-y:auto;padding:2px 2px 24px 0;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.1) transparent}
+  .rail{position:sticky;top:82px;align-self:start;max-height:calc(100vh - 110px);overflow-y:auto;padding:2px 2px 24px 0;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.1) transparent}
   .rail::-webkit-scrollbar{width:3px}
   .rail::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px}
 
-  .brand{padding:0 2px 26px 2px}
-  .brand-k{font-size:8px;letter-spacing:0.38em;text-transform:uppercase;color:var(--txt3);margin-bottom:10px;font-weight:400}
-  .brand-m{font-family:var(--disp);font-weight:300;font-size:22px;line-height:1;color:#fff;letter-spacing:-0.01em}
-  .brand-m em{font-style:italic;font-weight:400}
+  .rail-kick{font-family:'Space Grotesk',sans-serif;font-size:9px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--text3);margin-bottom:14px;padding:6px 11px;border:1px solid var(--border);border-radius:999px;display:inline-block;background:linear-gradient(145deg,rgba(255,255,255,0.055),rgba(255,255,255,0.015));backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);box-shadow:inset 0 1px 0 rgba(255,255,255,0.14)}
 
-  /* Small liquid glass month pill */
-  .m-cell{margin-bottom:6px}
-  .m-pill{display:inline-flex;align-items:baseline;gap:5px;font-family:var(--sans);font-size:9.5px;letter-spacing:0.22em;text-transform:uppercase;font-weight:400;color:var(--txt2);background:linear-gradient(135deg,rgba(255,255,255,0.055),rgba(255,255,255,0.015));border:1px solid var(--edge);border-radius:999px;padding:6px 12px;cursor:pointer;backdrop-filter:blur(18px) saturate(150%);-webkit-backdrop-filter:blur(18px) saturate(150%);transition:transform .22s cubic-bezier(.2,.8,.2,1),border-color .22s,background .22s,color .22s,box-shadow .22s;box-shadow:inset 0 1px 0 rgba(255,255,255,0.18),0 3px 10px rgba(0,0,0,0.22);font-variant-numeric:tabular-nums;white-space:nowrap}
-  .m-pill:hover{border-color:var(--edge-h);color:var(--txt);transform:translateX(2px)}
-  .m-pill .m-y{opacity:0.5;font-size:8px}
-  .m-pill.on{background:#f7f7fa;color:#08080b;border-color:#f7f7fa;box-shadow:0 5px 16px rgba(255,255,255,0.1),inset 0 1px 0 rgba(255,255,255,0.5)}
+  /* Month pill — liquid glass, matches dashboard section-title aesthetic */
+  .m-cell{margin-bottom:8px}
+  .m-pill{display:inline-flex;align-items:baseline;gap:5px;font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--text2);background:linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02));border:1px solid var(--border);border-radius:999px;padding:7px 13px;cursor:pointer;backdrop-filter:blur(20px) saturate(150%);-webkit-backdrop-filter:blur(20px) saturate(150%);transition:transform .22s cubic-bezier(.2,.8,.2,1),border-color .22s,background .22s,color .22s,box-shadow .22s;box-shadow:inset 0 1px 0 rgba(255,255,255,0.18),0 3px 10px rgba(0,0,0,0.22);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .m-pill:hover{border-color:var(--border2);color:var(--text);transform:translateX(2px)}
+  .m-pill .m-y{opacity:0.55;font-size:9px;font-weight:500}
+  .m-pill.on{background:linear-gradient(135deg,rgba(184,174,245,0.28) 0%,rgba(90,218,176,0.18) 55%,rgba(240,128,90,0.22) 100%);color:#fff;border-color:rgba(255,255,255,0.35);box-shadow:inset 0 1px 0 rgba(255,255,255,0.3),0 6px 18px rgba(184,174,245,0.18)}
   .m-pill.on:hover{transform:translateX(1px)}
 
   /* Nested weeks */
-  .weeks-grp{display:none;padding:6px 0 4px 12px}
+  .weeks-grp{display:none;padding:8px 0 4px 10px}
   .weeks-grp.on{display:block;animation:slide .3s cubic-bezier(.2,.8,.2,1)}
   @keyframes slide{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
-  .w-pill{display:inline-flex;align-items:center;font-family:var(--sans);font-size:8.5px;letter-spacing:0.18em;text-transform:uppercase;font-weight:400;color:var(--txt2);background:var(--glass);border:1px solid var(--edge);border-radius:999px;padding:4px 10px;cursor:pointer;backdrop-filter:blur(14px) saturate(150%);-webkit-backdrop-filter:blur(14px) saturate(150%);transition:transform .2s,border-color .2s,background .2s,color .2s;margin:3px 0;font-variant-numeric:tabular-nums;box-shadow:inset 0 1px 0 rgba(255,255,255,0.12)}
-  .w-pill:hover{border-color:var(--edge-h);color:var(--txt);transform:translateX(2px)}
-  .w-pill.on{background:#f7f7fa;color:#08080b;border-color:#f7f7fa;box-shadow:0 4px 12px rgba(255,255,255,0.08)}
+  .w-pill{display:inline-flex;align-items:center;font-family:'Space Grotesk',sans-serif;font-size:9px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text2);background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:999px;padding:5px 11px;cursor:pointer;backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%);transition:transform .2s,border-color .2s,background .2s,color .2s;margin:3px 0;font-variant-numeric:tabular-nums;box-shadow:inset 0 1px 0 rgba(255,255,255,0.12)}
+  .w-pill:hover{border-color:var(--border2);color:var(--text);transform:translateX(2px)}
+  .w-pill.on{background:#f0f0f0;color:#0a0a0a;border-color:#f0f0f0;box-shadow:0 4px 12px rgba(255,255,255,0.08)}
   .w-row{display:block}
 
   /* Stage */
@@ -97,11 +103,13 @@ INDEX_SHELL = """<!doctype html>
   .panel.on{display:block;animation:fade .4s ease}
   @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 
-  /* Mobile: rail collapses on top */
+  /* Mobile */
   @media (max-width:820px){
-    .shell{grid-template-columns:1fr;padding:24px 16px 36px;gap:18px}
-    .rail{position:static;max-height:none;padding:0}
-    .brand{padding:0 2px 18px}
+    .header{padding:16px 20px 14px;flex-wrap:wrap;gap:10px}
+    .header h1{font-size:17px}
+    .shell{grid-template-columns:1fr;padding:20px 16px 36px;gap:18px}
+    .rail{position:static;max-height:none;padding:0;top:auto}
+    .rail-kick{margin-bottom:10px}
     .m-cell{display:inline-block;margin:0 5px 5px 0}
     .weeks-grp{padding:6px 0 4px 0}
     .w-row{display:inline-block;margin-right:4px}
@@ -109,14 +117,18 @@ INDEX_SHELL = """<!doctype html>
 </style>
 </head>
 <body>
-<div class="amb"><div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div><div class="grain"></div></div>
+<header class="header">
+  <h1>The Newsletter</h1>
+  <div class="header-right">
+    <a class="dash-link" href="https://nourobeid7.github.io/arlab-bundle-builder/" target="_blank" rel="noopener">&#8629; Intelligence Dashboard</a>
+    <span class="arlab-badge">ARlab</span>
+    <span class="nl-pill">Weekly Intelligence</span>
+  </div>
+</header>
 
 <div class="shell">
   <aside class="rail">
-    <div class="brand">
-      <div class="brand-k">ARlab</div>
-      <div class="brand-m">The <em>Newsletter</em></div>
-    </div>
+    <div class="rail-kick">Archive</div>
 __MONTH_CELLS__
   </aside>
 
@@ -155,7 +167,6 @@ __PANELS__
   monthPills.forEach(function(p){
     p.addEventListener('click', function(){
       var ym = p.dataset.ym;
-      // Toggle: if already open, close it and leave current panel alone.
       if(p.classList.contains('on')){
         p.classList.remove('on');
         weekGroups.forEach(function(g){ if(g.dataset.ym === ym) g.classList.remove('on'); });
@@ -225,7 +236,6 @@ def main() -> None:
 
     months_sorted = sorted(by_month.keys(), reverse=True)
 
-    # Each month is a cell: month pill + hidden weeks group beneath it.
     month_cell_parts: list[str] = []
     for ym in months_sorted:
         y, m = ym.split("-")
@@ -247,7 +257,6 @@ def main() -> None:
             f'    </div>'
         )
 
-    # Panels (one per issue).
     panels_html_parts: list[str] = []
     for iso, payload in issues_newest_first:
         body = template.render(
