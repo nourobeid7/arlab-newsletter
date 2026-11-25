@@ -9,6 +9,10 @@ on:
         description: "Skip generation, send existing history payload for today"
         required: false
         default: "false"
+      skip_send:
+        description: "Rebuild + deploy archive only. Do NOT send any email."
+        required: false
+        default: "false"
       recipients:
         description: "Comma-separated recipient list (override default wissam@thearlab.com)"
         required: false
@@ -46,11 +50,12 @@ jobs:
           SENDER_EMAIL: nour@thearlab.com
           CC_EMAIL: nour@thearlab.com
           SKIP_GENERATE: ${{ github.event.inputs.skip_generate == 'true' && '1' || '' }}
+          SKIP_SEND: ${{ github.event.inputs.skip_send == 'true' && '1' || '' }}
           PREAMBLE_HTML: ${{ github.event.inputs.preamble_html }}
         run: python generate.py
 
       - name: Send 3D & AI team tools-only digest
-        if: success()
+        if: success() && github.event.inputs.skip_send != 'true'
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
