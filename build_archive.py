@@ -128,7 +128,6 @@ INDEX_SHELL = """<!doctype html>
 
 <div class="shell">
   <aside class="rail">
-    <div class="rail-kick">Archive</div>
 __MONTH_CELLS__
   </aside>
 
